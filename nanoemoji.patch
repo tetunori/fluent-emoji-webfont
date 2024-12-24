@@ -1,0 +1,11 @@
+--- a/write_font.py
++++ b/write_font.py
+@@ -730,3 +730,3 @@ def _generate_color_font(config: FontConfig, inputs: Iterable[InputGlyph]):
+
+-        color_glyphs.append(
++        try: color_glyphs.append(
+             ColorGlyph.create(
+@@ -743,2 +743,3 @@ def _generate_color_font(config: FontConfig, inputs: Iterable[InputGlyph]):
+         )
++        except: print(f'Glyph "{glyph_input.glyph_name}" excluded due to compatiblity issues with fonttools.')
+     color_glyphs = tuple(color_glyphs)
