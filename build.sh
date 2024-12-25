@@ -71,7 +71,7 @@ for i in {1..3} ; do
   echo "
   /* [${FILENUM}] */
   @font-face {
-    font-family: 'fluentcojloremoji';
+    font-family: 'fluentcoloremoji';
     font-display: swap;
     src: url('./dist/${WOFF2FILENAME}') format('woff2');
     unicode-range: ${UNICODERANGE}
