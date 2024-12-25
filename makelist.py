@@ -31,3 +31,4 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
     
 print(f"];", file=codecs.open('glyphs.js', 'a', 'utf-8'))
 
+subprocess.run('mv glyphs.js sample/list/', shell=True)
