@@ -32,27 +32,27 @@ git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
 # Build the ttf font file using the COLR1 format for the colored glyphs.
 pushd build
 
-CSSFILENAME="fluentColorEmoji.css"
+CSSFILENAME="FluentEmojiColor.css"
 echo -n >| ${CSSFILENAME}
 
 for i in {1..149} ; do
 # for i in {1..3} ; do
   echo ${i}
   FILENUM=`printf "%03d" "${i}"`
-  FILENAME="FluentColorEmoji${FILENUM}.ttf"
+  FILENAME="FluentEmojiColor${FILENUM}.ttf"
   echo ${FILENAME}
   # echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
 
-  nanoemoji --color_format glyf_colr_1 --family 'Fluent Color Emoji' --output_file ${FILENAME} $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
+  nanoemoji --color_format glyf_colr_1 --family 'Fluent Emoji Color' --output_file ${FILENAME} $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
   
   pushd build
   maximum_color --bitmaps --output_file ${FILENAME} ${FILENAME}
   mv build/${FILENAME} ..
   popd
   
-  # WOFFFILENAME="FluentColorEmoji${FILENUM}.woff"
+  # WOFFFILENAME="FluentEmojiColor${FILENUM}.woff"
   # fonttools ttLib ${FILENAME} --flavor woff -o ${WOFFFILENAME}
-  WOFF2FILENAME="FluentColorEmoji${FILENUM}.woff2"
+  WOFF2FILENAME="FluentEmojiColor${FILENUM}.woff2"
   fonttools ttLib ${FILENAME} --flavor woff2 -o ../dist/${WOFF2FILENAME}
 
   UNICODERANGE=$( \
