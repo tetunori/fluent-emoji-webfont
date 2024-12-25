@@ -3,8 +3,8 @@ function setup() {
   textSize(width / 10);
   textAlign(CENTER, CENTER);
 
-  // Set `Fluent Color Emoji` font here.
-  textFont('fluentcoloremoji');
+  // Set `Fluent Emoji Color` font here.
+  textFont('Fluent Emoji Color');
 }
 
 function draw() {
