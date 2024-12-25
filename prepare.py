@@ -18,7 +18,7 @@ skintone_map = {
 
 for glyph_dir in Path("fluentui-emoji/assets").iterdir():
     glyph_metadata_path = glyph_dir / "metadata.json"
-    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text())
+    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
 
     # Get the codepoint(s) for the emoji.
     if "unicodeSkintones" not in glyph_metadata:
