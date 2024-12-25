@@ -11,6 +11,7 @@ python -m venv --upgrade-deps venv
 # source venv/bin/activate
 source venv/Scripts/activate # For Windows
 pip install nanoemoji
+pip install brotli
 
 # Prepare the emoji SVG files for nanoemoji by:
 # 1) Renaming them from 'glyph_name.svg' to 'emoji_uxxxx.svg'.
@@ -46,6 +47,8 @@ for i in {1..3} ; do
   maximum_color --bitmaps --output_file ${FILENAME} ${FILENAME}
   mv build/${FILENAME} ..
   popd
+  WOFF2FILENAME="FluentColorEmoji${FILENUM}.woff2"
+  fonttools ttLib ${FILENAME} --flavor woff2 -o ${WOFF2FILENAME}
 done
 
 # Move the final font file to the build directory and clean up.
