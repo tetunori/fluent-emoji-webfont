@@ -35,14 +35,10 @@ pushd build
 CSSFILENAME="fluentColorEmoji.css"
 echo -n >| ${CSSFILENAME}
 
-# for i in {1..149} ; do
-for i in {1..3} ; do
+for i in {1..149} ; do
+# for i in {1..3} ; do
   echo ${i}
-  if [ ${i} -lt 10 ]; then
-      FILENUM="0${i}"
-  else
-      FILENUM="${i}"
-  fi
+  FILENUM=`printf "%03d" "${i}"`
   FILENAME="FluentColorEmoji${FILENUM}.ttf"
   echo ${FILENAME}
   # echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
