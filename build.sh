@@ -37,7 +37,7 @@ pip install brotli # Add for conversion of woff2
 #    will slightly change how the glyph looks. This is preferred over not
 #    including the glyph at all.
 # 3) Moving them all into one common directory.
-python -m prepare ${FONTTYPE}
+python -m prepare "${FONTTYPE}"
 
 # Patch the nanoemoji package to exclude glyphs with incompatibilites
 # instead of aborting completely.
@@ -47,28 +47,28 @@ git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
 # Build the ttf font file using the COLR1 format for the colored glyphs.
 pushd build
 
-CSSFILENAME="FluentEmoji${FONTTYPE}.css"
-echo -n >| ${CSSFILENAME}
+CSSFILENAME=$(echo "FluentEmoji${FONTTYPE}.css" | sed 's/ //g')
+echo -n >| "${CSSFILENAME}"
 
 for i in {1..149} ; do
 # for i in {1..3} ; do
   echo ${i}
   FILENUM=`printf "%03d" "${i}"`
-  FILENAME="FluentEmoji${FONTTYPE}${FILENUM}.ttf"
-  echo ${FILENAME}
+  FILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.ttf" | sed 's/ //g')
+  echo "${FILENAME}"
   # echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
 
-  nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file ${FILENAME} $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
+  nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${FILENAME}" $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
   
   pushd build
-  maximum_color --bitmaps --output_file ${FILENAME} ${FILENAME}
-  mv build/${FILENAME} ..
+  maximum_color --bitmaps --output_file "${FILENAME}" "${FILENAME}"
+  mv build/"${FILENAME}" ..
   popd
   
-  # WOFFFILENAME="FluentEmoji${FONTTYPE}${FILENUM}.woff"
+  # WOFFFILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.woff" | sed 's/ //g')
   # fonttools ttLib ${FILENAME} --flavor woff -o ${WOFFFILENAME}
-  WOFF2FILENAME="FluentEmoji${FONTTYPE}${FILENUM}.woff2"
-  fonttools ttLib ${FILENAME} --flavor woff2 -o ../dist/${WOFF2FILENAME}
+  WOFF2FILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.woff2" | sed 's/ //g')
+  fonttools ttLib "${FILENAME}" --flavor woff2 -o ../dist/"${WOFF2FILENAME}"
 
   UNICODERANGE=$( \
     echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20) \
@@ -86,10 +86,10 @@ for i in {1..149} ; do
     font-display: swap;
     src: url('/dist/${WOFF2FILENAME}') format('woff2');
     unicode-range: ${UNICODERANGE}
-  }" >> ${CSSFILENAME}
+  }" >> "${CSSFILENAME}"
 done
 
-mv ${CSSFILENAME} ../dist 
+mv "${CSSFILENAME}" ../dist 
 
 # Move the final font file to the build directory and clean up.
 rm -rf build *.svg

@@ -1,0 +1,24 @@
+
+  /* [001] */
+  @font-face {
+    font-family: 'Fluent Emoji High Contrast';
+    font-display: swap;
+    src: url('/dist/FluentEmojiHighContrast001.woff2') format('woff2');
+    unicode-range: U+23, U+20e3, U+2a, U+20e3, U+30, U+20e3, U+31, U+20e3, U+32, U+20e3, U+33, U+20e3, U+34, U+20e3, U+35, U+20e3, U+36, U+20e3, U+37, U+20e3, U+38, U+20e3, U+39, U+20e3, U+a9, U+ae, U+1f004, U+1f0cf, U+1f170, U+1f171, U+1f17e, U+1f17f;
+  }
+
+  /* [002] */
+  @font-face {
+    font-family: 'Fluent Emoji High Contrast';
+    font-display: swap;
+    src: url('/dist/FluentEmojiHighContrast002.woff2') format('woff2');
+    unicode-range: U+1f18e, U+1f191, U+1f192, U+1f193, U+1f194, U+1f195, U+1f196, U+1f197, U+1f198, U+1f199, U+1f19a, U+1f201, U+1f202, U+1f21a, U+1f22f, U+1f232, U+1f233, U+1f234, U+1f235, U+1f236;
+  }
+
+  /* [003] */
+  @font-face {
+    font-family: 'Fluent Emoji High Contrast';
+    font-display: swap;
+    src: url('/dist/FluentEmojiHighContrast003.woff2') format('woff2');
+    unicode-range: U+1f237, U+1f238, U+1f239, U+1f23a, U+1f250, U+1f251, U+1f300, U+1f301, U+1f302, U+1f303, U+1f304, U+1f305, U+1f306, U+1f307, U+1f308, U+1f309, U+1f30a, U+1f30b, U+1f30c, U+1f30d;
+  }
