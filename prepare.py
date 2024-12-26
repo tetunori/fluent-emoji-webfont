@@ -1,3 +1,4 @@
+import sys
 from functools import partial
 from json import loads
 from operator import ne
@@ -5,6 +6,8 @@ from pathlib import Path
 from typing import Any
 from xml.etree.ElementTree import parse, register_namespace, tostring
 
+args = sys.argv
+fonttype = args[1]
 dest_dir = Path("build")
 glyph_map: dict[Path, Path] = {}
 
@@ -25,7 +28,7 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
         # Emoji with no skin tone variations.
         codepoint: str = glyph_metadata["unicode"]
         codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
-        src_path = next(glyph_dir.glob("Color/*.svg"))
+        src_path = next(glyph_dir.glob(f"{fonttype}/*.svg"))
         glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
 
     else:
@@ -38,7 +41,7 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
                 if "_" in codepoint
                 else "Default"
             )
-            src_path = next(glyph_dir.glob(f"{skintone}/Color/*.svg"))
+            src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
             glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
 
 # Remove incompatible <mask> elements from SVG files.

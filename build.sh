@@ -1,5 +1,20 @@
 #!/bin/bash
 
+# Check arg
+if [ "$#" -ne 1 ]; then
+  echo "Usage: $0 <FONTTYPE>"
+  echo "  FONTTYPE: color, flat or hc"
+  exit 1
+fi
+
+if [ "$1" = 'color' ]; then
+  FONTTYPE='Color'
+elif [ "$1" = 'flat' ]; then
+  FONTTYPE='Flat'
+elif [ "$1" = 'hc' ]; then
+  FONTTYPE='High Contrast'
+fi
+
 # On error, exit immediately.
 set -e
 
@@ -22,7 +37,7 @@ pip install brotli # Add for conversion of woff2
 #    will slightly change how the glyph looks. This is preferred over not
 #    including the glyph at all.
 # 3) Moving them all into one common directory.
-python -m prepare
+python -m prepare ${FONTTYPE}
 
 # Patch the nanoemoji package to exclude glyphs with incompatibilites
 # instead of aborting completely.
@@ -32,27 +47,27 @@ git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
 # Build the ttf font file using the COLR1 format for the colored glyphs.
 pushd build
 
-CSSFILENAME="FluentEmojiColor.css"
+CSSFILENAME="FluentEmoji${FONTTYPE}.css"
 echo -n >| ${CSSFILENAME}
 
 for i in {1..149} ; do
 # for i in {1..3} ; do
   echo ${i}
   FILENUM=`printf "%03d" "${i}"`
-  FILENAME="FluentEmojiColor${FILENUM}.ttf"
+  FILENAME="FluentEmoji${FONTTYPE}${FILENUM}.ttf"
   echo ${FILENAME}
   # echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
 
-  nanoemoji --color_format glyf_colr_1 --family 'Fluent Emoji Color' --output_file ${FILENAME} $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
+  nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file ${FILENAME} $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
   
   pushd build
   maximum_color --bitmaps --output_file ${FILENAME} ${FILENAME}
   mv build/${FILENAME} ..
   popd
   
-  # WOFFFILENAME="FluentEmojiColor${FILENUM}.woff"
+  # WOFFFILENAME="FluentEmoji${FONTTYPE}${FILENUM}.woff"
   # fonttools ttLib ${FILENAME} --flavor woff -o ${WOFFFILENAME}
-  WOFF2FILENAME="FluentEmojiColor${FILENUM}.woff2"
+  WOFF2FILENAME="FluentEmoji${FONTTYPE}${FILENUM}.woff2"
   fonttools ttLib ${FILENAME} --flavor woff2 -o ../dist/${WOFF2FILENAME}
 
   UNICODERANGE=$( \
@@ -67,7 +82,7 @@ for i in {1..149} ; do
   echo "
   /* [${FILENUM}] */
   @font-face {
-    font-family: 'Fluent Emoji Color';
+    font-family: 'Fluent Emoji ${FONTTYPE}';
     font-display: swap;
     src: url('/dist/${WOFF2FILENAME}') format('woff2');
     unicode-range: ${UNICODERANGE}
