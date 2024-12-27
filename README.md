@@ -1,10 +1,10 @@
 # Fluent Emoji Webfont🤗
 Version 0.8.0  
 ⭐KeyVisual  
-Confirm from [here](https://tetunori.github.io/fluent-emoji-webfont/).
+You can confirm from a [sample demo](https://tetunori.github.io/fluent-emoji-webfont/sample/list/).
 
 # Description🖊️
-This repository supplies Webfont version of `[Fluent Emoji](https://github.com/microsoft/fluentui-emoji)` from Microsoft.  
+This repository supplies Webfont version of [`Fluent Emoji`](https://github.com/microsoft/fluentui-emoji) from Microsoft.  
 By using this, You can use `Fluent Emoji` anywhere/anytime with any device(even with a non-Windows device)!  
 Here you can choose three types of `Fluent Emoji`.
 - `Fluent Emoji Color`
@@ -14,6 +14,8 @@ Here you can choose three types of `Fluent Emoji`.
 # Samples
 - [p5.js demo](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage)
 - [Listing emoji](https://tetunori.github.io/fluent-emoji-webfont/sample/list)
+
+⭐Vis
 
 # How to use🪄
 ## General usage
@@ -71,7 +73,7 @@ Then, you can get `FluentEmoji***NNN.woff2` files and a `FluentEmoji***.css` fil
 
 ## Test/Confirm
 Check the result with the [Listing emoji](https://tetunori.github.io/fluent-emoji-webfont/sample/list) sample.
-⭐Vis
+
 
 # License⚖️
 Copyright (c) 2024 [Tetsunori Nakayama](https://github.com/tetunori). MIT License.
