@@ -66,7 +66,7 @@ function draw() {
 # Maintenance
 ## Build
 Execute `build.sh` with an `fontType` option.
-```bash
+```shell
 ./build.sh color
 ```
 * Options: `color`, `flat` and `hc` for `High Contrast`
