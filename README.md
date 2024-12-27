@@ -8,8 +8,11 @@ This repository supplies Webfont version of [`Fluent Emoji`](https://github.com/
 By using this, You can use `Fluent Emoji` anywhere/anytime with any device(even with a non-Windows device)!  
 Here you can choose three types of `Fluent Emoji`.
 - `Fluent Emoji Color`
+  - <img src="./images/colorSample.png" width="300px"/>
 - `Fluent Emoji Flat`
+  - <img src="./images/flatSample.png" width="300px"/>
 - `Fluent Emoji High Contrast`
+  - <img src="./images/highContrastSample.png" width="300px"/>
 
 # Samples
 - [p5.js demo](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage)
