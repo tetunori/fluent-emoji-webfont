@@ -12,9 +12,9 @@ const setEmoji = () => {
 
   sortedGlyphs.forEach((glyphElm, index) => {
     // For debug
-    if (index >= 20 * 5) {
-      return;
-    }
+    // if (index >= 20 * 5) {
+    //   return;
+    // }
 
     enumStr += glyphElm.glyph;
     if ((index + 1) % 10 === 0) {
@@ -37,6 +37,7 @@ const radio_func = () => {
 
 const setFontFamily = (value) => {
   let fontFamilyText = 'sans-serif';
+  // let fontFamilyText = '"Noto Color Emoji", sans-serif';
 
   switch (value) {
     case 'color':
