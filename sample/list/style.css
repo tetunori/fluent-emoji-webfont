@@ -1,7 +1,7 @@
 
-@import url('/dist/FluentEmojiColor.css');
-@import url('/dist/FluentEmojiFlat.css');
-@import url('/dist/FluentEmojiHighContrast.css');
+@import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.css');
+@import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat.css');
+@import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrast.css');
 
 html, body {
   -webkit-text-size-adjust: 150%;
