@@ -4,8 +4,8 @@
 @import url('/dist/FluentEmojiHighContrast.css');
 
 html, body {
-  margin: 0;
-  padding: 0;
+  -webkit-text-size-adjust: 150%;
+  text-align: center;
   font-family: 'Fluent Emoji Color';
   font-size: xxx-large;
 }
