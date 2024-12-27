@@ -84,7 +84,7 @@ for i in {1..149} ; do
   @font-face {
     font-family: 'Fluent Emoji ${FONTTYPE}';
     font-display: swap;
-    src: url('/dist/${WOFF2FILENAME}') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/${WOFF2FILENAME}') format('woff2');
     unicode-range: ${UNICODERANGE}
   }" >> "${CSSFILENAME}"
 done

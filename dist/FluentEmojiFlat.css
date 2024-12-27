@@ -3,7 +3,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat001.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat001.woff2') format('woff2');
     unicode-range: U+23, U+20e3, U+2a, U+20e3, U+30, U+20e3, U+31, U+20e3, U+32, U+20e3, U+33, U+20e3, U+34, U+20e3, U+35, U+20e3, U+36, U+20e3, U+37, U+20e3, U+38, U+20e3, U+39, U+20e3, U+a9, U+ae, U+1f004, U+1f0cf, U+1f170, U+1f171, U+1f17e, U+1f17f;
   }
 
@@ -11,7 +11,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat002.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat002.woff2') format('woff2');
     unicode-range: U+1f18e, U+1f191, U+1f192, U+1f193, U+1f194, U+1f195, U+1f196, U+1f197, U+1f198, U+1f199, U+1f19a, U+1f201, U+1f202, U+1f21a, U+1f22f, U+1f232, U+1f233, U+1f234, U+1f235, U+1f236;
   }
 
@@ -19,7 +19,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat003.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat003.woff2') format('woff2');
     unicode-range: U+1f237, U+1f238, U+1f239, U+1f23a, U+1f250, U+1f251, U+1f300, U+1f301, U+1f302, U+1f303, U+1f304, U+1f305, U+1f306, U+1f307, U+1f308, U+1f309, U+1f30a, U+1f30b, U+1f30c, U+1f30d;
   }
 
@@ -27,7 +27,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat004.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat004.woff2') format('woff2');
     unicode-range: U+1f30e, U+1f30f, U+1f310, U+1f311, U+1f312, U+1f313, U+1f314, U+1f315, U+1f316, U+1f317, U+1f318, U+1f319, U+1f31a, U+1f31b, U+1f31c, U+1f31d, U+1f31e, U+1f31f, U+1f320, U+1f321;
   }
 
@@ -35,7 +35,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat005.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat005.woff2') format('woff2');
     unicode-range: U+1f324, U+1f325, U+1f326, U+1f327, U+1f328, U+1f329, U+1f32a, U+1f32b, U+1f32c, U+1f32d, U+1f32e, U+1f32f, U+1f330, U+1f331, U+1f332, U+1f333, U+1f334, U+1f335, U+1f336, U+1f337;
   }
 
@@ -43,7 +43,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat006.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat006.woff2') format('woff2');
     unicode-range: U+1f338, U+1f339, U+1f33a, U+1f33b, U+1f33c, U+1f33d, U+1f33e, U+1f33f, U+1f340, U+1f341, U+1f342, U+1f343, U+1f344, U+1f345, U+1f346, U+1f347, U+1f348, U+1f349, U+1f34a, U+1f34b;
   }
 
@@ -51,7 +51,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat007.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat007.woff2') format('woff2');
     unicode-range: U+1f34c, U+1f34d, U+1f34e, U+1f34f, U+1f350, U+1f351, U+1f352, U+1f353, U+1f354, U+1f355, U+1f356, U+1f357, U+1f358, U+1f359, U+1f35a, U+1f35b, U+1f35c, U+1f35d, U+1f35e, U+1f35f;
   }
 
@@ -59,7 +59,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat008.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat008.woff2') format('woff2');
     unicode-range: U+1f360, U+1f361, U+1f362, U+1f363, U+1f364, U+1f365, U+1f366, U+1f367, U+1f368, U+1f369, U+1f36a, U+1f36b, U+1f36c, U+1f36d, U+1f36e, U+1f36f, U+1f370, U+1f371, U+1f372, U+1f373;
   }
 
@@ -67,7 +67,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat009.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat009.woff2') format('woff2');
     unicode-range: U+1f374, U+1f375, U+1f376, U+1f377, U+1f378, U+1f379, U+1f37a, U+1f37b, U+1f37c, U+1f37d, U+1f37e, U+1f37f, U+1f380, U+1f381, U+1f382, U+1f383, U+1f384, U+1f385, U+1f385, U+1f3fb, U+1f385, U+1f3fc;
   }
 
@@ -75,7 +75,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat010.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat010.woff2') format('woff2');
     unicode-range: U+1f385, U+1f3fd, U+1f385, U+1f3fe, U+1f385, U+1f3ff, U+1f386, U+1f387, U+1f388, U+1f389, U+1f38a, U+1f38b, U+1f38c, U+1f38d, U+1f38e, U+1f38f, U+1f390, U+1f391, U+1f392, U+1f393, U+1f396, U+1f397, U+1f399;
   }
 
@@ -83,7 +83,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat011.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat011.woff2') format('woff2');
     unicode-range: U+1f39a, U+1f39b, U+1f39e, U+1f39f, U+1f3a0, U+1f3a1, U+1f3a2, U+1f3a3, U+1f3a4, U+1f3a5, U+1f3a6, U+1f3a7, U+1f3a8, U+1f3a9, U+1f3aa, U+1f3ab, U+1f3ac, U+1f3ad, U+1f3af, U+1f3b0;
   }
 
@@ -91,7 +91,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat012.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat012.woff2') format('woff2');
     unicode-range: U+1f3b1, U+1f3b2, U+1f3b3, U+1f3b4, U+1f3b5, U+1f3b6, U+1f3b7, U+1f3b8, U+1f3b9, U+1f3ba, U+1f3bb, U+1f3bc, U+1f3bd, U+1f3be, U+1f3bf, U+1f3c0, U+1f3c1, U+1f3c2, U+1f3c2, U+1f3fb, U+1f3c2, U+1f3fc;
   }
 
@@ -99,7 +99,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat013.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat013.woff2') format('woff2');
     unicode-range: U+1f3c2, U+1f3fd, U+1f3c2, U+1f3fe, U+1f3c2, U+1f3ff, U+1f3c3, U+1f3c3, U+1f3fb, U+1f3c3, U+1f3fb, U+200d, U+2640, U+1f3c3, U+1f3fb, U+200d, U+2642, U+1f3c3, U+1f3fc, U+1f3c3, U+1f3fc, U+200d, U+2640, U+1f3c3, U+1f3fc, U+200d, U+2642, U+1f3c3, U+1f3fd, U+1f3c3, U+1f3fd, U+200d, U+2640, U+1f3c3, U+1f3fd, U+200d, U+2642, U+1f3c3, U+1f3fe, U+1f3c3, U+1f3fe, U+200d, U+2640, U+1f3c3, U+1f3fe, U+200d, U+2642, U+1f3c3, U+1f3ff, U+1f3c3, U+1f3ff, U+200d, U+2640, U+1f3c3, U+1f3ff, U+200d, U+2642, U+1f3c3, U+200d, U+2640;
   }
 
@@ -107,7 +107,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat014.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat014.woff2') format('woff2');
     unicode-range: U+1f3c3, U+200d, U+2642, U+1f3c4, U+1f3c4, U+1f3fb, U+1f3c4, U+1f3fb, U+200d, U+2640, U+1f3c4, U+1f3fb, U+200d, U+2642, U+1f3c4, U+1f3fc, U+1f3c4, U+1f3fc, U+200d, U+2640, U+1f3c4, U+1f3fc, U+200d, U+2642, U+1f3c4, U+1f3fd, U+1f3c4, U+1f3fd, U+200d, U+2640, U+1f3c4, U+1f3fd, U+200d, U+2642, U+1f3c4, U+1f3fe, U+1f3c4, U+1f3fe, U+200d, U+2640, U+1f3c4, U+1f3fe, U+200d, U+2642, U+1f3c4, U+1f3ff, U+1f3c4, U+1f3ff, U+200d, U+2640, U+1f3c4, U+1f3ff, U+200d, U+2642, U+1f3c4, U+200d, U+2640, U+1f3c4, U+200d, U+2642, U+1f3c5;
   }
 
@@ -115,7 +115,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat015.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat015.woff2') format('woff2');
     unicode-range: U+1f3c6, U+1f3c7, U+1f3c7, U+1f3fb, U+1f3c7, U+1f3fc, U+1f3c7, U+1f3fd, U+1f3c7, U+1f3fe, U+1f3c7, U+1f3ff, U+1f3c8, U+1f3c9, U+1f3ca, U+1f3ca, U+1f3fb, U+1f3ca, U+1f3fb, U+200d, U+2640, U+1f3ca, U+1f3fb, U+200d, U+2642, U+1f3ca, U+1f3fc, U+1f3ca, U+1f3fc, U+200d, U+2640, U+1f3ca, U+1f3fc, U+200d, U+2642, U+1f3ca, U+1f3fd, U+1f3ca, U+1f3fd, U+200d, U+2640, U+1f3ca, U+1f3fd, U+200d, U+2642, U+1f3ca, U+1f3fe;
   }
 
@@ -123,7 +123,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat016.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat016.woff2') format('woff2');
     unicode-range: U+1f3ca, U+1f3fe, U+200d, U+2640, U+1f3ca, U+1f3fe, U+200d, U+2642, U+1f3ca, U+1f3ff, U+1f3ca, U+1f3ff, U+200d, U+2640, U+1f3ca, U+1f3ff, U+200d, U+2642, U+1f3ca, U+200d, U+2640, U+1f3ca, U+200d, U+2642, U+1f3cb, U+1f3cb, U+1f3fb, U+1f3cb, U+1f3fb, U+200d, U+2640, U+1f3cb, U+1f3fb, U+200d, U+2642, U+1f3cb, U+1f3fc, U+1f3cb, U+1f3fc, U+200d, U+2640, U+1f3cb, U+1f3fc, U+200d, U+2642, U+1f3cb, U+1f3fd, U+1f3cb, U+1f3fd, U+200d, U+2640, U+1f3cb, U+1f3fd, U+200d, U+2642, U+1f3cb, U+1f3fe, U+1f3cb, U+1f3fe, U+200d, U+2640, U+1f3cb, U+1f3fe, U+200d, U+2642;
   }
 
@@ -131,7 +131,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat017.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat017.woff2') format('woff2');
     unicode-range: U+1f3cb, U+1f3ff, U+1f3cb, U+1f3ff, U+200d, U+2640, U+1f3cb, U+1f3ff, U+200d, U+2642, U+1f3cb, U+200d, U+2640, U+1f3cb, U+200d, U+2642, U+1f3cc, U+1f3cc, U+1f3fb, U+1f3cc, U+1f3fb, U+200d, U+2640, U+1f3cc, U+1f3fb, U+200d, U+2642, U+1f3cc, U+1f3fc, U+1f3cc, U+1f3fc, U+200d, U+2640, U+1f3cc, U+1f3fc, U+200d, U+2642, U+1f3cc, U+1f3fd, U+1f3cc, U+1f3fd, U+200d, U+2640, U+1f3cc, U+1f3fd, U+200d, U+2642, U+1f3cc, U+1f3fe, U+1f3cc, U+1f3fe, U+200d, U+2640, U+1f3cc, U+1f3fe, U+200d, U+2642, U+1f3cc, U+1f3ff, U+1f3cc, U+1f3ff, U+200d, U+2640;
   }
 
@@ -139,7 +139,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat018.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat018.woff2') format('woff2');
     unicode-range: U+1f3cc, U+1f3ff, U+200d, U+2642, U+1f3cc, U+200d, U+2640, U+1f3cc, U+200d, U+2642, U+1f3cd, U+1f3ce, U+1f3cf, U+1f3d0, U+1f3d1, U+1f3d2, U+1f3d3, U+1f3d4, U+1f3d5, U+1f3d6, U+1f3d7, U+1f3d8, U+1f3d9, U+1f3da, U+1f3db, U+1f3dc, U+1f3dd;
   }
 
@@ -147,7 +147,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat019.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat019.woff2') format('woff2');
     unicode-range: U+1f3de, U+1f3df, U+1f3e0, U+1f3e1, U+1f3e2, U+1f3e3, U+1f3e4, U+1f3e5, U+1f3e6, U+1f3e7, U+1f3e8, U+1f3e9, U+1f3ea, U+1f3eb, U+1f3ec, U+1f3ed, U+1f3ee, U+1f3ef, U+1f3f0, U+1f3f3;
   }
 
@@ -155,7 +155,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat020.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat020.woff2') format('woff2');
     unicode-range: U+1f3f3, U+200d, U+1f308, U+1f3f3, U+200d, U+26a7, U+1f3f4, U+1f3f4, U+200d, U+2620, U+1f3f5, U+1f3f7, U+1f3f8, U+1f3f9, U+1f3fa, U+1f400, U+1f401, U+1f402, U+1f403, U+1f404, U+1f405, U+1f406, U+1f407, U+1f408, U+1f408, U+200d, U+2b1b, U+1f409;
   }
 
@@ -163,7 +163,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat021.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat021.woff2') format('woff2');
     unicode-range: U+1f40a, U+1f40b, U+1f40c, U+1f40d, U+1f40e, U+1f40f, U+1f410, U+1f411, U+1f412, U+1f413, U+1f414, U+1f415, U+1f415, U+200d, U+1f9ba, U+1f416, U+1f417, U+1f418, U+1f419, U+1f41a, U+1f41b, U+1f41c;
   }
 
@@ -171,7 +171,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat022.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat022.woff2') format('woff2');
     unicode-range: U+1f41d, U+1f41e, U+1f41f, U+1f420, U+1f421, U+1f422, U+1f423, U+1f424, U+1f425, U+1f426, U+1f427, U+1f428, U+1f429, U+1f42a, U+1f42b, U+1f42c, U+1f42d, U+1f42e, U+1f42f, U+1f430;
   }
 
@@ -179,7 +179,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat023.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat023.woff2') format('woff2');
     unicode-range: U+1f431, U+1f432, U+1f433, U+1f434, U+1f435, U+1f436, U+1f437, U+1f438, U+1f439, U+1f43a, U+1f43b, U+1f43b, U+200d, U+2744, U+1f43c, U+1f43d, U+1f43e, U+1f43f, U+1f440, U+1f441, U+1f441, U+200d, U+1f5e8, U+1f442;
   }
 
@@ -187,7 +187,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat024.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat024.woff2') format('woff2');
     unicode-range: U+1f442, U+1f3fb, U+1f442, U+1f3fc, U+1f442, U+1f3fd, U+1f442, U+1f3fe, U+1f442, U+1f3ff, U+1f443, U+1f443, U+1f3fb, U+1f443, U+1f3fc, U+1f443, U+1f3fd, U+1f443, U+1f3fe, U+1f443, U+1f3ff, U+1f444, U+1f445, U+1f446, U+1f446, U+1f3fb, U+1f446, U+1f3fc, U+1f446, U+1f3fd, U+1f446, U+1f3fe, U+1f446, U+1f3ff, U+1f447;
   }
 
@@ -195,7 +195,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat025.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat025.woff2') format('woff2');
     unicode-range: U+1f447, U+1f3fb, U+1f447, U+1f3fc, U+1f447, U+1f3fd, U+1f447, U+1f3fe, U+1f447, U+1f3ff, U+1f448, U+1f448, U+1f3fb, U+1f448, U+1f3fc, U+1f448, U+1f3fd, U+1f448, U+1f3fe, U+1f448, U+1f3ff, U+1f449, U+1f449, U+1f3fb, U+1f449, U+1f3fc, U+1f449, U+1f3fd, U+1f449, U+1f3fe, U+1f449, U+1f3ff, U+1f44a, U+1f44a, U+1f3fb, U+1f44a, U+1f3fc;
   }
 
@@ -203,7 +203,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat026.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat026.woff2') format('woff2');
     unicode-range: U+1f44a, U+1f3fd, U+1f44a, U+1f3fe, U+1f44a, U+1f3ff, U+1f44b, U+1f44b, U+1f3fb, U+1f44b, U+1f3fc, U+1f44b, U+1f3fd, U+1f44b, U+1f3fe, U+1f44b, U+1f3ff, U+1f44c, U+1f44c, U+1f3fb, U+1f44c, U+1f3fc, U+1f44c, U+1f3fd, U+1f44c, U+1f3fe, U+1f44c, U+1f3ff, U+1f44d, U+1f44d, U+1f3fb, U+1f44d, U+1f3fc, U+1f44d, U+1f3fd, U+1f44d, U+1f3fe;
   }
 
@@ -211,7 +211,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat027.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat027.woff2') format('woff2');
     unicode-range: U+1f44d, U+1f3ff, U+1f44e, U+1f44e, U+1f3fb, U+1f44e, U+1f3fc, U+1f44e, U+1f3fd, U+1f44e, U+1f3fe, U+1f44e, U+1f3ff, U+1f44f, U+1f44f, U+1f3fb, U+1f44f, U+1f3fc, U+1f44f, U+1f3fd, U+1f44f, U+1f3fe, U+1f44f, U+1f3ff, U+1f450, U+1f450, U+1f3fb, U+1f450, U+1f3fc, U+1f450, U+1f3fd, U+1f450, U+1f3fe, U+1f450, U+1f3ff, U+1f451;
   }
 
@@ -219,7 +219,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat028.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat028.woff2') format('woff2');
     unicode-range: U+1f452, U+1f453, U+1f454, U+1f455, U+1f456, U+1f457, U+1f458, U+1f459, U+1f45a, U+1f45b, U+1f45c, U+1f45d, U+1f45e, U+1f45f, U+1f460, U+1f461, U+1f462, U+1f463, U+1f464, U+1f465;
   }
 
@@ -227,7 +227,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat029.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat029.woff2') format('woff2');
     unicode-range: U+1f466, U+1f466, U+1f3fb, U+1f466, U+1f3fc, U+1f466, U+1f3fd, U+1f466, U+1f3fe, U+1f466, U+1f3ff, U+1f467, U+1f467, U+1f3fb, U+1f467, U+1f3fc, U+1f467, U+1f3fd, U+1f467, U+1f3fe, U+1f467, U+1f3ff, U+1f468, U+1f468, U+1f3fb, U+1f468, U+1f3fb, U+200d, U+1f33e, U+1f468, U+1f3fb, U+200d, U+1f373, U+1f468, U+1f3fb, U+200d, U+1f37c, U+1f468, U+1f3fb, U+200d, U+1f393, U+1f468, U+1f3fb, U+200d, U+1f3a4, U+1f468, U+1f3fb, U+200d, U+1f3a8;
   }
 
@@ -235,7 +235,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat030.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat030.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3fb, U+200d, U+1f3eb, U+1f468, U+1f3fb, U+200d, U+1f3ed, U+1f468, U+1f3fb, U+200d, U+1f4bc, U+1f468, U+1f3fb, U+200d, U+1f527, U+1f468, U+1f3fb, U+200d, U+1f52c, U+1f468, U+1f3fb, U+200d, U+1f680, U+1f468, U+1f3fb, U+200d, U+1f692, U+1f468, U+1f3fb, U+200d, U+1f9af, U+1f468, U+1f3fb, U+200d, U+1f9b0, U+1f468, U+1f3fb, U+200d, U+1f9b1, U+1f468, U+1f3fb, U+200d, U+1f9b2, U+1f468, U+1f3fb, U+200d, U+1f9b3, U+1f468, U+1f3fb, U+200d, U+1f9bc, U+1f468, U+1f3fb, U+200d, U+1f9bd, U+1f468, U+1f3fb, U+200d, U+2695, U+1f468, U+1f3fb, U+200d, U+2696, U+1f468, U+1f3fb, U+200d, U+2708, U+1f468, U+1f3fc, U+1f468, U+1f3fc, U+200d, U+1f33e, U+1f468, U+1f3fc, U+200d, U+1f373;
   }
 
@@ -243,7 +243,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat031.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat031.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3fc, U+200d, U+1f37c, U+1f468, U+1f3fc, U+200d, U+1f393, U+1f468, U+1f3fc, U+200d, U+1f3a4, U+1f468, U+1f3fc, U+200d, U+1f3a8, U+1f468, U+1f3fc, U+200d, U+1f3eb, U+1f468, U+1f3fc, U+200d, U+1f3ed, U+1f468, U+1f3fc, U+200d, U+1f4bc, U+1f468, U+1f3fc, U+200d, U+1f527, U+1f468, U+1f3fc, U+200d, U+1f52c, U+1f468, U+1f3fc, U+200d, U+1f680, U+1f468, U+1f3fc, U+200d, U+1f692, U+1f468, U+1f3fc, U+200d, U+1f9af, U+1f468, U+1f3fc, U+200d, U+1f9b0, U+1f468, U+1f3fc, U+200d, U+1f9b1, U+1f468, U+1f3fc, U+200d, U+1f9b2, U+1f468, U+1f3fc, U+200d, U+1f9b3, U+1f468, U+1f3fc, U+200d, U+1f9bc, U+1f468, U+1f3fc, U+200d, U+1f9bd, U+1f468, U+1f3fc, U+200d, U+2695, U+1f468, U+1f3fc, U+200d, U+2696;
   }
 
@@ -251,7 +251,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat032.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat032.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3fc, U+200d, U+2708, U+1f468, U+1f3fd, U+1f468, U+1f3fd, U+200d, U+1f33e, U+1f468, U+1f3fd, U+200d, U+1f373, U+1f468, U+1f3fd, U+200d, U+1f37c, U+1f468, U+1f3fd, U+200d, U+1f393, U+1f468, U+1f3fd, U+200d, U+1f3a4, U+1f468, U+1f3fd, U+200d, U+1f3a8, U+1f468, U+1f3fd, U+200d, U+1f3eb, U+1f468, U+1f3fd, U+200d, U+1f3ed, U+1f468, U+1f3fd, U+200d, U+1f4bc, U+1f468, U+1f3fd, U+200d, U+1f527, U+1f468, U+1f3fd, U+200d, U+1f52c, U+1f468, U+1f3fd, U+200d, U+1f680, U+1f468, U+1f3fd, U+200d, U+1f692, U+1f468, U+1f3fd, U+200d, U+1f9af, U+1f468, U+1f3fd, U+200d, U+1f9b0, U+1f468, U+1f3fd, U+200d, U+1f9b1, U+1f468, U+1f3fd, U+200d, U+1f9b2, U+1f468, U+1f3fd, U+200d, U+1f9b3;
   }
 
@@ -259,7 +259,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat033.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat033.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3fd, U+200d, U+1f9bc, U+1f468, U+1f3fd, U+200d, U+1f9bd, U+1f468, U+1f3fd, U+200d, U+2695, U+1f468, U+1f3fd, U+200d, U+2696, U+1f468, U+1f3fd, U+200d, U+2708, U+1f468, U+1f3fe, U+1f468, U+1f3fe, U+200d, U+1f33e, U+1f468, U+1f3fe, U+200d, U+1f373, U+1f468, U+1f3fe, U+200d, U+1f37c, U+1f468, U+1f3fe, U+200d, U+1f393, U+1f468, U+1f3fe, U+200d, U+1f3a4, U+1f468, U+1f3fe, U+200d, U+1f3a8, U+1f468, U+1f3fe, U+200d, U+1f3eb, U+1f468, U+1f3fe, U+200d, U+1f3ed, U+1f468, U+1f3fe, U+200d, U+1f4bc, U+1f468, U+1f3fe, U+200d, U+1f527, U+1f468, U+1f3fe, U+200d, U+1f52c, U+1f468, U+1f3fe, U+200d, U+1f680, U+1f468, U+1f3fe, U+200d, U+1f692, U+1f468, U+1f3fe, U+200d, U+1f9af;
   }
 
@@ -267,7 +267,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat034.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat034.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3fe, U+200d, U+1f9b0, U+1f468, U+1f3fe, U+200d, U+1f9b1, U+1f468, U+1f3fe, U+200d, U+1f9b2, U+1f468, U+1f3fe, U+200d, U+1f9b3, U+1f468, U+1f3fe, U+200d, U+1f9bc, U+1f468, U+1f3fe, U+200d, U+1f9bd, U+1f468, U+1f3fe, U+200d, U+2695, U+1f468, U+1f3fe, U+200d, U+2696, U+1f468, U+1f3fe, U+200d, U+2708, U+1f468, U+1f3ff, U+1f468, U+1f3ff, U+200d, U+1f33e, U+1f468, U+1f3ff, U+200d, U+1f373, U+1f468, U+1f3ff, U+200d, U+1f37c, U+1f468, U+1f3ff, U+200d, U+1f393, U+1f468, U+1f3ff, U+200d, U+1f3a4, U+1f468, U+1f3ff, U+200d, U+1f3a8, U+1f468, U+1f3ff, U+200d, U+1f3eb, U+1f468, U+1f3ff, U+200d, U+1f3ed, U+1f468, U+1f3ff, U+200d, U+1f4bc, U+1f468, U+1f3ff, U+200d, U+1f527;
   }
 
@@ -275,7 +275,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat035.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat035.woff2') format('woff2');
     unicode-range: U+1f468, U+1f3ff, U+200d, U+1f52c, U+1f468, U+1f3ff, U+200d, U+1f680, U+1f468, U+1f3ff, U+200d, U+1f692, U+1f468, U+1f3ff, U+200d, U+1f9af, U+1f468, U+1f3ff, U+200d, U+1f9b0, U+1f468, U+1f3ff, U+200d, U+1f9b1, U+1f468, U+1f3ff, U+200d, U+1f9b2, U+1f468, U+1f3ff, U+200d, U+1f9b3, U+1f468, U+1f3ff, U+200d, U+1f9bc, U+1f468, U+1f3ff, U+200d, U+1f9bd, U+1f468, U+1f3ff, U+200d, U+2695, U+1f468, U+1f3ff, U+200d, U+2696, U+1f468, U+1f3ff, U+200d, U+2708, U+1f468, U+200d, U+1f33e, U+1f468, U+200d, U+1f373, U+1f468, U+200d, U+1f37c, U+1f468, U+200d, U+1f393, U+1f468, U+200d, U+1f3a4, U+1f468, U+200d, U+1f3a8, U+1f468, U+200d, U+1f3eb;
   }
 
@@ -283,7 +283,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat036.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat036.woff2') format('woff2');
     unicode-range: U+1f468, U+200d, U+1f3ed, U+1f468, U+200d, U+1f4bc, U+1f468, U+200d, U+1f527, U+1f468, U+200d, U+1f52c, U+1f468, U+200d, U+1f680, U+1f468, U+200d, U+1f692, U+1f468, U+200d, U+1f9af, U+1f468, U+200d, U+1f9b0, U+1f468, U+200d, U+1f9b1, U+1f468, U+200d, U+1f9b2, U+1f468, U+200d, U+1f9b3, U+1f468, U+200d, U+1f9bc, U+1f468, U+200d, U+1f9bd, U+1f468, U+200d, U+2695, U+1f468, U+200d, U+2696, U+1f468, U+200d, U+2708, U+1f469, U+1f469, U+1f3fb, U+1f469, U+1f3fb, U+200d, U+1f33e, U+1f469, U+1f3fb, U+200d, U+1f373;
   }
 
@@ -291,7 +291,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat037.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat037.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3fb, U+200d, U+1f37c, U+1f469, U+1f3fb, U+200d, U+1f393, U+1f469, U+1f3fb, U+200d, U+1f3a4, U+1f469, U+1f3fb, U+200d, U+1f3a8, U+1f469, U+1f3fb, U+200d, U+1f3eb, U+1f469, U+1f3fb, U+200d, U+1f3ed, U+1f469, U+1f3fb, U+200d, U+1f4bc, U+1f469, U+1f3fb, U+200d, U+1f527, U+1f469, U+1f3fb, U+200d, U+1f52c, U+1f469, U+1f3fb, U+200d, U+1f680, U+1f469, U+1f3fb, U+200d, U+1f692, U+1f469, U+1f3fb, U+200d, U+1f9af, U+1f469, U+1f3fb, U+200d, U+1f9b0, U+1f469, U+1f3fb, U+200d, U+1f9b1, U+1f469, U+1f3fb, U+200d, U+1f9b2, U+1f469, U+1f3fb, U+200d, U+1f9b3, U+1f469, U+1f3fb, U+200d, U+1f9bc, U+1f469, U+1f3fb, U+200d, U+1f9bd, U+1f469, U+1f3fb, U+200d, U+2695, U+1f469, U+1f3fb, U+200d, U+2696;
   }
 
@@ -299,7 +299,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat038.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat038.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3fb, U+200d, U+2708, U+1f469, U+1f3fc, U+1f469, U+1f3fc, U+200d, U+1f33e, U+1f469, U+1f3fc, U+200d, U+1f373, U+1f469, U+1f3fc, U+200d, U+1f37c, U+1f469, U+1f3fc, U+200d, U+1f393, U+1f469, U+1f3fc, U+200d, U+1f3a4, U+1f469, U+1f3fc, U+200d, U+1f3a8, U+1f469, U+1f3fc, U+200d, U+1f3eb, U+1f469, U+1f3fc, U+200d, U+1f3ed, U+1f469, U+1f3fc, U+200d, U+1f4bc, U+1f469, U+1f3fc, U+200d, U+1f527, U+1f469, U+1f3fc, U+200d, U+1f52c, U+1f469, U+1f3fc, U+200d, U+1f680, U+1f469, U+1f3fc, U+200d, U+1f692, U+1f469, U+1f3fc, U+200d, U+1f9af, U+1f469, U+1f3fc, U+200d, U+1f9b0, U+1f469, U+1f3fc, U+200d, U+1f9b1, U+1f469, U+1f3fc, U+200d, U+1f9b2, U+1f469, U+1f3fc, U+200d, U+1f9b3;
   }
 
@@ -307,7 +307,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat039.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat039.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3fc, U+200d, U+1f9bc, U+1f469, U+1f3fc, U+200d, U+1f9bd, U+1f469, U+1f3fc, U+200d, U+2695, U+1f469, U+1f3fc, U+200d, U+2696, U+1f469, U+1f3fc, U+200d, U+2708, U+1f469, U+1f3fd, U+1f469, U+1f3fd, U+200d, U+1f33e, U+1f469, U+1f3fd, U+200d, U+1f373, U+1f469, U+1f3fd, U+200d, U+1f37c, U+1f469, U+1f3fd, U+200d, U+1f393, U+1f469, U+1f3fd, U+200d, U+1f3a4, U+1f469, U+1f3fd, U+200d, U+1f3a8, U+1f469, U+1f3fd, U+200d, U+1f3eb, U+1f469, U+1f3fd, U+200d, U+1f3ed, U+1f469, U+1f3fd, U+200d, U+1f4bc, U+1f469, U+1f3fd, U+200d, U+1f527, U+1f469, U+1f3fd, U+200d, U+1f52c, U+1f469, U+1f3fd, U+200d, U+1f680, U+1f469, U+1f3fd, U+200d, U+1f692, U+1f469, U+1f3fd, U+200d, U+1f9af;
   }
 
@@ -315,7 +315,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat040.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat040.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3fd, U+200d, U+1f9b0, U+1f469, U+1f3fd, U+200d, U+1f9b1, U+1f469, U+1f3fd, U+200d, U+1f9b2, U+1f469, U+1f3fd, U+200d, U+1f9b3, U+1f469, U+1f3fd, U+200d, U+1f9bc, U+1f469, U+1f3fd, U+200d, U+1f9bd, U+1f469, U+1f3fd, U+200d, U+2695, U+1f469, U+1f3fd, U+200d, U+2696, U+1f469, U+1f3fd, U+200d, U+2708, U+1f469, U+1f3fe, U+1f469, U+1f3fe, U+200d, U+1f33e, U+1f469, U+1f3fe, U+200d, U+1f373, U+1f469, U+1f3fe, U+200d, U+1f37c, U+1f469, U+1f3fe, U+200d, U+1f393, U+1f469, U+1f3fe, U+200d, U+1f3a4, U+1f469, U+1f3fe, U+200d, U+1f3a8, U+1f469, U+1f3fe, U+200d, U+1f3eb, U+1f469, U+1f3fe, U+200d, U+1f3ed, U+1f469, U+1f3fe, U+200d, U+1f4bc, U+1f469, U+1f3fe, U+200d, U+1f527;
   }
 
@@ -323,7 +323,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat041.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat041.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3fe, U+200d, U+1f52c, U+1f469, U+1f3fe, U+200d, U+1f680, U+1f469, U+1f3fe, U+200d, U+1f692, U+1f469, U+1f3fe, U+200d, U+1f9af, U+1f469, U+1f3fe, U+200d, U+1f9b0, U+1f469, U+1f3fe, U+200d, U+1f9b1, U+1f469, U+1f3fe, U+200d, U+1f9b2, U+1f469, U+1f3fe, U+200d, U+1f9b3, U+1f469, U+1f3fe, U+200d, U+1f9bc, U+1f469, U+1f3fe, U+200d, U+1f9bd, U+1f469, U+1f3fe, U+200d, U+2695, U+1f469, U+1f3fe, U+200d, U+2696, U+1f469, U+1f3fe, U+200d, U+2708, U+1f469, U+1f3ff, U+1f469, U+1f3ff, U+200d, U+1f33e, U+1f469, U+1f3ff, U+200d, U+1f373, U+1f469, U+1f3ff, U+200d, U+1f37c, U+1f469, U+1f3ff, U+200d, U+1f393, U+1f469, U+1f3ff, U+200d, U+1f3a4, U+1f469, U+1f3ff, U+200d, U+1f3a8;
   }
 
@@ -331,7 +331,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat042.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat042.woff2') format('woff2');
     unicode-range: U+1f469, U+1f3ff, U+200d, U+1f3eb, U+1f469, U+1f3ff, U+200d, U+1f3ed, U+1f469, U+1f3ff, U+200d, U+1f4bc, U+1f469, U+1f3ff, U+200d, U+1f527, U+1f469, U+1f3ff, U+200d, U+1f52c, U+1f469, U+1f3ff, U+200d, U+1f680, U+1f469, U+1f3ff, U+200d, U+1f692, U+1f469, U+1f3ff, U+200d, U+1f9af, U+1f469, U+1f3ff, U+200d, U+1f9b0, U+1f469, U+1f3ff, U+200d, U+1f9b1, U+1f469, U+1f3ff, U+200d, U+1f9b2, U+1f469, U+1f3ff, U+200d, U+1f9b3, U+1f469, U+1f3ff, U+200d, U+1f9bc, U+1f469, U+1f3ff, U+200d, U+1f9bd, U+1f469, U+1f3ff, U+200d, U+2695, U+1f469, U+1f3ff, U+200d, U+2696, U+1f469, U+1f3ff, U+200d, U+2708, U+1f469, U+200d, U+1f33e, U+1f469, U+200d, U+1f373, U+1f469, U+200d, U+1f37c;
   }
 
@@ -339,7 +339,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat043.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat043.woff2') format('woff2');
     unicode-range: U+1f469, U+200d, U+1f393, U+1f469, U+200d, U+1f3a4, U+1f469, U+200d, U+1f3a8, U+1f469, U+200d, U+1f3eb, U+1f469, U+200d, U+1f3ed, U+1f469, U+200d, U+1f4bc, U+1f469, U+200d, U+1f527, U+1f469, U+200d, U+1f52c, U+1f469, U+200d, U+1f680, U+1f469, U+200d, U+1f692, U+1f469, U+200d, U+1f9af, U+1f469, U+200d, U+1f9b0, U+1f469, U+200d, U+1f9b1, U+1f469, U+200d, U+1f9b2, U+1f469, U+200d, U+1f9b3, U+1f469, U+200d, U+1f9bc, U+1f469, U+200d, U+1f9bd, U+1f469, U+200d, U+2695, U+1f469, U+200d, U+2696, U+1f469, U+200d, U+2708;
   }
 
@@ -347,7 +347,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat044.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat044.woff2') format('woff2');
     unicode-range: U+1f46e, U+1f46e, U+1f3fb, U+1f46e, U+1f3fb, U+200d, U+2640, U+1f46e, U+1f3fb, U+200d, U+2642, U+1f46e, U+1f3fc, U+1f46e, U+1f3fc, U+200d, U+2640, U+1f46e, U+1f3fc, U+200d, U+2642, U+1f46e, U+1f3fd, U+1f46e, U+1f3fd, U+200d, U+2640, U+1f46e, U+1f3fd, U+200d, U+2642, U+1f46e, U+1f3fe, U+1f46e, U+1f3fe, U+200d, U+2640, U+1f46e, U+1f3fe, U+200d, U+2642, U+1f46e, U+1f3ff, U+1f46e, U+1f3ff, U+200d, U+2640, U+1f46e, U+1f3ff, U+200d, U+2642, U+1f46e, U+200d, U+2640, U+1f46e, U+200d, U+2642, U+1f46f, U+1f46f, U+200d, U+2640;
   }
 
@@ -355,7 +355,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat045.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat045.woff2') format('woff2');
     unicode-range: U+1f46f, U+200d, U+2642, U+1f470, U+1f470, U+1f3fb, U+1f470, U+1f3fb, U+200d, U+2640, U+1f470, U+1f3fb, U+200d, U+2642, U+1f470, U+1f3fc, U+1f470, U+1f3fc, U+200d, U+2640, U+1f470, U+1f3fc, U+200d, U+2642, U+1f470, U+1f3fd, U+1f470, U+1f3fd, U+200d, U+2640, U+1f470, U+1f3fd, U+200d, U+2642, U+1f470, U+1f3fe, U+1f470, U+1f3fe, U+200d, U+2640, U+1f470, U+1f3fe, U+200d, U+2642, U+1f470, U+1f3ff, U+1f470, U+1f3ff, U+200d, U+2640, U+1f470, U+1f3ff, U+200d, U+2642, U+1f470, U+200d, U+2640, U+1f470, U+200d, U+2642, U+1f471;
   }
 
@@ -363,7 +363,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat046.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat046.woff2') format('woff2');
     unicode-range: U+1f471, U+1f3fb, U+1f471, U+1f3fb, U+200d, U+2640, U+1f471, U+1f3fb, U+200d, U+2642, U+1f471, U+1f3fc, U+1f471, U+1f3fc, U+200d, U+2640, U+1f471, U+1f3fc, U+200d, U+2642, U+1f471, U+1f3fd, U+1f471, U+1f3fd, U+200d, U+2640, U+1f471, U+1f3fd, U+200d, U+2642, U+1f471, U+1f3fe, U+1f471, U+1f3fe, U+200d, U+2640, U+1f471, U+1f3fe, U+200d, U+2642, U+1f471, U+1f3ff, U+1f471, U+1f3ff, U+200d, U+2640, U+1f471, U+1f3ff, U+200d, U+2642, U+1f471, U+200d, U+2640, U+1f471, U+200d, U+2642, U+1f472, U+1f472, U+1f3fb, U+1f472, U+1f3fc;
   }
 
@@ -371,7 +371,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat047.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat047.woff2') format('woff2');
     unicode-range: U+1f472, U+1f3fd, U+1f472, U+1f3fe, U+1f472, U+1f3ff, U+1f473, U+1f473, U+1f3fb, U+1f473, U+1f3fb, U+200d, U+2640, U+1f473, U+1f3fb, U+200d, U+2642, U+1f473, U+1f3fc, U+1f473, U+1f3fc, U+200d, U+2640, U+1f473, U+1f3fc, U+200d, U+2642, U+1f473, U+1f3fd, U+1f473, U+1f3fd, U+200d, U+2640, U+1f473, U+1f3fd, U+200d, U+2642, U+1f473, U+1f3fe, U+1f473, U+1f3fe, U+200d, U+2640, U+1f473, U+1f3fe, U+200d, U+2642, U+1f473, U+1f3ff, U+1f473, U+1f3ff, U+200d, U+2640, U+1f473, U+1f3ff, U+200d, U+2642, U+1f473, U+200d, U+2640;
   }
 
@@ -379,7 +379,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat048.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat048.woff2') format('woff2');
     unicode-range: U+1f473, U+200d, U+2642, U+1f474, U+1f474, U+1f3fb, U+1f474, U+1f3fc, U+1f474, U+1f3fd, U+1f474, U+1f3fe, U+1f474, U+1f3ff, U+1f475, U+1f475, U+1f3fb, U+1f475, U+1f3fc, U+1f475, U+1f3fd, U+1f475, U+1f3fe, U+1f475, U+1f3ff, U+1f476, U+1f476, U+1f3fb, U+1f476, U+1f3fc, U+1f476, U+1f3fd, U+1f476, U+1f3fe, U+1f476, U+1f3ff, U+1f477;
   }
 
@@ -387,7 +387,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat049.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat049.woff2') format('woff2');
     unicode-range: U+1f477, U+1f3fb, U+1f477, U+1f3fb, U+200d, U+2640, U+1f477, U+1f3fb, U+200d, U+2642, U+1f477, U+1f3fc, U+1f477, U+1f3fc, U+200d, U+2640, U+1f477, U+1f3fc, U+200d, U+2642, U+1f477, U+1f3fd, U+1f477, U+1f3fd, U+200d, U+2640, U+1f477, U+1f3fd, U+200d, U+2642, U+1f477, U+1f3fe, U+1f477, U+1f3fe, U+200d, U+2640, U+1f477, U+1f3fe, U+200d, U+2642, U+1f477, U+1f3ff, U+1f477, U+1f3ff, U+200d, U+2640, U+1f477, U+1f3ff, U+200d, U+2642, U+1f477, U+200d, U+2640, U+1f477, U+200d, U+2642, U+1f478, U+1f478, U+1f3fb, U+1f478, U+1f3fc;
   }
 
@@ -395,7 +395,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat050.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat050.woff2') format('woff2');
     unicode-range: U+1f478, U+1f3fd, U+1f478, U+1f3fe, U+1f478, U+1f3ff, U+1f479, U+1f47a, U+1f47b, U+1f47c, U+1f47c, U+1f3fb, U+1f47c, U+1f3fc, U+1f47c, U+1f3fd, U+1f47c, U+1f3fe, U+1f47c, U+1f3ff, U+1f47d, U+1f47e, U+1f47f, U+1f480, U+1f481, U+1f481, U+1f3fb, U+1f481, U+1f3fb, U+200d, U+2640, U+1f481, U+1f3fb, U+200d, U+2642;
   }
 
@@ -403,7 +403,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat051.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat051.woff2') format('woff2');
     unicode-range: U+1f481, U+1f3fc, U+1f481, U+1f3fc, U+200d, U+2640, U+1f481, U+1f3fc, U+200d, U+2642, U+1f481, U+1f3fd, U+1f481, U+1f3fd, U+200d, U+2640, U+1f481, U+1f3fd, U+200d, U+2642, U+1f481, U+1f3fe, U+1f481, U+1f3fe, U+200d, U+2640, U+1f481, U+1f3fe, U+200d, U+2642, U+1f481, U+1f3ff, U+1f481, U+1f3ff, U+200d, U+2640, U+1f481, U+1f3ff, U+200d, U+2642, U+1f481, U+200d, U+2640, U+1f481, U+200d, U+2642, U+1f482, U+1f482, U+1f3fb, U+1f482, U+1f3fb, U+200d, U+2640, U+1f482, U+1f3fb, U+200d, U+2642, U+1f482, U+1f3fc, U+1f482, U+1f3fc, U+200d, U+2640;
   }
 
@@ -411,7 +411,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat052.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat052.woff2') format('woff2');
     unicode-range: U+1f482, U+1f3fc, U+200d, U+2642, U+1f482, U+1f3fd, U+1f482, U+1f3fd, U+200d, U+2640, U+1f482, U+1f3fd, U+200d, U+2642, U+1f482, U+1f3fe, U+1f482, U+1f3fe, U+200d, U+2640, U+1f482, U+1f3fe, U+200d, U+2642, U+1f482, U+1f3ff, U+1f482, U+1f3ff, U+200d, U+2640, U+1f482, U+1f3ff, U+200d, U+2642, U+1f482, U+200d, U+2640, U+1f482, U+200d, U+2642, U+1f483, U+1f483, U+1f3fb, U+1f483, U+1f3fc, U+1f483, U+1f3fd, U+1f483, U+1f3fe, U+1f483, U+1f3ff, U+1f484, U+1f485;
   }
 
@@ -419,7 +419,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat053.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat053.woff2') format('woff2');
     unicode-range: U+1f485, U+1f3fb, U+1f485, U+1f3fc, U+1f485, U+1f3fd, U+1f485, U+1f3fe, U+1f485, U+1f3ff, U+1f486, U+1f486, U+1f3fb, U+1f486, U+1f3fb, U+200d, U+2640, U+1f486, U+1f3fb, U+200d, U+2642, U+1f486, U+1f3fc, U+1f486, U+1f3fc, U+200d, U+2640, U+1f486, U+1f3fc, U+200d, U+2642, U+1f486, U+1f3fd, U+1f486, U+1f3fd, U+200d, U+2640, U+1f486, U+1f3fd, U+200d, U+2642, U+1f486, U+1f3fe, U+1f486, U+1f3fe, U+200d, U+2640, U+1f486, U+1f3fe, U+200d, U+2642, U+1f486, U+1f3ff, U+1f486, U+1f3ff, U+200d, U+2640;
   }
 
@@ -427,7 +427,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat054.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat054.woff2') format('woff2');
     unicode-range: U+1f486, U+1f3ff, U+200d, U+2642, U+1f486, U+200d, U+2640, U+1f486, U+200d, U+2642, U+1f487, U+1f487, U+1f3fb, U+1f487, U+1f3fb, U+200d, U+2640, U+1f487, U+1f3fb, U+200d, U+2642, U+1f487, U+1f3fc, U+1f487, U+1f3fc, U+200d, U+2640, U+1f487, U+1f3fc, U+200d, U+2642, U+1f487, U+1f3fd, U+1f487, U+1f3fd, U+200d, U+2640, U+1f487, U+1f3fd, U+200d, U+2642, U+1f487, U+1f3fe, U+1f487, U+1f3fe, U+200d, U+2640, U+1f487, U+1f3fe, U+200d, U+2642, U+1f487, U+1f3ff, U+1f487, U+1f3ff, U+200d, U+2640, U+1f487, U+1f3ff, U+200d, U+2642, U+1f487, U+200d, U+2640;
   }
 
@@ -435,7 +435,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat055.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat055.woff2') format('woff2');
     unicode-range: U+1f487, U+200d, U+2642, U+1f488, U+1f489, U+1f48a, U+1f48b, U+1f48c, U+1f48d, U+1f48e, U+1f490, U+1f492, U+1f493, U+1f494, U+1f495, U+1f496, U+1f497, U+1f498, U+1f499, U+1f49a, U+1f49b, U+1f49c;
   }
 
@@ -443,7 +443,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat056.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat056.woff2') format('woff2');
     unicode-range: U+1f49d, U+1f49e, U+1f49f, U+1f4a0, U+1f4a1, U+1f4a2, U+1f4a3, U+1f4a4, U+1f4a5, U+1f4a6, U+1f4a7, U+1f4a8, U+1f4a9, U+1f4aa, U+1f4aa, U+1f3fb, U+1f4aa, U+1f3fc, U+1f4aa, U+1f3fd, U+1f4aa, U+1f3fe, U+1f4aa, U+1f3ff, U+1f4ab;
   }
 
@@ -451,7 +451,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat057.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat057.woff2') format('woff2');
     unicode-range: U+1f4ac, U+1f4ad, U+1f4ae, U+1f4af, U+1f4b0, U+1f4b1, U+1f4b2, U+1f4b3, U+1f4b4, U+1f4b5, U+1f4b6, U+1f4b7, U+1f4b8, U+1f4b9, U+1f4ba, U+1f4bb, U+1f4bc, U+1f4bd, U+1f4be, U+1f4bf;
   }
 
@@ -459,7 +459,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat058.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat058.woff2') format('woff2');
     unicode-range: U+1f4c0, U+1f4c1, U+1f4c2, U+1f4c3, U+1f4c4, U+1f4c5, U+1f4c6, U+1f4c7, U+1f4c8, U+1f4c9, U+1f4ca, U+1f4cb, U+1f4cc, U+1f4cd, U+1f4cf, U+1f4d0, U+1f4d1, U+1f4d2, U+1f4d3, U+1f4d4;
   }
 
@@ -467,7 +467,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat059.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat059.woff2') format('woff2');
     unicode-range: U+1f4d5, U+1f4d6, U+1f4d7, U+1f4d8, U+1f4d9, U+1f4da, U+1f4db, U+1f4dc, U+1f4dd, U+1f4de, U+1f4df, U+1f4e0, U+1f4e1, U+1f4e2, U+1f4e3, U+1f4e4, U+1f4e5, U+1f4e6, U+1f4e7, U+1f4e8;
   }
 
@@ -475,7 +475,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat060.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat060.woff2') format('woff2');
     unicode-range: U+1f4e9, U+1f4ea, U+1f4eb, U+1f4ec, U+1f4ed, U+1f4ee, U+1f4ef, U+1f4f0, U+1f4f1, U+1f4f2, U+1f4f3, U+1f4f4, U+1f4f5, U+1f4f6, U+1f4f7, U+1f4f8, U+1f4f9, U+1f4fa, U+1f4fb, U+1f4fc;
   }
 
@@ -483,7 +483,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat061.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat061.woff2') format('woff2');
     unicode-range: U+1f4fd, U+1f4ff, U+1f500, U+1f501, U+1f502, U+1f503, U+1f504, U+1f505, U+1f506, U+1f507, U+1f508, U+1f509, U+1f50a, U+1f50b, U+1f50c, U+1f50d, U+1f50e, U+1f50f, U+1f510, U+1f511;
   }
 
@@ -491,7 +491,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat062.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat062.woff2') format('woff2');
     unicode-range: U+1f512, U+1f513, U+1f514, U+1f515, U+1f516, U+1f517, U+1f518, U+1f519, U+1f51a, U+1f51b, U+1f51c, U+1f51d, U+1f51e, U+1f51f, U+1f520, U+1f521, U+1f522, U+1f523, U+1f524, U+1f525;
   }
 
@@ -499,7 +499,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat063.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat063.woff2') format('woff2');
     unicode-range: U+1f526, U+1f527, U+1f528, U+1f529, U+1f52a, U+1f52b, U+1f52c, U+1f52d, U+1f52e, U+1f52f, U+1f530, U+1f531, U+1f532, U+1f533, U+1f534, U+1f535, U+1f536, U+1f537, U+1f538, U+1f539;
   }
 
@@ -507,7 +507,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat064.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat064.woff2') format('woff2');
     unicode-range: U+1f53a, U+1f53b, U+1f53c, U+1f53d, U+1f549, U+1f54a, U+1f54b, U+1f54c, U+1f54d, U+1f54e, U+1f550, U+1f551, U+1f552, U+1f553, U+1f554, U+1f555, U+1f556, U+1f557, U+1f558, U+1f559;
   }
 
@@ -515,7 +515,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat065.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat065.woff2') format('woff2');
     unicode-range: U+1f55a, U+1f55b, U+1f55c, U+1f55d, U+1f55e, U+1f55f, U+1f560, U+1f561, U+1f562, U+1f563, U+1f564, U+1f565, U+1f566, U+1f567, U+1f56f, U+1f570, U+1f573, U+1f574, U+1f574, U+1f3fb, U+1f574, U+1f3fc;
   }
 
@@ -523,7 +523,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat066.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat066.woff2') format('woff2');
     unicode-range: U+1f574, U+1f3fd, U+1f574, U+1f3fe, U+1f574, U+1f3ff, U+1f575, U+1f575, U+1f3fb, U+1f575, U+1f3fb, U+200d, U+2640, U+1f575, U+1f3fb, U+200d, U+2642, U+1f575, U+1f3fc, U+1f575, U+1f3fc, U+200d, U+2640, U+1f575, U+1f3fc, U+200d, U+2642, U+1f575, U+1f3fd, U+1f575, U+1f3fd, U+200d, U+2640, U+1f575, U+1f3fd, U+200d, U+2642, U+1f575, U+1f3fe, U+1f575, U+1f3fe, U+200d, U+2640, U+1f575, U+1f3fe, U+200d, U+2642, U+1f575, U+1f3ff, U+1f575, U+1f3ff, U+200d, U+2640, U+1f575, U+1f3ff, U+200d, U+2642, U+1f575, U+200d, U+2640;
   }
 
@@ -531,7 +531,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat067.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat067.woff2') format('woff2');
     unicode-range: U+1f575, U+200d, U+2642, U+1f576, U+1f577, U+1f578, U+1f579, U+1f57a, U+1f57a, U+1f3fb, U+1f57a, U+1f3fc, U+1f57a, U+1f3fd, U+1f57a, U+1f3fe, U+1f57a, U+1f3ff, U+1f587, U+1f58a, U+1f58b, U+1f58c, U+1f58d, U+1f590, U+1f590, U+1f3fb, U+1f590, U+1f3fc, U+1f590, U+1f3fd;
   }
 
@@ -539,7 +539,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat068.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat068.woff2') format('woff2');
     unicode-range: U+1f590, U+1f3fe, U+1f590, U+1f3ff, U+1f595, U+1f595, U+1f3fb, U+1f595, U+1f3fc, U+1f595, U+1f3fd, U+1f595, U+1f3fe, U+1f595, U+1f3ff, U+1f596, U+1f596, U+1f3fb, U+1f596, U+1f3fc, U+1f596, U+1f3fd, U+1f596, U+1f3fe, U+1f596, U+1f3ff, U+1f5a4, U+1f5a5, U+1f5a8, U+1f5b1, U+1f5b2, U+1f5bc;
   }
 
@@ -547,7 +547,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat069.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat069.woff2') format('woff2');
     unicode-range: U+1f5c2, U+1f5c3, U+1f5c4, U+1f5d1, U+1f5d2, U+1f5d3, U+1f5dc, U+1f5dd, U+1f5de, U+1f5e1, U+1f5e3, U+1f5e8, U+1f5ef, U+1f5f3, U+1f5fa, U+1f5fb, U+1f5fc, U+1f5fd, U+1f5fe, U+1f5ff;
   }
 
@@ -555,7 +555,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat070.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat070.woff2') format('woff2');
     unicode-range: U+1f600, U+1f601, U+1f602, U+1f603, U+1f604, U+1f605, U+1f606, U+1f607, U+1f608, U+1f609, U+1f60a, U+1f60b, U+1f60c, U+1f60d, U+1f60e, U+1f60f, U+1f610, U+1f611, U+1f612, U+1f613;
   }
 
@@ -563,7 +563,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat071.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat071.woff2') format('woff2');
     unicode-range: U+1f614, U+1f615, U+1f616, U+1f617, U+1f618, U+1f619, U+1f61a, U+1f61b, U+1f61c, U+1f61d, U+1f61e, U+1f61f, U+1f620, U+1f621, U+1f622, U+1f623, U+1f624, U+1f625, U+1f626, U+1f627;
   }
 
@@ -571,7 +571,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat072.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat072.woff2') format('woff2');
     unicode-range: U+1f628, U+1f629, U+1f62a, U+1f62b, U+1f62c, U+1f62d, U+1f62e, U+1f62e, U+200d, U+1f4a8, U+1f62f, U+1f630, U+1f631, U+1f632, U+1f633, U+1f634, U+1f635, U+1f635, U+200d, U+1f4ab, U+1f636, U+1f636, U+200d, U+1f32b, U+1f637, U+1f638;
   }
 
@@ -579,7 +579,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat073.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat073.woff2') format('woff2');
     unicode-range: U+1f639, U+1f63a, U+1f63b, U+1f63c, U+1f63d, U+1f63e, U+1f63f, U+1f640, U+1f641, U+1f642, U+1f643, U+1f644, U+1f645, U+1f645, U+1f3fb, U+1f645, U+1f3fb, U+200d, U+2640, U+1f645, U+1f3fb, U+200d, U+2642, U+1f645, U+1f3fc, U+1f645, U+1f3fc, U+200d, U+2640, U+1f645, U+1f3fc, U+200d, U+2642, U+1f645, U+1f3fd;
   }
 
@@ -587,7 +587,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat074.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat074.woff2') format('woff2');
     unicode-range: U+1f645, U+1f3fd, U+200d, U+2640, U+1f645, U+1f3fd, U+200d, U+2642, U+1f645, U+1f3fe, U+1f645, U+1f3fe, U+200d, U+2640, U+1f645, U+1f3fe, U+200d, U+2642, U+1f645, U+1f3ff, U+1f645, U+1f3ff, U+200d, U+2640, U+1f645, U+1f3ff, U+200d, U+2642, U+1f645, U+200d, U+2640, U+1f645, U+200d, U+2642, U+1f646, U+1f646, U+1f3fb, U+1f646, U+1f3fb, U+200d, U+2640, U+1f646, U+1f3fb, U+200d, U+2642, U+1f646, U+1f3fc, U+1f646, U+1f3fc, U+200d, U+2640, U+1f646, U+1f3fc, U+200d, U+2642, U+1f646, U+1f3fd, U+1f646, U+1f3fd, U+200d, U+2640, U+1f646, U+1f3fd, U+200d, U+2642;
   }
 
@@ -595,7 +595,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat075.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat075.woff2') format('woff2');
     unicode-range: U+1f646, U+1f3fe, U+1f646, U+1f3fe, U+200d, U+2640, U+1f646, U+1f3fe, U+200d, U+2642, U+1f646, U+1f3ff, U+1f646, U+1f3ff, U+200d, U+2640, U+1f646, U+1f3ff, U+200d, U+2642, U+1f646, U+200d, U+2640, U+1f646, U+200d, U+2642, U+1f647, U+1f647, U+1f3fb, U+1f647, U+1f3fb, U+200d, U+2640, U+1f647, U+1f3fb, U+200d, U+2642, U+1f647, U+1f3fc, U+1f647, U+1f3fc, U+200d, U+2640, U+1f647, U+1f3fc, U+200d, U+2642, U+1f647, U+1f3fd, U+1f647, U+1f3fd, U+200d, U+2640, U+1f647, U+1f3fd, U+200d, U+2642, U+1f647, U+1f3fe, U+1f647, U+1f3fe, U+200d, U+2640;
   }
 
@@ -603,7 +603,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat076.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat076.woff2') format('woff2');
     unicode-range: U+1f647, U+1f3fe, U+200d, U+2642, U+1f647, U+1f3ff, U+1f647, U+1f3ff, U+200d, U+2640, U+1f647, U+1f3ff, U+200d, U+2642, U+1f647, U+200d, U+2640, U+1f647, U+200d, U+2642, U+1f648, U+1f649, U+1f64a, U+1f64b, U+1f64b, U+1f3fb, U+1f64b, U+1f3fb, U+200d, U+2640, U+1f64b, U+1f3fb, U+200d, U+2642, U+1f64b, U+1f3fc, U+1f64b, U+1f3fc, U+200d, U+2640, U+1f64b, U+1f3fc, U+200d, U+2642, U+1f64b, U+1f3fd, U+1f64b, U+1f3fd, U+200d, U+2640, U+1f64b, U+1f3fd, U+200d, U+2642, U+1f64b, U+1f3fe;
   }
 
@@ -611,7 +611,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat077.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat077.woff2') format('woff2');
     unicode-range: U+1f64b, U+1f3fe, U+200d, U+2640, U+1f64b, U+1f3fe, U+200d, U+2642, U+1f64b, U+1f3ff, U+1f64b, U+1f3ff, U+200d, U+2640, U+1f64b, U+1f3ff, U+200d, U+2642, U+1f64b, U+200d, U+2640, U+1f64b, U+200d, U+2642, U+1f64c, U+1f64c, U+1f3fb, U+1f64c, U+1f3fc, U+1f64c, U+1f3fd, U+1f64c, U+1f3fe, U+1f64c, U+1f3ff, U+1f64d, U+1f64d, U+1f3fb, U+1f64d, U+1f3fb, U+200d, U+2640, U+1f64d, U+1f3fb, U+200d, U+2642, U+1f64d, U+1f3fc, U+1f64d, U+1f3fc, U+200d, U+2640, U+1f64d, U+1f3fc, U+200d, U+2642;
   }
 
@@ -619,7 +619,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat078.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat078.woff2') format('woff2');
     unicode-range: U+1f64d, U+1f3fd, U+1f64d, U+1f3fd, U+200d, U+2640, U+1f64d, U+1f3fd, U+200d, U+2642, U+1f64d, U+1f3fe, U+1f64d, U+1f3fe, U+200d, U+2640, U+1f64d, U+1f3fe, U+200d, U+2642, U+1f64d, U+1f3ff, U+1f64d, U+1f3ff, U+200d, U+2640, U+1f64d, U+1f3ff, U+200d, U+2642, U+1f64d, U+200d, U+2640, U+1f64d, U+200d, U+2642, U+1f64e, U+1f64e, U+1f3fb, U+1f64e, U+1f3fb, U+200d, U+2640, U+1f64e, U+1f3fb, U+200d, U+2642, U+1f64e, U+1f3fc, U+1f64e, U+1f3fc, U+200d, U+2640, U+1f64e, U+1f3fc, U+200d, U+2642, U+1f64e, U+1f3fd, U+1f64e, U+1f3fd, U+200d, U+2640;
   }
 
@@ -627,7 +627,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat079.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat079.woff2') format('woff2');
     unicode-range: U+1f64e, U+1f3fd, U+200d, U+2642, U+1f64e, U+1f3fe, U+1f64e, U+1f3fe, U+200d, U+2640, U+1f64e, U+1f3fe, U+200d, U+2642, U+1f64e, U+1f3ff, U+1f64e, U+1f3ff, U+200d, U+2640, U+1f64e, U+1f3ff, U+200d, U+2642, U+1f64e, U+200d, U+2640, U+1f64e, U+200d, U+2642, U+1f64f, U+1f64f, U+1f3fb, U+1f64f, U+1f3fc, U+1f64f, U+1f3fd, U+1f64f, U+1f3fe, U+1f64f, U+1f3ff, U+1f680, U+1f681, U+1f682, U+1f683, U+1f684;
   }
 
@@ -635,7 +635,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat080.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat080.woff2') format('woff2');
     unicode-range: U+1f685, U+1f686, U+1f687, U+1f688, U+1f689, U+1f68a, U+1f68b, U+1f68c, U+1f68d, U+1f68e, U+1f68f, U+1f690, U+1f691, U+1f692, U+1f693, U+1f694, U+1f695, U+1f696, U+1f697, U+1f698;
   }
 
@@ -643,7 +643,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat081.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat081.woff2') format('woff2');
     unicode-range: U+1f699, U+1f69a, U+1f69b, U+1f69c, U+1f69d, U+1f69e, U+1f69f, U+1f6a0, U+1f6a1, U+1f6a2, U+1f6a3, U+1f6a3, U+1f3fb, U+1f6a3, U+1f3fb, U+200d, U+2640, U+1f6a3, U+1f3fb, U+200d, U+2642, U+1f6a3, U+1f3fc, U+1f6a3, U+1f3fc, U+200d, U+2640, U+1f6a3, U+1f3fc, U+200d, U+2642, U+1f6a3, U+1f3fd, U+1f6a3, U+1f3fd, U+200d, U+2640, U+1f6a3, U+1f3fd, U+200d, U+2642;
   }
 
@@ -651,7 +651,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat082.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat082.woff2') format('woff2');
     unicode-range: U+1f6a3, U+1f3fe, U+1f6a3, U+1f3fe, U+200d, U+2640, U+1f6a3, U+1f3fe, U+200d, U+2642, U+1f6a3, U+1f3ff, U+1f6a3, U+1f3ff, U+200d, U+2640, U+1f6a3, U+1f3ff, U+200d, U+2642, U+1f6a3, U+200d, U+2640, U+1f6a3, U+200d, U+2642, U+1f6a4, U+1f6a5, U+1f6a6, U+1f6a7, U+1f6a8, U+1f6a9, U+1f6aa, U+1f6ab, U+1f6ac, U+1f6ad, U+1f6ae, U+1f6af;
   }
 
@@ -659,7 +659,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat083.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat083.woff2') format('woff2');
     unicode-range: U+1f6b0, U+1f6b1, U+1f6b2, U+1f6b3, U+1f6b4, U+1f6b4, U+1f3fb, U+1f6b4, U+1f3fb, U+200d, U+2640, U+1f6b4, U+1f3fb, U+200d, U+2642, U+1f6b4, U+1f3fc, U+1f6b4, U+1f3fc, U+200d, U+2640, U+1f6b4, U+1f3fc, U+200d, U+2642, U+1f6b4, U+1f3fd, U+1f6b4, U+1f3fd, U+200d, U+2640, U+1f6b4, U+1f3fd, U+200d, U+2642, U+1f6b4, U+1f3fe, U+1f6b4, U+1f3fe, U+200d, U+2640, U+1f6b4, U+1f3fe, U+200d, U+2642, U+1f6b4, U+1f3ff, U+1f6b4, U+1f3ff, U+200d, U+2640, U+1f6b4, U+1f3ff, U+200d, U+2642;
   }
 
@@ -667,7 +667,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat084.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat084.woff2') format('woff2');
     unicode-range: U+1f6b4, U+200d, U+2640, U+1f6b4, U+200d, U+2642, U+1f6b5, U+1f6b5, U+1f3fb, U+1f6b5, U+1f3fb, U+200d, U+2640, U+1f6b5, U+1f3fb, U+200d, U+2642, U+1f6b5, U+1f3fc, U+1f6b5, U+1f3fc, U+200d, U+2640, U+1f6b5, U+1f3fc, U+200d, U+2642, U+1f6b5, U+1f3fd, U+1f6b5, U+1f3fd, U+200d, U+2640, U+1f6b5, U+1f3fd, U+200d, U+2642, U+1f6b5, U+1f3fe, U+1f6b5, U+1f3fe, U+200d, U+2640, U+1f6b5, U+1f3fe, U+200d, U+2642, U+1f6b5, U+1f3ff, U+1f6b5, U+1f3ff, U+200d, U+2640, U+1f6b5, U+1f3ff, U+200d, U+2642, U+1f6b5, U+200d, U+2640, U+1f6b5, U+200d, U+2642;
   }
 
@@ -675,7 +675,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat085.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat085.woff2') format('woff2');
     unicode-range: U+1f6b6, U+1f6b6, U+1f3fb, U+1f6b6, U+1f3fb, U+200d, U+2640, U+1f6b6, U+1f3fb, U+200d, U+2642, U+1f6b6, U+1f3fc, U+1f6b6, U+1f3fc, U+200d, U+2640, U+1f6b6, U+1f3fc, U+200d, U+2642, U+1f6b6, U+1f3fd, U+1f6b6, U+1f3fd, U+200d, U+2640, U+1f6b6, U+1f3fd, U+200d, U+2642, U+1f6b6, U+1f3fe, U+1f6b6, U+1f3fe, U+200d, U+2640, U+1f6b6, U+1f3fe, U+200d, U+2642, U+1f6b6, U+1f3ff, U+1f6b6, U+1f3ff, U+200d, U+2640, U+1f6b6, U+1f3ff, U+200d, U+2642, U+1f6b6, U+200d, U+2640, U+1f6b6, U+200d, U+2642, U+1f6b7, U+1f6b8;
   }
 
@@ -683,7 +683,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat086.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat086.woff2') format('woff2');
     unicode-range: U+1f6b9, U+1f6ba, U+1f6bb, U+1f6bc, U+1f6bd, U+1f6be, U+1f6bf, U+1f6c0, U+1f6c0, U+1f3fb, U+1f6c0, U+1f3fc, U+1f6c0, U+1f3fd, U+1f6c0, U+1f3fe, U+1f6c0, U+1f3ff, U+1f6c1, U+1f6c2, U+1f6c3, U+1f6c4, U+1f6c5, U+1f6cb, U+1f6cc;
   }
 
@@ -691,7 +691,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat087.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat087.woff2') format('woff2');
     unicode-range: U+1f6cc, U+1f3fb, U+1f6cc, U+1f3fc, U+1f6cc, U+1f3fd, U+1f6cc, U+1f3fe, U+1f6cc, U+1f3ff, U+1f6cd, U+1f6ce, U+1f6cf, U+1f6d0, U+1f6d1, U+1f6d2, U+1f6d5, U+1f6d6, U+1f6d7, U+1f6dd, U+1f6de, U+1f6df, U+1f6e0, U+1f6e1, U+1f6e2;
   }
 
@@ -699,7 +699,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat088.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat088.woff2') format('woff2');
     unicode-range: U+1f6e3, U+1f6e4, U+1f6e5, U+1f6e9, U+1f6eb, U+1f6ec, U+1f6f0, U+1f6f3, U+1f6f4, U+1f6f5, U+1f6f6, U+1f6f7, U+1f6f8, U+1f6f9, U+1f6fa, U+1f6fb, U+1f6fc, U+1f7e0, U+1f7e1, U+1f7e2;
   }
 
@@ -707,7 +707,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat089.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat089.woff2') format('woff2');
     unicode-range: U+1f7e3, U+1f7e4, U+1f7e5, U+1f7e6, U+1f7e7, U+1f7e8, U+1f7e9, U+1f7ea, U+1f7eb, U+1f7f0, U+1f90c, U+1f90c, U+1f3fb, U+1f90c, U+1f3fc, U+1f90c, U+1f3fd, U+1f90c, U+1f3fe, U+1f90c, U+1f3ff, U+1f90d, U+1f90e, U+1f90f, U+1f90f, U+1f3fb;
   }
 
@@ -715,7 +715,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat090.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat090.woff2') format('woff2');
     unicode-range: U+1f90f, U+1f3fc, U+1f90f, U+1f3fd, U+1f90f, U+1f3fe, U+1f90f, U+1f3ff, U+1f910, U+1f911, U+1f912, U+1f913, U+1f914, U+1f915, U+1f916, U+1f917, U+1f918, U+1f918, U+1f3fb, U+1f918, U+1f3fc, U+1f918, U+1f3fd, U+1f918, U+1f3fe, U+1f918, U+1f3ff, U+1f919, U+1f919, U+1f3fb;
   }
 
@@ -723,7 +723,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat091.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat091.woff2') format('woff2');
     unicode-range: U+1f919, U+1f3fc, U+1f919, U+1f3fd, U+1f919, U+1f3fe, U+1f919, U+1f3ff, U+1f91a, U+1f91a, U+1f3fb, U+1f91a, U+1f3fc, U+1f91a, U+1f3fd, U+1f91a, U+1f3fe, U+1f91a, U+1f3ff, U+1f91b, U+1f91b, U+1f3fb, U+1f91b, U+1f3fc, U+1f91b, U+1f3fd, U+1f91b, U+1f3fe, U+1f91b, U+1f3ff, U+1f91c, U+1f91c, U+1f3fb, U+1f91c, U+1f3fc, U+1f91c, U+1f3fd;
   }
 
@@ -731,7 +731,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat092.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat092.woff2') format('woff2');
     unicode-range: U+1f91c, U+1f3fe, U+1f91c, U+1f3ff, U+1f91d, U+1f91e, U+1f91e, U+1f3fb, U+1f91e, U+1f3fc, U+1f91e, U+1f3fd, U+1f91e, U+1f3fe, U+1f91e, U+1f3ff, U+1f91f, U+1f91f, U+1f3fb, U+1f91f, U+1f3fc, U+1f91f, U+1f3fd, U+1f91f, U+1f3fe, U+1f91f, U+1f3ff, U+1f920, U+1f921, U+1f922, U+1f923, U+1f924;
   }
 
@@ -739,7 +739,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat093.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat093.woff2') format('woff2');
     unicode-range: U+1f925, U+1f926, U+1f926, U+1f3fb, U+1f926, U+1f3fb, U+200d, U+2640, U+1f926, U+1f3fb, U+200d, U+2642, U+1f926, U+1f3fc, U+1f926, U+1f3fc, U+200d, U+2640, U+1f926, U+1f3fc, U+200d, U+2642, U+1f926, U+1f3fd, U+1f926, U+1f3fd, U+200d, U+2640, U+1f926, U+1f3fd, U+200d, U+2642, U+1f926, U+1f3fe, U+1f926, U+1f3fe, U+200d, U+2640, U+1f926, U+1f3fe, U+200d, U+2642, U+1f926, U+1f3ff, U+1f926, U+1f3ff, U+200d, U+2640, U+1f926, U+1f3ff, U+200d, U+2642, U+1f926, U+200d, U+2640, U+1f926, U+200d, U+2642, U+1f927;
   }
 
@@ -747,7 +747,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat094.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat094.woff2') format('woff2');
     unicode-range: U+1f928, U+1f929, U+1f92a, U+1f92b, U+1f92c, U+1f92d, U+1f92e, U+1f92f, U+1f930, U+1f930, U+1f3fb, U+1f930, U+1f3fc, U+1f930, U+1f3fd, U+1f930, U+1f3fe, U+1f930, U+1f3ff, U+1f931, U+1f931, U+1f3fb, U+1f931, U+1f3fc, U+1f931, U+1f3fd, U+1f931, U+1f3fe, U+1f931, U+1f3ff;
   }
 
@@ -755,7 +755,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat095.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat095.woff2') format('woff2');
     unicode-range: U+1f932, U+1f932, U+1f3fb, U+1f932, U+1f3fc, U+1f932, U+1f3fd, U+1f932, U+1f3fe, U+1f932, U+1f3ff, U+1f933, U+1f933, U+1f3fb, U+1f933, U+1f3fc, U+1f933, U+1f3fd, U+1f933, U+1f3fe, U+1f933, U+1f3ff, U+1f934, U+1f934, U+1f3fb, U+1f934, U+1f3fc, U+1f934, U+1f3fd, U+1f934, U+1f3fe, U+1f934, U+1f3ff, U+1f935, U+1f935, U+1f3fb;
   }
 
@@ -763,7 +763,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat096.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat096.woff2') format('woff2');
     unicode-range: U+1f935, U+1f3fb, U+200d, U+2640, U+1f935, U+1f3fb, U+200d, U+2642, U+1f935, U+1f3fc, U+1f935, U+1f3fc, U+200d, U+2640, U+1f935, U+1f3fc, U+200d, U+2642, U+1f935, U+1f3fd, U+1f935, U+1f3fd, U+200d, U+2640, U+1f935, U+1f3fd, U+200d, U+2642, U+1f935, U+1f3fe, U+1f935, U+1f3fe, U+200d, U+2640, U+1f935, U+1f3fe, U+200d, U+2642, U+1f935, U+1f3ff, U+1f935, U+1f3ff, U+200d, U+2640, U+1f935, U+1f3ff, U+200d, U+2642, U+1f935, U+200d, U+2640, U+1f935, U+200d, U+2642, U+1f936, U+1f936, U+1f3fb, U+1f936, U+1f3fc, U+1f936, U+1f3fd;
   }
 
@@ -771,7 +771,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat097.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat097.woff2') format('woff2');
     unicode-range: U+1f936, U+1f3fe, U+1f936, U+1f3ff, U+1f937, U+1f937, U+1f3fb, U+1f937, U+1f3fb, U+200d, U+2640, U+1f937, U+1f3fb, U+200d, U+2642, U+1f937, U+1f3fc, U+1f937, U+1f3fc, U+200d, U+2640, U+1f937, U+1f3fc, U+200d, U+2642, U+1f937, U+1f3fd, U+1f937, U+1f3fd, U+200d, U+2640, U+1f937, U+1f3fd, U+200d, U+2642, U+1f937, U+1f3fe, U+1f937, U+1f3fe, U+200d, U+2640, U+1f937, U+1f3fe, U+200d, U+2642, U+1f937, U+1f3ff, U+1f937, U+1f3ff, U+200d, U+2640, U+1f937, U+1f3ff, U+200d, U+2642, U+1f937, U+200d, U+2640, U+1f937, U+200d, U+2642;
   }
 
@@ -779,7 +779,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat098.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat098.woff2') format('woff2');
     unicode-range: U+1f938, U+1f938, U+1f3fb, U+1f938, U+1f3fb, U+200d, U+2640, U+1f938, U+1f3fb, U+200d, U+2642, U+1f938, U+1f3fc, U+1f938, U+1f3fc, U+200d, U+2640, U+1f938, U+1f3fc, U+200d, U+2642, U+1f938, U+1f3fd, U+1f938, U+1f3fd, U+200d, U+2640, U+1f938, U+1f3fd, U+200d, U+2642, U+1f938, U+1f3fe, U+1f938, U+1f3fe, U+200d, U+2640, U+1f938, U+1f3fe, U+200d, U+2642, U+1f938, U+1f3ff, U+1f938, U+1f3ff, U+200d, U+2640, U+1f938, U+1f3ff, U+200d, U+2642, U+1f938, U+200d, U+2640, U+1f938, U+200d, U+2642, U+1f939, U+1f939, U+1f3fb;
   }
 
@@ -787,7 +787,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat099.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat099.woff2') format('woff2');
     unicode-range: U+1f939, U+1f3fb, U+200d, U+2640, U+1f939, U+1f3fb, U+200d, U+2642, U+1f939, U+1f3fc, U+1f939, U+1f3fc, U+200d, U+2640, U+1f939, U+1f3fc, U+200d, U+2642, U+1f939, U+1f3fd, U+1f939, U+1f3fd, U+200d, U+2640, U+1f939, U+1f3fd, U+200d, U+2642, U+1f939, U+1f3fe, U+1f939, U+1f3fe, U+200d, U+2640, U+1f939, U+1f3fe, U+200d, U+2642, U+1f939, U+1f3ff, U+1f939, U+1f3ff, U+200d, U+2640, U+1f939, U+1f3ff, U+200d, U+2642, U+1f939, U+200d, U+2640, U+1f939, U+200d, U+2642, U+1f93a, U+1f93c, U+1f93c, U+200d, U+2640, U+1f93c, U+200d, U+2642;
   }
 
@@ -795,7 +795,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat100.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat100.woff2') format('woff2');
     unicode-range: U+1f93d, U+1f93d, U+1f3fb, U+1f93d, U+1f3fb, U+200d, U+2640, U+1f93d, U+1f3fb, U+200d, U+2642, U+1f93d, U+1f3fc, U+1f93d, U+1f3fc, U+200d, U+2640, U+1f93d, U+1f3fc, U+200d, U+2642, U+1f93d, U+1f3fd, U+1f93d, U+1f3fd, U+200d, U+2640, U+1f93d, U+1f3fd, U+200d, U+2642, U+1f93d, U+1f3fe, U+1f93d, U+1f3fe, U+200d, U+2640, U+1f93d, U+1f3fe, U+200d, U+2642, U+1f93d, U+1f3ff, U+1f93d, U+1f3ff, U+200d, U+2640, U+1f93d, U+1f3ff, U+200d, U+2642, U+1f93d, U+200d, U+2640, U+1f93d, U+200d, U+2642, U+1f93e, U+1f93e, U+1f3fb;
   }
 
@@ -803,7 +803,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat101.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat101.woff2') format('woff2');
     unicode-range: U+1f93e, U+1f3fb, U+200d, U+2640, U+1f93e, U+1f3fb, U+200d, U+2642, U+1f93e, U+1f3fc, U+1f93e, U+1f3fc, U+200d, U+2640, U+1f93e, U+1f3fc, U+200d, U+2642, U+1f93e, U+1f3fd, U+1f93e, U+1f3fd, U+200d, U+2640, U+1f93e, U+1f3fd, U+200d, U+2642, U+1f93e, U+1f3fe, U+1f93e, U+1f3fe, U+200d, U+2640, U+1f93e, U+1f3fe, U+200d, U+2642, U+1f93e, U+1f3ff, U+1f93e, U+1f3ff, U+200d, U+2640, U+1f93e, U+1f3ff, U+200d, U+2642, U+1f93e, U+200d, U+2640, U+1f93e, U+200d, U+2642, U+1f93f, U+1f940, U+1f941, U+1f942;
   }
 
@@ -811,7 +811,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat102.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat102.woff2') format('woff2');
     unicode-range: U+1f943, U+1f944, U+1f945, U+1f947, U+1f948, U+1f949, U+1f94a, U+1f94b, U+1f94c, U+1f94d, U+1f94e, U+1f94f, U+1f950, U+1f951, U+1f952, U+1f953, U+1f954, U+1f955, U+1f956, U+1f957;
   }
 
@@ -819,7 +819,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat103.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat103.woff2') format('woff2');
     unicode-range: U+1f958, U+1f959, U+1f95a, U+1f95b, U+1f95c, U+1f95d, U+1f95e, U+1f95f, U+1f960, U+1f961, U+1f962, U+1f963, U+1f964, U+1f965, U+1f966, U+1f967, U+1f968, U+1f969, U+1f96a, U+1f96b;
   }
 
@@ -827,7 +827,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat104.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat104.woff2') format('woff2');
     unicode-range: U+1f96c, U+1f96d, U+1f96e, U+1f96f, U+1f970, U+1f971, U+1f972, U+1f973, U+1f974, U+1f975, U+1f976, U+1f977, U+1f977, U+1f3fb, U+1f977, U+1f3fc, U+1f977, U+1f3fd, U+1f977, U+1f3fe, U+1f977, U+1f3ff, U+1f978, U+1f979, U+1f97a;
   }
 
@@ -835,7 +835,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat105.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat105.woff2') format('woff2');
     unicode-range: U+1f97b, U+1f97c, U+1f97d, U+1f97e, U+1f97f, U+1f980, U+1f981, U+1f982, U+1f983, U+1f984, U+1f985, U+1f986, U+1f987, U+1f988, U+1f989, U+1f98a, U+1f98b, U+1f98c, U+1f98d, U+1f98e;
   }
 
@@ -843,7 +843,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat106.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat106.woff2') format('woff2');
     unicode-range: U+1f98f, U+1f990, U+1f991, U+1f992, U+1f993, U+1f994, U+1f995, U+1f996, U+1f997, U+1f998, U+1f999, U+1f99a, U+1f99b, U+1f99c, U+1f99d, U+1f99e, U+1f99f, U+1f9a0, U+1f9a1, U+1f9a2;
   }
 
@@ -851,7 +851,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat107.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat107.woff2') format('woff2');
     unicode-range: U+1f9a3, U+1f9a4, U+1f9a5, U+1f9a6, U+1f9a7, U+1f9a8, U+1f9a9, U+1f9aa, U+1f9ab, U+1f9ac, U+1f9ad, U+1f9ae, U+1f9af, U+1f9b4, U+1f9b5, U+1f9b5, U+1f3fb, U+1f9b5, U+1f3fc, U+1f9b5, U+1f3fd, U+1f9b5, U+1f3fe, U+1f9b5, U+1f3ff;
   }
 
@@ -859,7 +859,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat108.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat108.woff2') format('woff2');
     unicode-range: U+1f9b6, U+1f9b6, U+1f3fb, U+1f9b6, U+1f3fc, U+1f9b6, U+1f3fd, U+1f9b6, U+1f3fe, U+1f9b6, U+1f3ff, U+1f9b7, U+1f9b8, U+1f9b8, U+1f3fb, U+1f9b8, U+1f3fb, U+200d, U+2640, U+1f9b8, U+1f3fb, U+200d, U+2642, U+1f9b8, U+1f3fc, U+1f9b8, U+1f3fc, U+200d, U+2640, U+1f9b8, U+1f3fc, U+200d, U+2642, U+1f9b8, U+1f3fd, U+1f9b8, U+1f3fd, U+200d, U+2640, U+1f9b8, U+1f3fd, U+200d, U+2642, U+1f9b8, U+1f3fe, U+1f9b8, U+1f3fe, U+200d, U+2640, U+1f9b8, U+1f3fe, U+200d, U+2642;
   }
 
@@ -867,7 +867,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat109.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat109.woff2') format('woff2');
     unicode-range: U+1f9b8, U+1f3ff, U+1f9b8, U+1f3ff, U+200d, U+2640, U+1f9b8, U+1f3ff, U+200d, U+2642, U+1f9b8, U+200d, U+2640, U+1f9b8, U+200d, U+2642, U+1f9b9, U+1f9b9, U+1f3fb, U+1f9b9, U+1f3fb, U+200d, U+2640, U+1f9b9, U+1f3fb, U+200d, U+2642, U+1f9b9, U+1f3fc, U+1f9b9, U+1f3fc, U+200d, U+2640, U+1f9b9, U+1f3fc, U+200d, U+2642, U+1f9b9, U+1f3fd, U+1f9b9, U+1f3fd, U+200d, U+2640, U+1f9b9, U+1f3fd, U+200d, U+2642, U+1f9b9, U+1f3fe, U+1f9b9, U+1f3fe, U+200d, U+2640, U+1f9b9, U+1f3fe, U+200d, U+2642, U+1f9b9, U+1f3ff, U+1f9b9, U+1f3ff, U+200d, U+2640;
   }
 
@@ -875,7 +875,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat110.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat110.woff2') format('woff2');
     unicode-range: U+1f9b9, U+1f3ff, U+200d, U+2642, U+1f9b9, U+200d, U+2640, U+1f9b9, U+200d, U+2642, U+1f9ba, U+1f9bb, U+1f9bb, U+1f3fb, U+1f9bb, U+1f3fc, U+1f9bb, U+1f3fd, U+1f9bb, U+1f3fe, U+1f9bb, U+1f3ff, U+1f9bc, U+1f9bd, U+1f9be, U+1f9bf, U+1f9c0, U+1f9c1, U+1f9c2, U+1f9c3, U+1f9c4, U+1f9c5;
   }
 
@@ -883,7 +883,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat111.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat111.woff2') format('woff2');
     unicode-range: U+1f9c6, U+1f9c7, U+1f9c8, U+1f9c9, U+1f9ca, U+1f9cb, U+1f9cc, U+1f9cd, U+1f9cd, U+1f3fb, U+1f9cd, U+1f3fb, U+200d, U+2640, U+1f9cd, U+1f3fb, U+200d, U+2642, U+1f9cd, U+1f3fc, U+1f9cd, U+1f3fc, U+200d, U+2640, U+1f9cd, U+1f3fc, U+200d, U+2642, U+1f9cd, U+1f3fd, U+1f9cd, U+1f3fd, U+200d, U+2640, U+1f9cd, U+1f3fd, U+200d, U+2642, U+1f9cd, U+1f3fe, U+1f9cd, U+1f3fe, U+200d, U+2640, U+1f9cd, U+1f3fe, U+200d, U+2642;
   }
 
@@ -891,7 +891,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat112.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat112.woff2') format('woff2');
     unicode-range: U+1f9cd, U+1f3ff, U+1f9cd, U+1f3ff, U+200d, U+2640, U+1f9cd, U+1f3ff, U+200d, U+2642, U+1f9cd, U+200d, U+2640, U+1f9cd, U+200d, U+2642, U+1f9ce, U+1f9ce, U+1f3fb, U+1f9ce, U+1f3fb, U+200d, U+2640, U+1f9ce, U+1f3fb, U+200d, U+2642, U+1f9ce, U+1f3fc, U+1f9ce, U+1f3fc, U+200d, U+2640, U+1f9ce, U+1f3fc, U+200d, U+2642, U+1f9ce, U+1f3fd, U+1f9ce, U+1f3fd, U+200d, U+2640, U+1f9ce, U+1f3fd, U+200d, U+2642, U+1f9ce, U+1f3fe, U+1f9ce, U+1f3fe, U+200d, U+2640, U+1f9ce, U+1f3fe, U+200d, U+2642, U+1f9ce, U+1f3ff, U+1f9ce, U+1f3ff, U+200d, U+2640;
   }
 
@@ -899,7 +899,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat113.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat113.woff2') format('woff2');
     unicode-range: U+1f9ce, U+1f3ff, U+200d, U+2642, U+1f9ce, U+200d, U+2640, U+1f9ce, U+200d, U+2642, U+1f9cf, U+1f9cf, U+1f3fb, U+1f9cf, U+1f3fb, U+200d, U+2640, U+1f9cf, U+1f3fb, U+200d, U+2642, U+1f9cf, U+1f3fc, U+1f9cf, U+1f3fc, U+200d, U+2640, U+1f9cf, U+1f3fc, U+200d, U+2642, U+1f9cf, U+1f3fd, U+1f9cf, U+1f3fd, U+200d, U+2640, U+1f9cf, U+1f3fd, U+200d, U+2642, U+1f9cf, U+1f3fe, U+1f9cf, U+1f3fe, U+200d, U+2640, U+1f9cf, U+1f3fe, U+200d, U+2642, U+1f9cf, U+1f3ff, U+1f9cf, U+1f3ff, U+200d, U+2640, U+1f9cf, U+1f3ff, U+200d, U+2642, U+1f9cf, U+200d, U+2640;
   }
 
@@ -907,7 +907,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat114.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat114.woff2') format('woff2');
     unicode-range: U+1f9cf, U+200d, U+2642, U+1f9d0, U+1f9d1, U+1f9d1, U+1f3fb, U+1f9d1, U+1f3fb, U+200d, U+1f33e, U+1f9d1, U+1f3fb, U+200d, U+1f373, U+1f9d1, U+1f3fb, U+200d, U+1f37c, U+1f9d1, U+1f3fb, U+200d, U+1f384, U+1f9d1, U+1f3fb, U+200d, U+1f393, U+1f9d1, U+1f3fb, U+200d, U+1f3a4, U+1f9d1, U+1f3fb, U+200d, U+1f3a8, U+1f9d1, U+1f3fb, U+200d, U+1f3eb, U+1f9d1, U+1f3fb, U+200d, U+1f3ed, U+1f9d1, U+1f3fb, U+200d, U+1f4bc, U+1f9d1, U+1f3fb, U+200d, U+1f527, U+1f9d1, U+1f3fb, U+200d, U+1f52c, U+1f9d1, U+1f3fb, U+200d, U+1f680, U+1f9d1, U+1f3fb, U+200d, U+1f692, U+1f9d1, U+1f3fb, U+200d, U+1f9af, U+1f9d1, U+1f3fb, U+200d, U+1f9b0;
   }
 
@@ -915,7 +915,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat115.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat115.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3fb, U+200d, U+1f9b1, U+1f9d1, U+1f3fb, U+200d, U+1f9b2, U+1f9d1, U+1f3fb, U+200d, U+1f9b3, U+1f9d1, U+1f3fb, U+200d, U+1f9bc, U+1f9d1, U+1f3fb, U+200d, U+1f9bd, U+1f9d1, U+1f3fb, U+200d, U+2695, U+1f9d1, U+1f3fb, U+200d, U+2696, U+1f9d1, U+1f3fb, U+200d, U+2708, U+1f9d1, U+1f3fc, U+1f9d1, U+1f3fc, U+200d, U+1f33e, U+1f9d1, U+1f3fc, U+200d, U+1f373, U+1f9d1, U+1f3fc, U+200d, U+1f37c, U+1f9d1, U+1f3fc, U+200d, U+1f384, U+1f9d1, U+1f3fc, U+200d, U+1f393, U+1f9d1, U+1f3fc, U+200d, U+1f3a4, U+1f9d1, U+1f3fc, U+200d, U+1f3a8, U+1f9d1, U+1f3fc, U+200d, U+1f3eb, U+1f9d1, U+1f3fc, U+200d, U+1f3ed, U+1f9d1, U+1f3fc, U+200d, U+1f4bc, U+1f9d1, U+1f3fc, U+200d, U+1f527;
   }
 
@@ -923,7 +923,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat116.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat116.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3fc, U+200d, U+1f52c, U+1f9d1, U+1f3fc, U+200d, U+1f680, U+1f9d1, U+1f3fc, U+200d, U+1f692, U+1f9d1, U+1f3fc, U+200d, U+1f9af, U+1f9d1, U+1f3fc, U+200d, U+1f9b0, U+1f9d1, U+1f3fc, U+200d, U+1f9b1, U+1f9d1, U+1f3fc, U+200d, U+1f9b2, U+1f9d1, U+1f3fc, U+200d, U+1f9b3, U+1f9d1, U+1f3fc, U+200d, U+1f9bc, U+1f9d1, U+1f3fc, U+200d, U+1f9bd, U+1f9d1, U+1f3fc, U+200d, U+2695, U+1f9d1, U+1f3fc, U+200d, U+2696, U+1f9d1, U+1f3fc, U+200d, U+2708, U+1f9d1, U+1f3fd, U+1f9d1, U+1f3fd, U+200d, U+1f33e, U+1f9d1, U+1f3fd, U+200d, U+1f373, U+1f9d1, U+1f3fd, U+200d, U+1f37c, U+1f9d1, U+1f3fd, U+200d, U+1f384, U+1f9d1, U+1f3fd, U+200d, U+1f393, U+1f9d1, U+1f3fd, U+200d, U+1f3a4;
   }
 
@@ -931,7 +931,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat117.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat117.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3fd, U+200d, U+1f3a8, U+1f9d1, U+1f3fd, U+200d, U+1f3eb, U+1f9d1, U+1f3fd, U+200d, U+1f3ed, U+1f9d1, U+1f3fd, U+200d, U+1f4bc, U+1f9d1, U+1f3fd, U+200d, U+1f527, U+1f9d1, U+1f3fd, U+200d, U+1f52c, U+1f9d1, U+1f3fd, U+200d, U+1f680, U+1f9d1, U+1f3fd, U+200d, U+1f692, U+1f9d1, U+1f3fd, U+200d, U+1f9af, U+1f9d1, U+1f3fd, U+200d, U+1f9b0, U+1f9d1, U+1f3fd, U+200d, U+1f9b1, U+1f9d1, U+1f3fd, U+200d, U+1f9b2, U+1f9d1, U+1f3fd, U+200d, U+1f9b3, U+1f9d1, U+1f3fd, U+200d, U+1f9bc, U+1f9d1, U+1f3fd, U+200d, U+1f9bd, U+1f9d1, U+1f3fd, U+200d, U+2695, U+1f9d1, U+1f3fd, U+200d, U+2696, U+1f9d1, U+1f3fd, U+200d, U+2708, U+1f9d1, U+1f3fe, U+1f9d1, U+1f3fe, U+200d, U+1f33e;
   }
 
@@ -939,7 +939,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat118.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat118.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3fe, U+200d, U+1f373, U+1f9d1, U+1f3fe, U+200d, U+1f37c, U+1f9d1, U+1f3fe, U+200d, U+1f384, U+1f9d1, U+1f3fe, U+200d, U+1f393, U+1f9d1, U+1f3fe, U+200d, U+1f3a4, U+1f9d1, U+1f3fe, U+200d, U+1f3a8, U+1f9d1, U+1f3fe, U+200d, U+1f3eb, U+1f9d1, U+1f3fe, U+200d, U+1f3ed, U+1f9d1, U+1f3fe, U+200d, U+1f4bc, U+1f9d1, U+1f3fe, U+200d, U+1f527, U+1f9d1, U+1f3fe, U+200d, U+1f52c, U+1f9d1, U+1f3fe, U+200d, U+1f680, U+1f9d1, U+1f3fe, U+200d, U+1f692, U+1f9d1, U+1f3fe, U+200d, U+1f9af, U+1f9d1, U+1f3fe, U+200d, U+1f9b0, U+1f9d1, U+1f3fe, U+200d, U+1f9b1, U+1f9d1, U+1f3fe, U+200d, U+1f9b2, U+1f9d1, U+1f3fe, U+200d, U+1f9b3, U+1f9d1, U+1f3fe, U+200d, U+1f9bc, U+1f9d1, U+1f3fe, U+200d, U+1f9bd;
   }
 
@@ -947,7 +947,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat119.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat119.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3fe, U+200d, U+2695, U+1f9d1, U+1f3fe, U+200d, U+2696, U+1f9d1, U+1f3fe, U+200d, U+2708, U+1f9d1, U+1f3ff, U+1f9d1, U+1f3ff, U+200d, U+1f33e, U+1f9d1, U+1f3ff, U+200d, U+1f373, U+1f9d1, U+1f3ff, U+200d, U+1f37c, U+1f9d1, U+1f3ff, U+200d, U+1f384, U+1f9d1, U+1f3ff, U+200d, U+1f393, U+1f9d1, U+1f3ff, U+200d, U+1f3a4, U+1f9d1, U+1f3ff, U+200d, U+1f3a8, U+1f9d1, U+1f3ff, U+200d, U+1f3eb, U+1f9d1, U+1f3ff, U+200d, U+1f3ed, U+1f9d1, U+1f3ff, U+200d, U+1f4bc, U+1f9d1, U+1f3ff, U+200d, U+1f527, U+1f9d1, U+1f3ff, U+200d, U+1f52c, U+1f9d1, U+1f3ff, U+200d, U+1f680, U+1f9d1, U+1f3ff, U+200d, U+1f692, U+1f9d1, U+1f3ff, U+200d, U+1f9af, U+1f9d1, U+1f3ff, U+200d, U+1f9b0;
   }
 
@@ -955,7 +955,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat120.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat120.woff2') format('woff2');
     unicode-range: U+1f9d1, U+1f3ff, U+200d, U+1f9b1, U+1f9d1, U+1f3ff, U+200d, U+1f9b2, U+1f9d1, U+1f3ff, U+200d, U+1f9b3, U+1f9d1, U+1f3ff, U+200d, U+1f9bc, U+1f9d1, U+1f3ff, U+200d, U+1f9bd, U+1f9d1, U+1f3ff, U+200d, U+2695, U+1f9d1, U+1f3ff, U+200d, U+2696, U+1f9d1, U+1f3ff, U+200d, U+2708, U+1f9d1, U+200d, U+1f33e, U+1f9d1, U+200d, U+1f373, U+1f9d1, U+200d, U+1f37c, U+1f9d1, U+200d, U+1f384, U+1f9d1, U+200d, U+1f393, U+1f9d1, U+200d, U+1f3a4, U+1f9d1, U+200d, U+1f3a8, U+1f9d1, U+200d, U+1f3eb, U+1f9d1, U+200d, U+1f3ed, U+1f9d1, U+200d, U+1f4bc, U+1f9d1, U+200d, U+1f527, U+1f9d1, U+200d, U+1f52c;
   }
 
@@ -963,7 +963,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat121.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat121.woff2') format('woff2');
     unicode-range: U+1f9d1, U+200d, U+1f680, U+1f9d1, U+200d, U+1f692, U+1f9d1, U+200d, U+1f9af, U+1f9d1, U+200d, U+1f9b0, U+1f9d1, U+200d, U+1f9b1, U+1f9d1, U+200d, U+1f9b2, U+1f9d1, U+200d, U+1f9b3, U+1f9d1, U+200d, U+1f9bc, U+1f9d1, U+200d, U+1f9bd, U+1f9d1, U+200d, U+2695, U+1f9d1, U+200d, U+2696, U+1f9d1, U+200d, U+2708, U+1f9d2, U+1f9d2, U+1f3fb, U+1f9d2, U+1f3fc, U+1f9d2, U+1f3fd, U+1f9d2, U+1f3fe, U+1f9d2, U+1f3ff, U+1f9d3, U+1f9d3, U+1f3fb;
   }
 
@@ -971,7 +971,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat122.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat122.woff2') format('woff2');
     unicode-range: U+1f9d3, U+1f3fc, U+1f9d3, U+1f3fd, U+1f9d3, U+1f3fe, U+1f9d3, U+1f3ff, U+1f9d4, U+1f9d4, U+1f3fb, U+1f9d4, U+1f3fb, U+200d, U+2640, U+1f9d4, U+1f3fb, U+200d, U+2642, U+1f9d4, U+1f3fc, U+1f9d4, U+1f3fc, U+200d, U+2640, U+1f9d4, U+1f3fc, U+200d, U+2642, U+1f9d4, U+1f3fd, U+1f9d4, U+1f3fd, U+200d, U+2640, U+1f9d4, U+1f3fd, U+200d, U+2642, U+1f9d4, U+1f3fe, U+1f9d4, U+1f3fe, U+200d, U+2640, U+1f9d4, U+1f3fe, U+200d, U+2642, U+1f9d4, U+1f3ff, U+1f9d4, U+1f3ff, U+200d, U+2640, U+1f9d4, U+1f3ff, U+200d, U+2642;
   }
 
@@ -979,7 +979,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat123.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat123.woff2') format('woff2');
     unicode-range: U+1f9d4, U+200d, U+2640, U+1f9d4, U+200d, U+2642, U+1f9d5, U+1f9d5, U+1f3fb, U+1f9d5, U+1f3fc, U+1f9d5, U+1f3fd, U+1f9d5, U+1f3fe, U+1f9d5, U+1f3ff, U+1f9d6, U+1f9d6, U+1f3fb, U+1f9d6, U+1f3fb, U+200d, U+2640, U+1f9d6, U+1f3fb, U+200d, U+2642, U+1f9d6, U+1f3fc, U+1f9d6, U+1f3fc, U+200d, U+2640, U+1f9d6, U+1f3fc, U+200d, U+2642, U+1f9d6, U+1f3fd, U+1f9d6, U+1f3fd, U+200d, U+2640, U+1f9d6, U+1f3fd, U+200d, U+2642, U+1f9d6, U+1f3fe, U+1f9d6, U+1f3fe, U+200d, U+2640;
   }
 
@@ -987,7 +987,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat124.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat124.woff2') format('woff2');
     unicode-range: U+1f9d6, U+1f3fe, U+200d, U+2642, U+1f9d6, U+1f3ff, U+1f9d6, U+1f3ff, U+200d, U+2640, U+1f9d6, U+1f3ff, U+200d, U+2642, U+1f9d6, U+200d, U+2640, U+1f9d6, U+200d, U+2642, U+1f9d7, U+1f9d7, U+1f3fb, U+1f9d7, U+1f3fb, U+200d, U+2640, U+1f9d7, U+1f3fb, U+200d, U+2642, U+1f9d7, U+1f3fc, U+1f9d7, U+1f3fc, U+200d, U+2640, U+1f9d7, U+1f3fc, U+200d, U+2642, U+1f9d7, U+1f3fd, U+1f9d7, U+1f3fd, U+200d, U+2640, U+1f9d7, U+1f3fd, U+200d, U+2642, U+1f9d7, U+1f3fe, U+1f9d7, U+1f3fe, U+200d, U+2640, U+1f9d7, U+1f3fe, U+200d, U+2642, U+1f9d7, U+1f3ff;
   }
 
@@ -995,7 +995,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat125.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat125.woff2') format('woff2');
     unicode-range: U+1f9d7, U+1f3ff, U+200d, U+2640, U+1f9d7, U+1f3ff, U+200d, U+2642, U+1f9d7, U+200d, U+2640, U+1f9d7, U+200d, U+2642, U+1f9d8, U+1f9d8, U+1f3fb, U+1f9d8, U+1f3fb, U+200d, U+2640, U+1f9d8, U+1f3fb, U+200d, U+2642, U+1f9d8, U+1f3fc, U+1f9d8, U+1f3fc, U+200d, U+2640, U+1f9d8, U+1f3fc, U+200d, U+2642, U+1f9d8, U+1f3fd, U+1f9d8, U+1f3fd, U+200d, U+2640, U+1f9d8, U+1f3fd, U+200d, U+2642, U+1f9d8, U+1f3fe, U+1f9d8, U+1f3fe, U+200d, U+2640, U+1f9d8, U+1f3fe, U+200d, U+2642, U+1f9d8, U+1f3ff, U+1f9d8, U+1f3ff, U+200d, U+2640, U+1f9d8, U+1f3ff, U+200d, U+2642;
   }
 
@@ -1003,7 +1003,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat126.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat126.woff2') format('woff2');
     unicode-range: U+1f9d8, U+200d, U+2640, U+1f9d8, U+200d, U+2642, U+1f9d9, U+1f9d9, U+1f3fb, U+1f9d9, U+1f3fb, U+200d, U+2640, U+1f9d9, U+1f3fb, U+200d, U+2642, U+1f9d9, U+1f3fc, U+1f9d9, U+1f3fc, U+200d, U+2640, U+1f9d9, U+1f3fc, U+200d, U+2642, U+1f9d9, U+1f3fd, U+1f9d9, U+1f3fd, U+200d, U+2640, U+1f9d9, U+1f3fd, U+200d, U+2642, U+1f9d9, U+1f3fe, U+1f9d9, U+1f3fe, U+200d, U+2640, U+1f9d9, U+1f3fe, U+200d, U+2642, U+1f9d9, U+1f3ff, U+1f9d9, U+1f3ff, U+200d, U+2640, U+1f9d9, U+1f3ff, U+200d, U+2642, U+1f9d9, U+200d, U+2640, U+1f9d9, U+200d, U+2642;
   }
 
@@ -1011,7 +1011,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat127.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat127.woff2') format('woff2');
     unicode-range: U+1f9da, U+1f9da, U+1f3fb, U+1f9da, U+1f3fb, U+200d, U+2640, U+1f9da, U+1f3fb, U+200d, U+2642, U+1f9da, U+1f3fc, U+1f9da, U+1f3fc, U+200d, U+2640, U+1f9da, U+1f3fc, U+200d, U+2642, U+1f9da, U+1f3fd, U+1f9da, U+1f3fd, U+200d, U+2640, U+1f9da, U+1f3fd, U+200d, U+2642, U+1f9da, U+1f3fe, U+1f9da, U+1f3fe, U+200d, U+2640, U+1f9da, U+1f3fe, U+200d, U+2642, U+1f9da, U+1f3ff, U+1f9da, U+1f3ff, U+200d, U+2640, U+1f9da, U+1f3ff, U+200d, U+2642, U+1f9da, U+200d, U+2640, U+1f9da, U+200d, U+2642, U+1f9db, U+1f9db, U+1f3fb;
   }
 
@@ -1019,7 +1019,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat128.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat128.woff2') format('woff2');
     unicode-range: U+1f9db, U+1f3fb, U+200d, U+2640, U+1f9db, U+1f3fb, U+200d, U+2642, U+1f9db, U+1f3fc, U+1f9db, U+1f3fc, U+200d, U+2640, U+1f9db, U+1f3fc, U+200d, U+2642, U+1f9db, U+1f3fd, U+1f9db, U+1f3fd, U+200d, U+2640, U+1f9db, U+1f3fd, U+200d, U+2642, U+1f9db, U+1f3fe, U+1f9db, U+1f3fe, U+200d, U+2640, U+1f9db, U+1f3fe, U+200d, U+2642, U+1f9db, U+1f3ff, U+1f9db, U+1f3ff, U+200d, U+2640, U+1f9db, U+1f3ff, U+200d, U+2642, U+1f9db, U+200d, U+2640, U+1f9db, U+200d, U+2642, U+1f9dc, U+1f9dc, U+1f3fb, U+1f9dc, U+1f3fb, U+200d, U+2640, U+1f9dc, U+1f3fb, U+200d, U+2642;
   }
 
@@ -1027,7 +1027,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat129.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat129.woff2') format('woff2');
     unicode-range: U+1f9dc, U+1f3fc, U+1f9dc, U+1f3fc, U+200d, U+2640, U+1f9dc, U+1f3fc, U+200d, U+2642, U+1f9dc, U+1f3fd, U+1f9dc, U+1f3fd, U+200d, U+2640, U+1f9dc, U+1f3fd, U+200d, U+2642, U+1f9dc, U+1f3fe, U+1f9dc, U+1f3fe, U+200d, U+2640, U+1f9dc, U+1f3fe, U+200d, U+2642, U+1f9dc, U+1f3ff, U+1f9dc, U+1f3ff, U+200d, U+2640, U+1f9dc, U+1f3ff, U+200d, U+2642, U+1f9dc, U+200d, U+2640, U+1f9dc, U+200d, U+2642, U+1f9dd, U+1f9dd, U+1f3fb, U+1f9dd, U+1f3fb, U+200d, U+2640, U+1f9dd, U+1f3fb, U+200d, U+2642, U+1f9dd, U+1f3fc, U+1f9dd, U+1f3fc, U+200d, U+2640;
   }
 
@@ -1035,7 +1035,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat130.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat130.woff2') format('woff2');
     unicode-range: U+1f9dd, U+1f3fc, U+200d, U+2642, U+1f9dd, U+1f3fd, U+1f9dd, U+1f3fd, U+200d, U+2640, U+1f9dd, U+1f3fd, U+200d, U+2642, U+1f9dd, U+1f3fe, U+1f9dd, U+1f3fe, U+200d, U+2640, U+1f9dd, U+1f3fe, U+200d, U+2642, U+1f9dd, U+1f3ff, U+1f9dd, U+1f3ff, U+200d, U+2640, U+1f9dd, U+1f3ff, U+200d, U+2642, U+1f9dd, U+200d, U+2640, U+1f9dd, U+200d, U+2642, U+1f9de, U+1f9de, U+200d, U+2640, U+1f9de, U+200d, U+2642, U+1f9df, U+1f9df, U+200d, U+2640, U+1f9df, U+200d, U+2642, U+1f9e0, U+1f9e1;
   }
 
@@ -1043,7 +1043,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat131.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat131.woff2') format('woff2');
     unicode-range: U+1f9e2, U+1f9e3, U+1f9e4, U+1f9e5, U+1f9e6, U+1f9e7, U+1f9e8, U+1f9e9, U+1f9ea, U+1f9eb, U+1f9ec, U+1f9ed, U+1f9ee, U+1f9ef, U+1f9f0, U+1f9f1, U+1f9f2, U+1f9f3, U+1f9f4, U+1f9f5;
   }
 
@@ -1051,7 +1051,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat132.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat132.woff2') format('woff2');
     unicode-range: U+1f9f6, U+1f9f7, U+1f9f8, U+1f9f9, U+1f9fa, U+1f9fb, U+1f9fc, U+1f9fd, U+1f9fe, U+1f9ff, U+1fa70, U+1fa71, U+1fa72, U+1fa73, U+1fa74, U+1fa78, U+1fa79, U+1fa7a, U+1fa7b, U+1fa7c;
   }
 
@@ -1059,7 +1059,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat133.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat133.woff2') format('woff2');
     unicode-range: U+1fa80, U+1fa81, U+1fa82, U+1fa83, U+1fa84, U+1fa85, U+1fa86, U+1fa90, U+1fa91, U+1fa92, U+1fa93, U+1fa94, U+1fa95, U+1fa96, U+1fa97, U+1fa98, U+1fa99, U+1fa9a, U+1fa9b, U+1fa9c;
   }
 
@@ -1067,7 +1067,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat134.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat134.woff2') format('woff2');
     unicode-range: U+1fa9d, U+1fa9e, U+1fa9f, U+1faa0, U+1faa1, U+1faa2, U+1faa3, U+1faa4, U+1faa5, U+1faa6, U+1faa7, U+1faa8, U+1faa9, U+1faaa, U+1faab, U+1faac, U+1fab0, U+1fab1, U+1fab2, U+1fab3;
   }
 
@@ -1075,7 +1075,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat135.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat135.woff2') format('woff2');
     unicode-range: U+1fab4, U+1fab5, U+1fab6, U+1fab7, U+1fab8, U+1fab9, U+1faba, U+1fac0, U+1fac1, U+1fac2, U+1fac3, U+1fac3, U+1f3fb, U+1fac3, U+1f3fc, U+1fac3, U+1f3fd, U+1fac3, U+1f3fe, U+1fac3, U+1f3ff, U+1fac4, U+1fac4, U+1f3fb, U+1fac4, U+1f3fc, U+1fac4, U+1f3fd;
   }
 
@@ -1083,7 +1083,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat136.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat136.woff2') format('woff2');
     unicode-range: U+1fac4, U+1f3fe, U+1fac4, U+1f3ff, U+1fac5, U+1fac5, U+1f3fb, U+1fac5, U+1f3fc, U+1fac5, U+1f3fd, U+1fac5, U+1f3fe, U+1fac5, U+1f3ff, U+1fad0, U+1fad1, U+1fad2, U+1fad3, U+1fad4, U+1fad5, U+1fad6, U+1fad7, U+1fad8, U+1fad9, U+1fae0, U+1fae1;
   }
 
@@ -1091,7 +1091,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat137.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat137.woff2') format('woff2');
     unicode-range: U+1fae2, U+1fae3, U+1fae4, U+1fae5, U+1fae6, U+1fae7, U+1faf0, U+1faf0, U+1f3fb, U+1faf0, U+1f3fc, U+1faf0, U+1f3fd, U+1faf0, U+1f3fe, U+1faf0, U+1f3ff, U+1faf1, U+1faf1, U+1f3fb, U+1faf1, U+1f3fc, U+1faf1, U+1f3fd, U+1faf1, U+1f3fe, U+1faf1, U+1f3ff, U+1faf2, U+1faf2, U+1f3fb;
   }
 
@@ -1099,7 +1099,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat138.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat138.woff2') format('woff2');
     unicode-range: U+1faf2, U+1f3fc, U+1faf2, U+1f3fd, U+1faf2, U+1f3fe, U+1faf2, U+1f3ff, U+1faf3, U+1faf3, U+1f3fb, U+1faf3, U+1f3fc, U+1faf3, U+1f3fd, U+1faf3, U+1f3fe, U+1faf3, U+1f3ff, U+1faf4, U+1faf4, U+1f3fb, U+1faf4, U+1f3fc, U+1faf4, U+1f3fd, U+1faf4, U+1f3fe, U+1faf4, U+1f3ff, U+1faf5, U+1faf5, U+1f3fb, U+1faf5, U+1f3fc, U+1faf5, U+1f3fd;
   }
 
@@ -1107,7 +1107,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat139.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat139.woff2') format('woff2');
     unicode-range: U+1faf5, U+1f3fe, U+1faf5, U+1f3ff, U+1faf6, U+1faf6, U+1f3fb, U+1faf6, U+1f3fc, U+1faf6, U+1f3fd, U+1faf6, U+1f3fe, U+1faf6, U+1f3ff, U+203c, U+2049, U+2122, U+2139, U+2194, U+2195, U+2196, U+2197, U+2198, U+2199, U+21a9, U+21aa;
   }
 
@@ -1115,7 +1115,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat140.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat140.woff2') format('woff2');
     unicode-range: U+231a, U+231b, U+2328, U+23cf, U+23e9, U+23ea, U+23eb, U+23ec, U+23ed, U+23ee, U+23ef, U+23f0, U+23f1, U+23f2, U+23f3, U+23f8, U+23f9, U+23fa, U+24c2, U+25aa;
   }
 
@@ -1123,7 +1123,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat141.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat141.woff2') format('woff2');
     unicode-range: U+25ab, U+25b6, U+25c0, U+25fb, U+25fc, U+25fd, U+25fe, U+2600, U+2601, U+2602, U+2603, U+2604, U+260e, U+2611, U+2614, U+2615, U+2618, U+261d, U+261d, U+1f3fb, U+261d, U+1f3fc;
   }
 
@@ -1131,7 +1131,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat142.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat142.woff2') format('woff2');
     unicode-range: U+261d, U+1f3fd, U+261d, U+1f3fe, U+261d, U+1f3ff, U+2620, U+2622, U+2623, U+2626, U+262a, U+262e, U+262f, U+2638, U+2639, U+263a, U+2640, U+2642, U+2648, U+2649, U+264a, U+264b, U+264c;
   }
 
@@ -1139,7 +1139,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat143.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat143.woff2') format('woff2');
     unicode-range: U+264d, U+264e, U+264f, U+2650, U+2651, U+2652, U+2653, U+265f, U+2660, U+2663, U+2665, U+2666, U+2668, U+267b, U+267e, U+267f, U+2692, U+2693, U+2694, U+2695;
   }
 
@@ -1147,7 +1147,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat144.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat144.woff2') format('woff2');
     unicode-range: U+2696, U+2697, U+2699, U+269b, U+269c, U+26a0, U+26a1, U+26a7, U+26aa, U+26ab, U+26b0, U+26b1, U+26bd, U+26be, U+26c4, U+26c5, U+26c8, U+26ce, U+26cf, U+26d1;
   }
 
@@ -1155,7 +1155,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat145.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat145.woff2') format('woff2');
     unicode-range: U+26d3, U+26d4, U+26e9, U+26ea, U+26f0, U+26f1, U+26f2, U+26f3, U+26f4, U+26f5, U+26f7, U+26f8, U+26f9, U+26f9, U+1f3fb, U+26f9, U+1f3fb, U+200d, U+2640, U+26f9, U+1f3fb, U+200d, U+2642, U+26f9, U+1f3fc, U+26f9, U+1f3fc, U+200d, U+2640, U+26f9, U+1f3fc, U+200d, U+2642, U+26f9, U+1f3fd;
   }
 
@@ -1163,7 +1163,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat146.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat146.woff2') format('woff2');
     unicode-range: U+26f9, U+1f3fd, U+200d, U+2640, U+26f9, U+1f3fd, U+200d, U+2642, U+26f9, U+1f3fe, U+26f9, U+1f3fe, U+200d, U+2640, U+26f9, U+1f3fe, U+200d, U+2642, U+26f9, U+1f3ff, U+26f9, U+1f3ff, U+200d, U+2640, U+26f9, U+1f3ff, U+200d, U+2642, U+26f9, U+200d, U+2640, U+26f9, U+200d, U+2642, U+26fa, U+26fd, U+2702, U+2705, U+2708, U+2709, U+270a, U+270a, U+1f3fb, U+270a, U+1f3fc, U+270a, U+1f3fd;
   }
 
@@ -1171,7 +1171,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat147.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat147.woff2') format('woff2');
     unicode-range: U+270a, U+1f3fe, U+270a, U+1f3ff, U+270b, U+270b, U+1f3fb, U+270b, U+1f3fc, U+270b, U+1f3fd, U+270b, U+1f3fe, U+270b, U+1f3ff, U+270c, U+270c, U+1f3fb, U+270c, U+1f3fc, U+270c, U+1f3fd, U+270c, U+1f3fe, U+270c, U+1f3ff, U+270d, U+270d, U+1f3fb, U+270d, U+1f3fc, U+270d, U+1f3fd, U+270d, U+1f3fe, U+270d, U+1f3ff;
   }
 
@@ -1179,7 +1179,7 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat148.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat148.woff2') format('woff2');
     unicode-range: U+270f, U+2712, U+2714, U+2716, U+271d, U+2721, U+2728, U+2733, U+2734, U+2744, U+2747, U+274c, U+274e, U+2753, U+2754, U+2755, U+2757, U+2763, U+2764, U+2764, U+200d, U+1f525;
   }
 
@@ -1187,6 +1187,6 @@
   @font-face {
     font-family: 'Fluent Emoji Flat';
     font-display: swap;
-    src: url('/dist/FluentEmojiFlat149.woff2') format('woff2');
+    src: url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat149.woff2') format('woff2');
     unicode-range: U+2764, U+200d, U+1fa79, U+2795, U+2796, U+2797, U+27a1, U+27b0, U+27bf, U+2934, U+2935, U+2b05, U+2b06, U+2b07, U+2b1b, U+2b1c, U+2b50, U+2b55, U+3030, U+303d, U+3297, U+3299;
   }
