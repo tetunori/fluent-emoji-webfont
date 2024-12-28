@@ -10,6 +10,7 @@ args = sys.argv
 fonttype = args[1]
 dest_dir = Path("build")
 glyph_map: dict[Path, Path] = {}
+numElementsGroupCriteria = 20
 
 skintone_map = {
     "1f3fb": "Light",
@@ -19,10 +20,13 @@ skintone_map = {
     "1f3ff": "Dark",
 }
 
+numGroup = 1
+numElementsGroup = 0
+
 for glyph_dir in Path("fluentui-emoji/assets").iterdir():
     glyph_metadata_path = glyph_dir / "metadata.json"
     glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
-
+    
     # Get the codepoint(s) for the emoji.
     if "unicodeSkintones" not in glyph_metadata:
         # Emoji with no skin tone variations.
@@ -30,14 +34,15 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
         codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
         # print(f"{fonttype}/*.svg")
         src_path = next(glyph_dir.glob(f"{fonttype}/*.svg"))
-        glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
-
+        glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:02}_emoji_u{codepoint}.svg"
+        numElementsGroup += 1
     else:
         if fonttype == 'High Contrast':
             codepoint: str = glyph_metadata["unicode"]
             codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
             src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
-            glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
+            glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:02}_emoji_u{codepoint}.svg"
+            numElementsGroup += 1
         else:
             # Emoji with skin tone variations.
             var_metadata: list[str] = glyph_metadata["unicodeSkintones"]
@@ -49,7 +54,11 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
                     else "Default"
                 )
                 src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
-                glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
+                glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:02}_emoji_u{codepoint}.svg"
+                numElementsGroup += 1
+    if numElementsGroup > numElementsGroupCriteria:
+        numGroup += 1
+        numElementsGroup = 0
 
 # Remove incompatible <mask> elements from SVG files.
 dest_dir.mkdir()
