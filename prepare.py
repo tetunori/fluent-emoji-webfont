@@ -6,6 +6,15 @@ from pathlib import Path
 from typing import Any
 from xml.etree.ElementTree import parse, register_namespace, tostring
 
+def getCodePoint(glyph_dir: str):
+    glyph_metadata_path = glyph_dir / "metadata.json"
+    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
+    
+    # Get the codepoint(s) for the emoji.
+    codepoint: str = glyph_metadata["unicode"]
+    codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
+    return codepoint
+
 args = sys.argv
 fonttype = args[1]
 dest_dir = Path("build")
@@ -23,7 +32,10 @@ skintone_map = {
 numGroup = 1
 numElementsGroup = 0
 
-for glyph_dir in Path("fluentui-emoji/assets").iterdir():
+pathList = list(Path("fluentui-emoji/assets").iterdir())
+sortedPathList = sorted(pathList, key=getCodePoint)
+
+for glyph_dir in sortedPathList:
     glyph_metadata_path = glyph_dir / "metadata.json"
     glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
     
