@@ -2,15 +2,7 @@ const setEmoji = () => {
   const emojiEnumElm = document.querySelector('#emojiEnum');
 
   let enumStr = '';
-  sortedGlyphs = gGlyphs.sort(function (a, b) {
-    if (a.codepoint > b.codepoint) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
-
-  sortedGlyphs.forEach((glyphElm, index) => {
+  gGlyphs.forEach((glyphElm, index) => {
     // For debug
     // if (index >= 20 * 5) {
     //   return;

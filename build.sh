@@ -63,9 +63,9 @@ for i in $(seq $NUMGROUP -1 1); do
   FILES=$(find -maxdepth 1 -name "${FILENUM}*.svg")
   echo ${FILES}
   for name in ${FILES}; do
-    mv ${name} ${name:9:100}
+    mv ${name} ${name:10:100}
   done
-  ORGFILES=$(echo "${FILES}" | sed 's/..._.._emoji_u/emoji_u/g')
+  ORGFILES=$(echo "${FILES}" | sed 's/..._..._emoji_u/emoji_u/g')
   echo ${ORGFILES}
 
   nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${FILENAME}" $(echo "${ORGFILES}")
