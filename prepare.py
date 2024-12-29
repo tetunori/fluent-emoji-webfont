@@ -6,10 +6,43 @@ from pathlib import Path
 from typing import Any
 from xml.etree.ElementTree import parse, register_namespace, tostring
 
+def getCodePoint(glyph_dir: str):
+    glyph_metadata_path = glyph_dir / "metadata.json"
+    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
+    
+    # Get the codepoint(s) for the emoji.
+    codepoint: str = glyph_metadata["unicode"]
+    codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
+    return codepoint
+
+def isCodepointWorkAroundTarget(codePointText: str):
+    targetList = ['🏃', '🏄', '🏊', '🏋', '🏌', '👮', '👰', '👱', '👳', '👷', '💁', '💂', '💆', '💇', '🕵', '🙅', '🙆', '🙇', '🙋', '🙍', '🙎', '🚣', '🚴', '🚵', '🚶', '🤦', '🤵', '🤷', '🤸', '🤹', '🤽', '🤾', '🦸', '🦹', '🧍', '🧎', '🧏', '🧖', '🧗', '🧘', '🧙', '🧚', '🧛', '🧜', '🧝', '🧞', '🧟', '🫃', '⛹']
+
+    # to prevent each font file from getting too big.
+    removeTargetList = ['🏃🏿‍➡️', '🏄🏿‍♂️', '🏊🏿‍♂️', '🏋🏿‍♂️', '🏌🏿‍♂️', '👮🏿‍♂️', '👰🏿‍♂️', '👱🏿‍♂️', '👳🏿‍♂️', '👷🏿‍♂️', '💁🏿‍♂️', '💂🏿‍♂️', '💆🏿‍♂️', '💇🏿‍♂️', '🕵🏿‍♂️', '🙅🏿‍♂️', '🙆🏿‍♂️', '🙇🏿‍♂️', '🙋🏿‍♂️', '🙍🏿‍♂️', '🙎🏿‍♂️', '🚣🏿‍♂️', '🚴🏿‍♂️', '🚵🏿‍♂️', '🚶🏿‍➡️', '🤦🏿‍♂️', '🤵🏿‍♂️', '🤷🏿‍♂️', '🤸🏿‍♂️', '🤹🏿‍♂️', '🤽🏿‍♂️', '🤾🏿‍♂️', '🦸🏿‍♂️', '🦹🏿‍♂️', '🧍🏿‍♂️', '🧎🏿‍➡️', '🧏🏿‍♂️', '🧖🏿‍♂️', '🧗🏿‍♂️', '🧘🏿‍♂️', '🧙🏿‍♂️', '🧚🏿‍♂️', '🧛🏿‍♂️', '🧜🏿‍♂️', '🧝🏿‍♂️', '🧞‍♂️', '🧟‍♂️', '🫄🏿', '⛹🏿‍♂️']
+
+    for removeTarget in removeTargetList:
+        removeTargetCodePointText = ''
+        for removeTargetCP in removeTarget:
+            removeTargetCodePointText += format(ord(removeTargetCP), 'x') + '_'
+        removeTargetCodePointText = removeTargetCodePointText[:-len('_')]
+        removeTargetCodePointText = removeTargetCodePointText.replace('_fe0f', '')
+        # print(removeTargetCodePointText)
+        if codePointText == removeTargetCodePointText:
+            return False
+
+    for target in targetList:
+        targetCodePoint = format(ord(target), 'x')
+        if targetCodePoint in codePointText:
+            return True
+
+    return False
+
 args = sys.argv
 fonttype = args[1]
 dest_dir = Path("build")
 glyph_map: dict[Path, Path] = {}
+numElementsGroupCriteria = 20
 
 skintone_map = {
     "1f3fb": "Light",
@@ -19,25 +52,35 @@ skintone_map = {
     "1f3ff": "Dark",
 }
 
-for glyph_dir in Path("fluentui-emoji/assets").iterdir():
+numGroup = 1
+numElementsGroup = 0
+gCodePoint = ''
+
+pathList = list(Path("fluentui-emoji/assets").iterdir())
+sortedPathList = sorted(pathList, key=getCodePoint)
+
+for glyph_dir in sortedPathList:
     glyph_metadata_path = glyph_dir / "metadata.json"
     glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
-
+    
     # Get the codepoint(s) for the emoji.
     if "unicodeSkintones" not in glyph_metadata:
         # Emoji with no skin tone variations.
         codepoint: str = glyph_metadata["unicode"]
         codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
+        gCodePoint = codepoint
         # print(f"{fonttype}/*.svg")
         src_path = next(glyph_dir.glob(f"{fonttype}/*.svg"))
-        glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
-
+        glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
+        numElementsGroup += 1
     else:
         if fonttype == 'High Contrast':
             codepoint: str = glyph_metadata["unicode"]
             codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
+            gCodePoint = codepoint
             src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
-            glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
+            glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
+            numElementsGroup += 1
         else:
             # Emoji with skin tone variations.
             var_metadata: list[str] = glyph_metadata["unicodeSkintones"]
@@ -49,7 +92,16 @@ for glyph_dir in Path("fluentui-emoji/assets").iterdir():
                     else "Default"
                 )
                 src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
-                glyph_map[src_path] = dest_dir / f"emoji_u{codepoint}.svg"
+                glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
+                gCodePoint = codepoint
+                numElementsGroup += 1
+    if numElementsGroup > numElementsGroupCriteria:
+        # continue as workaround
+        if isCodepointWorkAroundTarget(gCodePoint):
+            print(f"continue as workaround, {numGroup}, {numElementsGroup}")
+        else:
+            numGroup += 1
+            numElementsGroup = 0
 
 # Remove incompatible <mask> elements from SVG files.
 dest_dir.mkdir()

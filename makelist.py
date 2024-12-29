@@ -7,10 +7,22 @@ from xml.etree.ElementTree import parse, register_namespace, tostring
 import subprocess
 import codecs
 
+def getCodePoint(glyph_dir: str):
+    glyph_metadata_path = glyph_dir / "metadata.json"
+    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
+    
+    # Get the codepoint(s) for the emoji.
+    codepoint: str = glyph_metadata["unicode"]
+    codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
+    return codepoint
+
 subprocess.run('rm glyphs.js', shell=True)
 print(f"const gGlyphs = [", file=codecs.open('glyphs.js', 'a', 'utf-8'))
 
-for glyph_dir in Path("fluentui-emoji/assets").iterdir():
+pathList = list(Path("fluentui-emoji/assets").iterdir())
+sortedPathList = sorted(pathList, key=getCodePoint)
+
+for glyph_dir in sortedPathList:
     glyph_metadata_path = glyph_dir / "metadata.json"
     glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
 

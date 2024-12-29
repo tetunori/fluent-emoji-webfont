@@ -2,19 +2,11 @@ const setEmoji = () => {
   const emojiEnumElm = document.querySelector('#emojiEnum');
 
   let enumStr = '';
-  sortedGlyphs = gGlyphs.sort(function (a, b) {
-    if (a.codepoint > b.codepoint) {
-      return 1;
-    } else {
-      return -1;
-    }
-  });
-
-  sortedGlyphs.forEach((glyphElm, index) => {
+  gGlyphs.forEach((glyphElm, index) => {
     // For debug
-    if (index >= 20 * 5) {
-      return;
-    }
+    // if (index >= 20 * 5) {
+    //   return;
+    // }
 
     enumStr += glyphElm.glyph;
     if ((index + 1) % 10 === 0) {
@@ -37,6 +29,7 @@ const radio_func = () => {
 
 const setFontFamily = (value) => {
   let fontFamilyText = 'sans-serif';
+  // let fontFamilyText = '"Noto Color Emoji", sans-serif';
 
   switch (value) {
     case 'color':

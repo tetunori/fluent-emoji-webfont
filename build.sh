@@ -46,19 +46,29 @@ git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
 
 # Build the ttf font file using the COLR1 format for the colored glyphs.
 pushd build
+LASTFILE=$(ls *.svg -r -1 | head -n 1)
+echo ${LASTFILE}
+NUMGROUP=$(( 10#${LASTFILE:0:3} ))
+echo ${NUMGROUP}
 
 CSSFILENAME=$(echo "FluentEmoji${FONTTYPE}.css" | sed 's/ //g')
 echo -n >| "${CSSFILENAME}"
 
-for i in {1..149} ; do
-# for i in {1..3} ; do
+for i in $(seq $NUMGROUP -1 1); do
+# for i in $(seq 1 3); do
   echo ${i}
   FILENUM=`printf "%03d" "${i}"`
   FILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.ttf" | sed 's/ //g')
   echo "${FILENAME}"
-  # echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
+  FILES=$(find -maxdepth 1 -name "${FILENUM}*.svg")
+  echo ${FILES}
+  for name in ${FILES}; do
+    mv ${name} ${name:10:100}
+  done
+  ORGFILES=$(echo "${FILES}" | sed 's/..._..._emoji_u/emoji_u/g')
+  echo ${ORGFILES}
 
-  nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${FILENAME}" $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20)
+  nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${FILENAME}" $(echo "${ORGFILES}")
   
   pushd build
   maximum_color --bitmaps --output_file "${FILENAME}" "${FILENAME}"
@@ -71,7 +81,7 @@ for i in {1..149} ; do
   fonttools ttLib "${FILENAME}" --flavor woff2 -o ../dist/"${WOFF2FILENAME}"
 
   UNICODERANGE=$( \
-    echo $(find -maxdepth 1 -name '*.svg' | head -n $((20*i)) | tail -n 20) \
+    echo $(echo "${ORGFILES}") \
     | sed "s/.\/emoji_u/U+/g" \
     | sed "s/_/, U+/g" \
     | sed "s/.svg/,/g" \

@@ -3,9 +3,18 @@
 @import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat.css');
 @import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrast.css');
 
+/* For Debug */
+/*  
+@import url('/dist/FluentEmojiColor.css');
+@import url('/dist/FluentEmojiFlat.css');
+@import url('/dist/FluentEmojiHighContrast.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
+*/
+
 html, body {
   margin: 0;
   padding: 0;
+  font-family: 'Fluent Emoji Color';
 }
 
 canvas {
