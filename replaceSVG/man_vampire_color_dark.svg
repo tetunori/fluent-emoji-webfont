@@ -332,7 +332,7 @@
 <stop stop-color="#746784"/>
 <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint9_radial_4002_1219" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.226561)">
+<radialGradient id="paint9_radial_4002_1219" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.626561)">
 <stop offset="0.0385956" stop-color="#47304F"/>
 <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
 </radialGradient>
