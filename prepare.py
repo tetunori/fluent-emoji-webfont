@@ -5,6 +5,7 @@ from operator import ne
 from pathlib import Path
 from typing import Any
 from xml.etree.ElementTree import parse, register_namespace, tostring
+import subprocess
 
 def getCodePoint(glyph_dir: str):
     glyph_metadata_path = glyph_dir / "metadata.json"
@@ -51,6 +52,12 @@ skintone_map = {
     "1f3fe": "Medium-Dark",
     "1f3ff": "Dark",
 }
+
+# Replace target SVGs
+replaceTargetSVGList = list(Path("replaceSVG").iterdir())
+for svgFile in replaceTargetSVGList:
+    print(f"find ./fluentui-emoji/ -name {svgFile.name}" )
+    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} -exec cp {str(svgFile)} {{}} ; ", shell=True)
 
 numGroup = 1
 numElementsGroup = 0
