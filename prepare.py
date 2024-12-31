@@ -65,11 +65,17 @@ gCodePoint = ''
 
 pathList = list(Path("fluentui-emoji/assets").iterdir())
 sortedPathList = sorted(pathList, key=getCodePoint)
+prioritizedGlyphs = ["💻", "🔥", "🔬", "🗨️", "🚀", "🚒", "🟩", "🟫", "🦺", "🦼", "🦽", "↔️", "↕️", "☠️", "♀️", "♂️", "⚕️", "⚖️", "⚧️", "✈️", "❄️", "➡️", "⬛", "💼", "🔧", "🦯"]
+prioritizedGlyphDirPathList = []
 
-for glyph_dir in sortedPathList:
+def makeGlyphMap(glyph_dir: str):
+    global numGroup
+    global numElementsGroup
+    global gCodePoint
+
     glyph_metadata_path = glyph_dir / "metadata.json"
     glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
-    
+
     # Get the codepoint(s) for the emoji.
     if "unicodeSkintones" not in glyph_metadata:
         # Emoji with no skin tone variations.
@@ -105,6 +111,27 @@ for glyph_dir in sortedPathList:
         else:
             numGroup += 1
             numElementsGroup = 0
+
+for glyph_dir in sortedPathList:
+    glyph_metadata_path = glyph_dir / "metadata.json"
+    glyph_metadata: dict[str, Any] = loads(glyph_metadata_path.read_text(encoding="utf-8"))
+
+    prioritizedGlyphFound = False
+    for prioritizedGlyph in prioritizedGlyphs:
+        if glyph_metadata["glyph"] == prioritizedGlyph:
+            prioritizedGlyphDirPathList.append(glyph_dir)
+            prioritizedGlyphFound = True
+    
+    if prioritizedGlyphFound == True:
+        continue
+
+    makeGlyphMap(glyph_dir)
+
+numGroup = 0
+numElementsGroup = 0
+
+for glyph_dir in prioritizedGlyphDirPathList:
+    makeGlyphMap(glyph_dir)
 
 # Remove incompatible <mask> elements from SVG files.
 dest_dir.mkdir()
