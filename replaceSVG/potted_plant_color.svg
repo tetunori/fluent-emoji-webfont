@@ -287,11 +287,11 @@
 <stop stop-color="#B9EE6E"/>
 <stop offset="1" stop-color="#B9EE6E" stop-opacity="0"/>
 </linearGradient>
-<radialGradient id="paint31_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.3594 8.01563) rotate(131.285) scale(0.85253 151.88)">
+<radialGradient id="paint31_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.3594 8.01563) rotate(131.285) scale(0.85253 9.0)">
 <stop stop-color="#B3E468"/>
 <stop offset="1" stop-color="#B3E468" stop-opacity="0"/>
 </radialGradient>
-<radialGradient id="paint32_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.9594 13.0164) rotate(131.285) scale(0.85253 151.88)">
+<radialGradient id="paint32_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.9594 13.0164) rotate(131.285) scale(0.85253 9.0)">
 <stop stop-color="#B3E468"/>
 <stop offset="1" stop-color="#B3E468" stop-opacity="0"/>
 </radialGradient>
