@@ -4,12 +4,12 @@
 @import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrast.css');
 
 /* For Debug */
- 
+/* 
 @import url('/dist/FluentEmojiColor.css');
 @import url('/dist/FluentEmojiFlat.css');
 @import url('/dist/FluentEmojiHighContrast.css');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&display=swap');
-
+*/
 
 html, body {
   -webkit-text-size-adjust: 150%;
@@ -18,6 +18,16 @@ html, body {
   font-size: xxx-large;
 }
 
-label {
+.radios {
   font-size: x-large;
+  position: fixed;
+  margin: auto; 
+  top: 50; 
+  right: 0;
+  left: 0;
+  background-color: #ffffffCC;
+}
+
+.emojis {
+  margin-top: 100;
 }
