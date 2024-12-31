@@ -146,7 +146,7 @@
 <stop offset="0.15942" stop-color="#61C9E8"/>
 <stop offset="1" stop-color="#61C9E8" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint8_linear_18_17099" x1="653657" y1="8.68482" x2="653657" y2="25.7161" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint8_linear_18_17099" x1="27.0" y1="8.68482" x2="27.0" y2="25.7161" gradientUnits="userSpaceOnUse">
 <stop stop-color="#80E8FF"/>
 <stop offset="0.73945" stop-color="#5BB8FF"/>
 <stop offset="1" stop-color="#54AFFF"/>
@@ -187,7 +187,7 @@
 <stop stop-color="#3C97EE"/>
 <stop offset="1" stop-color="#3C97EE" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint18_linear_18_17099" x1="653667" y1="14.4227" x2="653667" y2="27.4301" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint18_linear_18_17099" x1="27.0" y1="14.4227" x2="27.0" y2="27.4301" gradientUnits="userSpaceOnUse">
 <stop stop-color="#FFD262"/>
 <stop offset="1" stop-color="#FFB84A"/>
 </linearGradient>
