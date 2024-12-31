@@ -5,6 +5,7 @@ from operator import ne
 from pathlib import Path
 from typing import Any
 from xml.etree.ElementTree import parse, register_namespace, tostring
+import subprocess
 
 def getCodePoint(glyph_dir: str):
     glyph_metadata_path = glyph_dir / "metadata.json"
@@ -52,6 +53,12 @@ skintone_map = {
     "1f3ff": "Dark",
 }
 
+# Replace target SVGs
+replaceTargetSVGList = list(Path("replaceSVG").iterdir())
+for svgFile in replaceTargetSVGList:
+    print(f"find ./fluentui-emoji/ -name {svgFile.name}" )
+    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} -exec cp {str(svgFile)} {{}} ; ", shell=True)
+
 numGroup = 1
 numElementsGroup = 0
 gCodePoint = ''
@@ -74,27 +81,23 @@ for glyph_dir in sortedPathList:
         glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
         numElementsGroup += 1
     else:
-        if fonttype == 'High Contrast':
-            codepoint: str = glyph_metadata["unicode"]
+        # Emoji with skin tone variations.
+        var_metadata: list[str] = glyph_metadata["unicodeSkintones"]
+        for codepoint in var_metadata:
             codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
-            gCodePoint = codepoint
-            src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
-            glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
-            numElementsGroup += 1
-        else:
-            # Emoji with skin tone variations.
-            var_metadata: list[str] = glyph_metadata["unicodeSkintones"]
-            for codepoint in var_metadata:
-                codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
-                skintone = (
-                    skintone_map.get(codepoint.split("_")[1], "Default")
-                    if "_" in codepoint
-                    else "Default"
-                )
+            skintone = (
+                skintone_map.get(codepoint.split("_")[1], "Default")
+                if "_" in codepoint
+                else "Default"
+            )
+            if fonttype == 'High Contrast':
+                src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
+                src_path = Path(f"HC{skintone}" + str(src_path))
+            else:
                 src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
-                glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
-                gCodePoint = codepoint
-                numElementsGroup += 1
+            glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
+            gCodePoint = codepoint
+            numElementsGroup += 1
     if numElementsGroup > numElementsGroupCriteria:
         # continue as workaround
         if isCodepointWorkAroundTarget(gCodePoint):
@@ -107,6 +110,11 @@ for glyph_dir in sortedPathList:
 dest_dir.mkdir()
 register_namespace("", "http://www.w3.org/2000/svg")
 for src_path, dest_path in glyph_map.items():
+    if fonttype == 'High Contrast':
+        for skintone in ["Default", "Light", "Medium-Light", "Medium", "Medium-Dark", "Dark"]:
+          src_path_str = str(src_path)
+          if skintone in src_path_str:
+              src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
     tree = parse(src_path)
     for elem in tree.iter():
         for mask in elem.findall("{http://www.w3.org/2000/svg}mask"):
