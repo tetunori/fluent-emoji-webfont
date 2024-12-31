@@ -54,7 +54,7 @@ echo ${NUMGROUP}
 CSSFILENAME=$(echo "FluentEmoji${FONTTYPE}.css" | sed 's/ //g')
 echo -n >| "${CSSFILENAME}"
 
-for i in $(seq $NUMGROUP -1 1); do
+for i in $(seq $NUMGROUP -1 0); do
 # for i in $(seq 1 3); do
   echo ${i}
   FILENUM=`printf "%03d" "${i}"`
