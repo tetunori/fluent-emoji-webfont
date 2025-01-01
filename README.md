@@ -69,6 +69,8 @@ function draw() {
 }
 ```
 
+**Note: The font might take a time to load, so if it does not work, try reloading it in your browser.**
+
 ## Environment
 
 Currently, this fonts have a lot of bugs and restrictions. Please refer to the following table and [GitHub Issues](https://github.com/tetunori/fluent-emoji-webfont/issues) for the latest status.  
