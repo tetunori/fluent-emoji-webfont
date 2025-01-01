@@ -16,7 +16,7 @@ def getCodePoint(glyph_dir: str):
     codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
     return codepoint
 
-subprocess.run('rm glyphs.js', shell=True)
+subprocess.run('[ -e glyphs.js ] && rm glyphs.js', shell=True)
 print(f"const gGlyphs = [", file=codecs.open('glyphs.js', 'a', 'utf-8'))
 
 pathList = list(Path("fluentui-emoji/assets").iterdir())

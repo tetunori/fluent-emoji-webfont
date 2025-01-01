@@ -15,19 +15,20 @@ html, body {
   -webkit-text-size-adjust: 150%;
   text-align: center;
   font-family: 'Fluent Emoji Color';
-  font-size: xxx-large;
+  margin-top: 20;
 }
 
 .radios {
   font-size: x-large;
   position: fixed;
   margin: auto; 
-  top: 50; 
+  top: 120; 
   right: 0;
   left: 0;
   background-color: #ffffffCC;
 }
 
 .emojis {
-  margin-top: 100;
+  margin-top: 80;
+  font-size: xxx-large;
 }
