@@ -55,7 +55,7 @@ Here are the other options for `font-family`:
 
 ## p5.js usage
 
-After `@import url('***.css')` in `.css` file, call `textFont()` as below:
+After `@import url('***.css')` in `.css` file as in the section '[General usage](#general-usage)', call `textFont()` as below:
 
 ```javascript
 function setup() {
@@ -71,8 +71,7 @@ function draw() {
 
 ## Environment
 
-Currently, this fonts have a lot of bugs and restrictions.  
-Please refer to the following table and [GitHub Issues](https://github.com/tetunori/fluent-emoji-webfont/issues).  
+Currently, this fonts have a lot of bugs and restrictions. Please refer to the following table and [GitHub Issues](https://github.com/tetunori/fluent-emoji-webfont/issues) for the latest status.  
 I am also super welcoming your confirmation. Please feel free to comment for your confirmation result in the issue thread: [(#17)Confirmation results in each environment](https://github.com/tetunori/fluent-emoji-webfont/issues/17).
 
 | Environment | [Listing sample](https://tetunori.github.io/fluent-emoji-webfont/sample/list) | [p5.js sample](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage) | Ref: [Noto Color Emoji](https://fonts.google.com/noto/specimen/Noto+Color+Emoji) | Note |
