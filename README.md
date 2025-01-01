@@ -11,11 +11,11 @@ By using this, You can use `Fluent Emoji` anywhere/anytime with any device(even 
 Here you can choose one of three types of `Fluent Emoji`.
 
 - `Fluent Emoji Color`  
-<img src="./images/colorSample.png" width="360px"/>
+  <img src="./images/colorSample.png" width="360px"/>
 - `Fluent Emoji Flat`  
-<img src="./images/flatSample.png" width="360px"/>
+  <img src="./images/flatSample.png" width="360px"/>
 - `Fluent Emoji High Contrast`  
-<img src="./images/highContrastSample.png" width="360px"/>
+  <img src="./images/highContrastSample.png" width="360px"/>
 
 # Samples
 
