@@ -69,6 +69,13 @@ function draw() {
 }
 ```
 
+**Note: The font might take a time to load, so if it does not work, try reloading it in your browser.**
+
+You can also use this fonts in the web based coding site like [OpenProcessing](https://openprocessing.org/).  
+See the samples below:
+- [Fluent Emoji Webfont sample 1 in OpenProcessing](https://openprocessing.org/sketch/2498589)
+- [Fluent Emoji Webfont sample 2 in OpenProcessing](https://openprocessing.org/sketch/2498586)
+
 ## Environment
 
 Currently, this fonts have a lot of bugs and restrictions. Please refer to the following table and [GitHub Issues](https://github.com/tetunori/fluent-emoji-webfont/issues) for the latest status.  
