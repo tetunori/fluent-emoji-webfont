@@ -24,8 +24,11 @@ rm -rf venv build
 # Create clean Python environment.
 python -m venv --upgrade-deps venv
 
-# source venv/bin/activate
-source venv/Scripts/activate # For Windows
+if [ -f venv/bin/activate ]; then
+  source venv/bin/activate # For Mac, Linux
+else
+  source venv/Scripts/activate # For Windows
+fi
 
 pip install nanoemoji
 pip install brotli # Add for conversion of woff2
@@ -41,8 +44,11 @@ python -m prepare "${FONTTYPE}"
 
 # Patch the nanoemoji package to exclude glyphs with incompatibilites
 # instead of aborting completely.
-# git apply --directory venv/lib/*/site-packages/nanoemoji nanoemoji.patch
-git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
+if [ -d venv/Lib/site-packages/nanoemoji ]; then
+  git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch # For Windows
+else
+  git apply --directory venv/lib/*/site-packages/nanoemoji nanoemoji.patch # For Mac, Linux
+fi
 
 # Build the ttf font file using the COLR1 format for the colored glyphs.
 pushd build
@@ -60,7 +66,7 @@ for i in $(seq $NUMGROUP -1 0); do
   FILENUM=`printf "%03d" "${i}"`
   FILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.ttf" | sed 's/ //g')
   echo "${FILENAME}"
-  FILES=$(find -maxdepth 1 -name "${FILENUM}*.svg")
+  FILES=$(find . -maxdepth 1 -name "${FILENUM}*.svg")
   echo ${FILES}
   for name in ${FILES}; do
     mv ${name} ${name:10:100}
