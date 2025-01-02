@@ -24,31 +24,38 @@ rm -rf venv build
 # Create clean Python environment.
 python -m venv --upgrade-deps venv
 
-# source venv/bin/activate
-source venv/Scripts/activate # For Windows
+if [ -f venv/bin/activate ]; then
+  source venv/bin/activate # For Mac, Linux
+else
+  source venv/Scripts/activate # For Windows
+fi
 
 pip install nanoemoji
 pip install brotli # Add for conversion of woff2
 python -m prepare "${FONTTYPE}"
 
-# git apply --directory venv/lib/*/site-packages/nanoemoji nanoemoji.patch
-git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch
+if [ -d venv/Lib/site-packages/nanoemoji ]; then
+  git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch # For Windows
+else
+  git apply --directory venv/lib/*/site-packages/nanoemoji nanoemoji.patch # For Mac, Linux
+fi
 
 pushd build
-FILES=$(find -maxdepth 1 -name "*.svg" )
+FILES=$(find . -maxdepth 1 -name "*.svg" )
 for name in ${FILES}; do
   mv ${name} ${name:10:100}
 done
 
+FILES=$(find . -maxdepth 1 -name "*.svg" )
+
 TTFFILENAME="FluentEmoji${FONTTYPE}.ttf"
 
-nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji Color" --output_file "${TTFFILENAME}" $(find -maxdepth 1 -name "*.svg")
+nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" $(find -maxdepth 1 -name "*.svg")
 
 pushd build
 maximum_color --bitmaps --output_file "${TTFFILENAME}" "${TTFFILENAME}"
+mv build/"${TTFFILENAME}" ../../dist
 popd
-
-mv "${TTFFILENAME}" ../dist 
 
 # Move the final font file to the build directory and clean up.
 rm -rf build *.svg
