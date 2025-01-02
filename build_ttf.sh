@@ -50,7 +50,7 @@ FILES=$(find . -maxdepth 1 -name "*.svg" )
 
 TTFFILENAME="FluentEmoji${FONTTYPE}.ttf"
 
-nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" $(find -maxdepth 1 -name "*.svg")
+nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" ${FILES}
 
 pushd build
 maximum_color --bitmaps --output_file "${TTFFILENAME}" "${TTFFILENAME}"
