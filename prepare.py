@@ -60,7 +60,7 @@ subprocess.run(f"sed -i -e 's/1f3c3 1f3c3 200d 27a1 fe0f/1f3c3 1f3fc 200d 27a1 f
 replaceTargetSVGList = list(Path("replaceSVG").iterdir())
 for svgFile in replaceTargetSVGList:
     print(f"find ./fluentui-emoji/ -name {svgFile.name}" )
-    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} -exec cp {str(svgFile)} {{}} ; ", shell=True)
+    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} | xargs -I {{}} cp {str(svgFile)} {{}}", shell=True)
 
 numGroup = 1
 numElementsGroup = 0
