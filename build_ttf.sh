@@ -48,7 +48,7 @@ done
 
 FILES=$(find . -maxdepth 1 -name "*.svg" )
 
-TTFFILENAME="FluentEmoji${FONTTYPE}.ttf"
+TTFFILENAME=$(echo "FluentEmoji${FONTTYPE}.ttf" | sed 's/ //g')
 
 nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" ${FILES}
 
