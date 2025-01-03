@@ -1,6 +1,6 @@
 # Fluent Emoji Webfont🤗
 
-Version 0.8.0  
+Version 0.8.1  
 <img src="./images/keyVisual.png" width="640px"/>  
 You can confirm from [Listing emoji sample](https://tetunori.github.io/fluent-emoji-webfont/sample/list/) or [p5.js sample](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage).
 
@@ -16,6 +16,8 @@ Here you can choose one of three types of `Fluent Emoji`.
   <img src="./images/flatSample.png" width="360px"/>
 - `Fluent Emoji High Contrast`  
   <img src="./images/highContrastSample.png" width="360px"/>
+
+Now, there are `.woff2` and `.ttf` fonts in this repository.
 
 # Samples
 
@@ -76,7 +78,14 @@ See the samples below:
 - [Fluent Emoji Webfont sample 1 in OpenProcessing](https://openprocessing.org/sketch/2498589)
 - [Fluent Emoji Webfont sample 2 in OpenProcessing](https://openprocessing.org/sketch/2498586)
 
-## Environment
+## TTF usage
+Download following `ttf` fonts and use them as you like👍:
+- [FluentEmojiColor.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.ttf)
+- [FluentEmojiFlat.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat.ttf)
+- [FluentEmojiHighContrast.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrast.ttf)
+
+
+# Environment
 
 Currently, this fonts have a lot of bugs and restrictions. Please refer to the following table and [GitHub Issues](https://github.com/tetunori/fluent-emoji-webfont/issues) for the latest status.  
 I am also super welcoming your confirmation. Please feel free to comment for your confirmation result in the issue thread: [(#17)Confirmation results in each environment](https://github.com/tetunori/fluent-emoji-webfont/issues/17).
@@ -105,15 +114,27 @@ Here is my dev environment
 
 ## Build
 
-Execute `build.sh` with an `fontType` option.
+### Web Open Font Format2.0(*.woff2)
+Execute `build_woff2.sh` with an `fontType` option.
 
 ```shell
-./build.sh color
+./build_woff2.sh color
 ```
 
 - Options: `color`, `flat` and `hc` for `High Contrast`
 
 Then, you can get `FluentEmoji***NNN.woff2` files and a `FluentEmoji***.css` file after long (about half an hour) time build.
+
+### TrueType Font(*.ttf)
+Execute `build_ttf.sh` with an `fontType` option.
+
+```shell
+./build_ttf.sh color
+```
+
+- Options: `color`, `flat` and `hc` for `High Contrast`
+
+Then, you can get a `FluentEmoji***.ttf` files after long (about half an hour) time build.
 
 ## Test/Confirm
 

@@ -53,11 +53,14 @@ skintone_map = {
     "1f3ff": "Dark",
 }
 
+# Patch to fix the issue #23
+subprocess.run(f"sed -i -e 's/1f3c3 1f3c3 200d 27a1 fe0f/1f3c3 1f3fc 200d 27a1 fe0f/' './fluentui-emoji/assets/Person running facing right/metadata.json'", shell=True)
+
 # Replace target SVGs
 replaceTargetSVGList = list(Path("replaceSVG").iterdir())
 for svgFile in replaceTargetSVGList:
     print(f"find ./fluentui-emoji/ -name {svgFile.name}" )
-    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} -exec cp {str(svgFile)} {{}} ; ", shell=True)
+    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} | xargs -I {{}} cp {str(svgFile)} {{}}", shell=True)
 
 numGroup = 1
 numElementsGroup = 0
