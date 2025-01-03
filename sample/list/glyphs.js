@@ -277,7 +277,7 @@ const gGlyphs = [
   {glyph: '🏃🏿‍♂️‍➡️', codepoint: '1f3c3 1f3ff 200d 2642 fe0f 200d 27a1 fe0f'},
   {glyph: '🏃‍➡️', codepoint: '1f3c3 200d 27a1 fe0f'},
   {glyph: '🏃🏻‍➡️', codepoint: '1f3c3 1f3fb 200d 27a1 fe0f'},
-  {glyph: '🏃🏃‍➡️', codepoint: '1f3c3 1f3c3 200d 27a1 fe0f'},
+  {glyph: '🏃🏼‍➡️', codepoint: '1f3c3 1f3fc 200d 27a1 fe0f'},
   {glyph: '🏃🏽‍➡️', codepoint: '1f3c3 1f3fd 200d 27a1 fe0f'},
   {glyph: '🏃🏾‍➡️', codepoint: '1f3c3 1f3fe 200d 27a1 fe0f'},
   {glyph: '🏃🏿‍➡️', codepoint: '1f3c3 1f3ff 200d 27a1 fe0f'},
