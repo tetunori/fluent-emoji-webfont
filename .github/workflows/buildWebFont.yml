@@ -30,7 +30,7 @@ jobs:
           submodules: 'true'
       # Clear dist folder
       - name: Clear dist folder
-        run: rm -rf ./dist/ && chmod 777 ./*.sh
+        run: rm ./dist/* && chmod 777 ./*.sh
       # Build Web font
       - name: Build Web font
         run: ./build_woff2.sh color
