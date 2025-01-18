@@ -1,0 +1,56 @@
+name: Build font
+
+defaults:
+  run:
+    shell: bash # Enable bash pipefail option to watch pipe errors
+
+on:
+  workflow_dispatch: # Execute manually
+    inputs:
+      fontFormat:
+        type: choice
+        description: Font Format
+        options:
+        - woff2
+        - ttf
+      fontType:
+        type: choice
+        description: Font Type
+        options:
+        - color
+        - flat
+        - hc
+
+jobs:
+  font-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Prepare Python env
+      - name: Prepare requirements.txt
+        if: hashFiles('**/requirements.txt', '**/pyproject.toml') == ''
+        run: |
+          touch ./requirements.txt
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip  # Enable cache
+      # Checkout this repo codes
+      - name: Checkout this repo code
+        uses: actions/checkout@v4
+        with:
+          submodules: 'true'
+      # Clear dist folder
+      - name: Clear dist folder
+        run: rm ./dist/* && chmod 777 ./*.sh
+      # Build font
+      - name: Build font
+        run: ./build_${{inputs.fontFormat}}.sh ${{inputs.fontType}}
+      # Upload Artifact
+      - name: Upload Font
+        uses: actions/upload-artifact@v4
+        with:
+          name: Font
+          path: ./dist/*
