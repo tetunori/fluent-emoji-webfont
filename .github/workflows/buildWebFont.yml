@@ -1,4 +1,4 @@
-name: Build Web font
+name: Build font
 
 defaults:
   run:
@@ -6,9 +6,21 @@ defaults:
 
 on:
   workflow_dispatch: # Execute manually
+    inputs:
+      fontFormat:
+        type: Font Format
+        options:
+        - woff2
+        - ttf
+      fontType:
+        type: Font Type
+        options:
+        - color
+        - flat
+        - hc
 
 jobs:
-  webfont-build:
+  font-build:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -31,9 +43,9 @@ jobs:
       # Clear dist folder
       - name: Clear dist folder
         run: rm ./dist/* && chmod 777 ./*.sh
-      # Build Web font
-      - name: Build Web font
-        run: ./build_woff2.sh color
+      # Build font
+      - name: Build font
+        run: ./build_${{inputs.fontFormat}}.sh ${{inputs.fontType}}
       # Upload Artifact
       - name: Upload Font
         uses: actions/upload-artifact@v4
