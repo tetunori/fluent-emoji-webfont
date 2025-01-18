@@ -1,0 +1,9 @@
+name: Build Web font
+
+defaults:
+  run:
+    shell: bash # Enable bash pipefail option to watch pipe errors
+
+on:
+  workflow_dispatch: # Execute manually
+
