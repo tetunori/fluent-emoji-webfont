@@ -41,12 +41,12 @@ else
 fi
 
 pushd build
-FILES=$(find . -maxdepth 1 -name "*.svg" )
+FILES=$(find . -maxdepth 1 -name "*.svg" | sort)
 for name in ${FILES}; do
   mv ${name} ${name:10:100}
 done
 
-FILES=$(find . -maxdepth 1 -name "*.svg" )
+FILES=$(find . -maxdepth 1 -name "*.svg" | sort)
 
 TTFFILENAME=$(echo "FluentEmoji${FONTTYPE}.ttf" | sed 's/ //g')
 

@@ -66,7 +66,7 @@ for i in $(seq $NUMGROUP -1 0); do
   FILENUM=`printf "%03d" "${i}"`
   FILENAME=$(echo "FluentEmoji${FONTTYPE}${FILENUM}.ttf" | sed 's/ //g')
   echo "${FILENAME}"
-  FILES=$(find . -maxdepth 1 -name "${FILENUM}*.svg")
+  FILES=$(find . -maxdepth 1 -name "${FILENUM}*.svg" | sort)
   echo ${FILES}
   for name in ${FILES}; do
     mv ${name} ${name:10:100}
