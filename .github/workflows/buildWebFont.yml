@@ -28,7 +28,7 @@ jobs:
         uses: actions/checkout@v4
       # Clear dist folder
       - name: Clear dist folder
-        run: rm -rf ./dist/
+        run: rm -rf ./dist/ && chmod 777 ./*.sh
       # Build Web font
       - name: Build Web font
         run: ./build_woff2.sh color
