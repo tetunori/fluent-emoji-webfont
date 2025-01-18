@@ -8,12 +8,14 @@ on:
   workflow_dispatch: # Execute manually
     inputs:
       fontFormat:
-        type: Font Format
+        type: choice
+        description: Font Format
         options:
         - woff2
         - ttf
       fontType:
-        type: Font Type
+        type: choice
+        description: Font Type
         options:
         - color
         - flat
