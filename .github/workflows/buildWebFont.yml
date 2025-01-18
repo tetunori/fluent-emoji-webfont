@@ -26,6 +26,8 @@ jobs:
       # Checkout this repo codes
       - name: Checkout this repo code
         uses: actions/checkout@v4
+        with:
+          submodules: 'true'
       # Clear dist folder
       - name: Clear dist folder
         run: rm -rf ./dist/ && chmod 777 ./*.sh
