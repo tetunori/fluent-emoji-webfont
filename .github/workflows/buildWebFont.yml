@@ -7,3 +7,24 @@ defaults:
 on:
   workflow_dispatch: # Execute manually
 
+jobs:
+  webfont-build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      # Prepare Python env
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip  # Enable cache
+      # Checkout this repo codes
+      - name: Checkout this repo code
+        uses: actions/checkout@v4
+      # Clear dist folder
+      - name: Clear dist folder
+        run: rm -rf ./dist/
+      # Build Web font
+      - name: Build Web font
+        run: ./build_woff2.sh color
