@@ -34,3 +34,9 @@ jobs:
       # Build Web font
       - name: Build Web font
         run: ./build_woff2.sh color
+      # Upload Artifact
+      - name: Upload Font
+        uses: actions/upload-artifact@v4
+        with:
+          name: Font
+          path: ./dist/*
