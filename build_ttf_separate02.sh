@@ -18,6 +18,20 @@ fi
 # On error, exit immediately.
 set -e
 
+if [ -f venv/bin/activate ]; then
+  source venv/bin/activate # For Mac, Linux
+else
+  source venv/Scripts/activate # For Windows
+fi
+
+pip install nanoemoji
+pip install brotli # Add for conversion of woff2
+
+if [ -d venv/Lib/site-packages/nanoemoji ]; then
+  git apply --directory venv/Lib/site-packages/nanoemoji nanoemoji.patch # For Windows
+else
+  git apply --directory venv/lib/*/site-packages/nanoemoji nanoemoji.patch # For Mac, Linux
+fi
 
 pushd build
 TTFFILENAME=$(echo "FluentEmoji${FONTTYPE}.ttf" | sed 's/ //g')
