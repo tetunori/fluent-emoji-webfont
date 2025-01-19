@@ -55,11 +55,6 @@ jobs:
       # For ordinary version
       - name: Build font
         run: ./build_${{inputs.fontFormat}}.sh ${{inputs.fontType}}
-      # For separate build for longer build like ttf x color with ubuntu
-      # - name: Build font1
-      #   run: ./build_${{inputs.fontFormat}}_separate01.sh ${{inputs.fontType}}
-      # - name: Build font2
-      #   run: ./build_${{inputs.fontFormat}}_separate02.sh ${{inputs.fontType}}
       # Upload Artifact
       - name: Upload Font
         uses: actions/upload-artifact@v4
