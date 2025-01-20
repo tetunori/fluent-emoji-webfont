@@ -41,16 +41,16 @@ else
 fi
 
 pushd build
-FILES=$(find . -maxdepth 1 -name "*.svg" )
+FILES=$(find . -maxdepth 1 -name "*.svg" | sort)
 for name in ${FILES}; do
   mv ${name} ${name:10:100}
 done
 
-FILES=$(find . -maxdepth 1 -name "*.svg" )
+FILES=$(find . -maxdepth 1 -name "*.svg" | sort)
 
 TTFFILENAME=$(echo "FluentEmoji${FONTTYPE}.ttf" | sed 's/ //g')
 
-nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" ${FILES}
+nanoemoji --color_format glyf_colr_1 --family "Fluent Emoji ${FONTTYPE}" --output_file "${TTFFILENAME}" ${FILES} > /dev/null
 
 pushd build
 maximum_color --bitmaps --output_file "${TTFFILENAME}" "${TTFFILENAME}"

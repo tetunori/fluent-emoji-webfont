@@ -20,10 +20,16 @@ on:
         - color
         - flat
         - hc
+      runsOn:
+        type: choice
+        description: runs-on
+        options:
+        - ubuntu-latest
+        - macos-latest  # must be set in case of ttf x color. 
 
 jobs:
   font-build:
-    runs-on: ubuntu-latest
+    runs-on: ${{inputs.runsOn}}
     permissions:
       contents: write
     steps:
@@ -46,6 +52,7 @@ jobs:
       - name: Clear dist folder
         run: rm ./dist/* && chmod 777 ./*.sh
       # Build font
+      # For ordinary version
       - name: Build font
         run: ./build_${{inputs.fontFormat}}.sh ${{inputs.fontType}}
       # Upload Artifact

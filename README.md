@@ -136,6 +136,11 @@ Execute `build_ttf.sh` with an `fontType` option.
 
 Then, you can get a `FluentEmoji***.ttf` files after long (about half an hour) time build.
 
+### Via GitHub Actions
+Now we can build with GitHub Actions! Just access to [build workflow page](https://github.com/tetunori/fluent-emoji-webfont/actions/workflows/buildFont.yml) and press `Run workflow` buttton with any Font Format/Font Type as you like. Built artifact will be attached in the result page as a `Font` zip file.  
+> [!IMPORTANT] 
+> For only making `color` ttf font, Please select `macos-latest` in `runs-on` property. Otherwise, it fails due to the time restriction(6 hours) of GitHub Actions.  
+
 ## Test/Confirm
 
 ### Listing emojis
