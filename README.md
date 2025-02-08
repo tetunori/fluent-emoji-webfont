@@ -112,6 +112,14 @@ Here is my dev environment
 - Browser: Google Chrome `v131.0.6778.205`
 - Python: `v3.11.9`
 
+## `fluent-emoji` submodule
+Basically, a fixed version of `fluent-emoji` submodule is used for this build. You can update the submodule as below:
+```bash
+$ git submodule update --remote
+Submodule path 'fluentui-emoji': checked out '62ecdc0d7ca5c6df32148c169556bc8d3782fca4'
+```
+Then, commit the change after git processing(a few minutes).
+
 ## Build
 
 ### Web Open Font Format2.0(*.woff2)
