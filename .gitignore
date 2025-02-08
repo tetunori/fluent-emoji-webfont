@@ -161,4 +161,5 @@ cython_debug/
 #.idea/
 
 # Test artifact
-test/confirmDist/tmp
+test/confirmDist/tmp-woff2
+test/confirmDist/tmp-ttf
