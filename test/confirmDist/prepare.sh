@@ -5,9 +5,9 @@ cd $SCRIPT_DIR
 
 mkdir ./tmp
 
-cp ../../sample/* ./tmp/
+cp -r ../../sample/* ./tmp/
 cp ../../dist/*.css ./tmp/
 
 cd ./tmp
-find style.css | xargs sed -i "s/https:\/\/tetunori\.github\.io\/fluent-emoji-webfont/\.\./g"
-find *.css | xargs sed -i "s/https:\/\/tetunori\.github\.io\/fluent-emoji-webfont//g"
+find -name "style.css" | xargs sed -i "s/https:\/\/tetunori\.github\.io\/fluent-emoji-webfont\/dist/\.\./g"
+find -name "*.css" | xargs sed -i "s/https:\/\/tetunori\.github\.io\/fluent-emoji-webfont//g"
