@@ -28,6 +28,17 @@ on:
         - macos-latest  # must be set in case of ttf x color. 
 
 jobs:
+  display-inputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add Inputs as Table
+        run: |
+          echo "## User Inputs" >> $GITHUB_STEP_SUMMARY
+          echo "| Field   | Value |" >> $GITHUB_STEP_SUMMARY
+          echo "|---------|-------|" >> $GITHUB_STEP_SUMMARY
+          echo "| **fontFormat** | ${{ inputs.fontFormat }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **fontType** | ${{ inputs.fontType }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| **runsOn** | ${{ inputs.runsOn }} |" >> $GITHUB_STEP_SUMMARY
   font-build:
     runs-on: ${{inputs.runsOn}}
     permissions:
