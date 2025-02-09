@@ -1,6 +1,6 @@
 # Fluent Emoji Webfont🤗
 
-Version 0.8.1  
+Version 0.8.2  
 <img src="./images/keyVisual.png" width="640px"/>  
 You can confirm from [Listing emoji sample](https://tetunori.github.io/fluent-emoji-webfont/sample/list/) or [p5.js sample](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage).
 
