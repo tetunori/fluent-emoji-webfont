@@ -62,8 +62,26 @@ jobs:
       # Clear dist folder
       - name: Clear dist folder
         run: rm ./dist/* && chmod 777 ./*.sh
+      # Restore cache if exists
+      - name: Restore cache
+        if: inputs.fontFormat == 'ttf'
+        id: cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ./build/build/*.ttf
+          key: ${{ runner.os }}-${{ github.sha }}-${{inputs.fontType}}
+      # PreBuild ttf
+      - name: Pre Build ttf
+        if: inputs.fontFormat == 'ttf' && steps.cache.outputs.cache-hit != 'true'
+        run: ./build_ttf01.sh ${{inputs.fontType}}
+      # Save cache
+      - name: Save cache
+        if: inputs.fontFormat == 'ttf' && steps.cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ./build/build/*.ttf
+          key: ${{ runner.os }}-${{ github.sha }}-${{inputs.fontType}}
       # Build font
-      # For ordinary version
       - name: Build font
         run: ./build_${{inputs.fontFormat}}.sh ${{inputs.fontType}}
       # Upload Artifact
