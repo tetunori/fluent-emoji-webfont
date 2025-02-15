@@ -19,7 +19,7 @@ fi
 set -e
 
 # Remove potential leftovers from older builds.
-rm -rf venv build
+rm -rf venv
 
 # Create clean Python environment.
 python -m venv --upgrade-deps venv

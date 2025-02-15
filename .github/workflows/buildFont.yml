@@ -69,7 +69,8 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ./build/build/*.ttf
-          key: ${{ runner.os }}-${{ github.sha }}-${{inputs.fontType}}
+          # key: ${{ runner.os }}-${{ github.sha }}-${{inputs.fontType}}
+          key: ${{ runner.os }}-e99e3dd0eaeab32ddc6fde0fd3086bca74645cf9-${{inputs.fontType}}
       # PreBuild ttf
       - name: Pre Build ttf
         if: inputs.fontFormat == 'ttf' && steps.cache.outputs.cache-hit != 'true'
