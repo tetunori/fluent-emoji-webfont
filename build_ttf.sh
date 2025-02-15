@@ -20,5 +20,7 @@ else
   exit 1
 fi
 
-./build_ttf01.sh "$1"
+if ! ls ./build/build/*.ttf >/dev/null 2>&1; then
+  ./build_ttf01.sh "$1"
+fi
 ./build_ttf02.sh "$1"
