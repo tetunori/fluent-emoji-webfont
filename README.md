@@ -147,12 +147,20 @@ Then, you can get a `FluentEmoji***.ttf` files after long (about half an hour) t
 ### Via GitHub Actions
 Now we can build with GitHub Actions! Just access to [build workflow page](https://github.com/tetunori/fluent-emoji-webfont/actions/workflows/buildFont.yml) and press `Run workflow` buttton with any Font Format/Font Type as you like. Built artifact will be attached in the result page as a `Font` zip file.  
 > [!IMPORTANT] 
-> For only making `color` ttf font, Please select `macos-latest` in `runs-on` property. Otherwise, it fails due to the time restriction(6 hours) of GitHub Actions.  
+> For only making `color` ttf font, Please select `macos-latest` in `runs-on` property. Otherwise, it fails due to the time restriction(6 hours) of GitHub Actions. If fails even with the `macos-latest` setting, execute twice. The second time the cache will be used and the job time will be reduced.  
 
 ## Test/Confirm
 
-### Listing emojis
+### Local test
+Before a release, we can test with local server. If you execute the commands below,
+```bash
+$ chmod 777 ./test/confirmDist/prepare.sh
+$ ./test/confirmDist/prepare.sh
+```
+test folders `tmp-ttf` and `tmp-woff2` under `./test/confirmDist/` will be made. These folders has 2 samples refering to the fonts in `dist` folder. Then, launch the `index.html` with `liveServer` in Visual Studio Code.
 
+
+### Listing emojis
 Check the result with the [Listing emoji](https://tetunori.github.io/fluent-emoji-webfont/sample/list) sample.  
 You can also update the JS list file `sample/list/glyphs.js` with the command below:
 
