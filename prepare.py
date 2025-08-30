@@ -140,15 +140,16 @@ register_namespace("", "http://www.w3.org/2000/svg")
 for src_path, dest_path in glyph_map.items():
     if fonttype in ['High Contrast', 'High Contrast Inverted']:
         for skintone in ["Default", "Light", "Medium-Light", "Medium", "Medium-Dark", "Dark"]:
-          src_path_str = str(src_path)
-          if skintone in src_path_str:
-              src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
+            src_path_str = str(src_path)
+            if skintone in src_path_str:
+                src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
     tree = parse(src_path)
-    # --- Convert fill="black" to fill="#212121" ---
-    for elem in tree.iter():
-        for attr in elem.attrib:
-            if elem.attrib[attr] == "black":
-                elem.attrib[attr] = "#212121"
+    if fonttype in ['High Contrast', 'High Contrast Inverted']:
+        # --- Convert fill="black" to fill="#212121" ---
+        for elem in tree.iter():
+            for attr in elem.attrib:
+                if elem.attrib[attr] == "black":
+                    elem.attrib[attr] = "#212121"
     # --- High Contrast Inverted: invert #RRGGBB colors ---
     if fonttype == 'High Contrast Inverted':
         def invert_hex_color(hex_color):
