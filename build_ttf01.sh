@@ -3,7 +3,7 @@
 # Check arg
 if [ "$#" -ne 1 ]; then
   echo "Usage: $0 <FONTTYPE>"
-  echo "  FONTTYPE: color, flat or hc"
+  echo "  FONTTYPE: color, flat, hc, or hc-inv"
   exit 1
 fi
 
@@ -13,6 +13,8 @@ elif [ "$1" = 'flat' ]; then
   FONTTYPE='Flat'
 elif [ "$1" = 'hc' ]; then
   FONTTYPE='High Contrast'
+elif [ "$1" = 'hc-inv' ]; then
+  FONTTYPE='High Contrast Inverted'
 fi
 
 # On error, exit immediately.

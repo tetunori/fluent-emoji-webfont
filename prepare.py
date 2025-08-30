@@ -137,12 +137,27 @@ for glyph_dir in prioritizedGlyphDirPathList:
 dest_dir.mkdir()
 register_namespace("", "http://www.w3.org/2000/svg")
 for src_path, dest_path in glyph_map.items():
-    if fonttype == 'High Contrast':
+    if fonttype in ['High Contrast', 'High Contrast Inverted']:
         for skintone in ["Default", "Light", "Medium-Light", "Medium", "Medium-Dark", "Dark"]:
           src_path_str = str(src_path)
           if skintone in src_path_str:
               src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
     tree = parse(src_path)
+    # --- High Contrast Inverted: invert #RRGGBB colors ---
+    if fonttype == 'High Contrast Inverted':
+        def invert_hex_color(hex_color):
+            if len(hex_color) == 7 and hex_color.startswith('#'):
+                r = 255 - int(hex_color[1:3], 16)
+                g = 255 - int(hex_color[3:5], 16)
+                b = 255 - int(hex_color[5:7], 16)
+                return '#{:02X}{:02X}{:02X}'.format(r, g, b)
+            return hex_color
+        for elem in tree.iter():
+            for attr in elem.attrib:
+                val = elem.attrib[attr]
+                if isinstance(val, str) and val.startswith('#') and len(val) == 7:
+                    elem.attrib[attr] = invert_hex_color(val)
+    # --- end High Contrast Inverted ---
     for elem in tree.iter():
         for mask in elem.findall("{http://www.w3.org/2000/svg}mask"):
             elem.remove(mask)
