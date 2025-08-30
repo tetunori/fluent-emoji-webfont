@@ -20,6 +20,7 @@ on:
         - color
         - flat
         - hc
+        - hc-inv
       runsOn:
         type: choice
         description: runs-on
