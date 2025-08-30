@@ -41,6 +41,9 @@ const setFontFamily = (value) => {
     case 'highContrast':
       fontFamilyText = 'Fluent Emoji High Contrast';
       break;
+    case 'highContrastInverted':
+      fontFamilyText = 'Fluent Emoji High Contrast Inverted';
+      break;
     case 'none':
     default:
       break;
