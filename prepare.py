@@ -82,8 +82,9 @@ def makeGlyphMap(glyph_dir: str):
         codepoint: str = glyph_metadata["unicode"]
         codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
         gCodePoint = codepoint
-        # print(f"{fonttype}/*.svg")
-        src_path = next(glyph_dir.glob(f"{fonttype}/*.svg"))
+        # hc-inv も 'High Contrast'/*.svg を参照
+        svg_fonttype = fonttype if fonttype != 'High Contrast Inverted' else 'High Contrast'
+        src_path = next(glyph_dir.glob(f"{svg_fonttype}/*.svg"))
         glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
         numElementsGroup += 1
     else:
@@ -96,8 +97,8 @@ def makeGlyphMap(glyph_dir: str):
                 if "_" in codepoint
                 else "Default"
             )
-            if fonttype == 'High Contrast':
-                src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
+            if fonttype in ['High Contrast', 'High Contrast Inverted']:
+                src_path = next(glyph_dir.glob(f"Default/High Contrast/*.svg"))
                 src_path = Path(f"HC{skintone}" + str(src_path))
             else:
                 src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
