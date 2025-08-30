@@ -1,6 +1,6 @@
 # Fluent Emoji Webfont🤗
 
-Version 0.8.2  
+Version 0.8.3  
 <img src="./images/keyVisual.png" width="640px"/>  
 You can confirm from [Listing emoji sample](https://tetunori.github.io/fluent-emoji-webfont/sample/list/) or [p5.js sample](https://tetunori.github.io/fluent-emoji-webfont/sample/p5.js_usage).
 
@@ -16,6 +16,8 @@ Here you can choose one of three types of `Fluent Emoji`.
   <img src="./images/flatSample.png" width="360px"/>
 - `Fluent Emoji High Contrast`  
   <img src="./images/highContrastSample.png" width="360px"/>
+- `Fluent Emoji High Contrast Inverted`  
+  <img src="./images/highContrastInvertedSample.png" width="360px"/>
 
 Now, there are `.woff2` and `.ttf` fonts in this repository.
 
@@ -55,6 +57,12 @@ Here are the other options for `font-family`:
   font-family: 'Fluent Emoji High Contrast';
 ```
 
+```css
+@import url('https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrastInverted.css');
+...
+  font-family: 'Fluent Emoji High Contrast Inverted';
+```
+
 ## p5.js usage
 
 After `@import url('***.css')` in `.css` file as in the section '[General usage](#general-usage)', call `textFont()` as below:
@@ -83,6 +91,7 @@ Download following `ttf` fonts and use them as you like👍:
 - [FluentEmojiColor.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiColor.ttf)
 - [FluentEmojiFlat.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiFlat.ttf)
 - [FluentEmojiHighContrast.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrast.ttf)
+- [FluentEmojiHighContrastInverted.ttf](https://tetunori.github.io/fluent-emoji-webfont/dist/FluentEmojiHighContrastInverted.ttf)
 
 
 # Environment
@@ -129,7 +138,7 @@ Execute `build_woff2.sh` with an `fontType` option.
 ./build_woff2.sh color
 ```
 
-- Options: `color`, `flat` and `hc` for `High Contrast`
+- Options: `color`, `flat`, `hc` for `High Contrast` and `hc-inv` for `High Contrast Inverted`
 
 Then, you can get `FluentEmoji***NNN.woff2` files and a `FluentEmoji***.css` file after long (about half an hour) time build.
 
@@ -140,7 +149,7 @@ Execute `build_ttf.sh` with an `fontType` option.
 ./build_ttf.sh color
 ```
 
-- Options: `color`, `flat` and `hc` for `High Contrast`
+- Options: `color`, `flat`, `hc` for `High Contrast` and `hc-inv` for `High Contrast Inverted`
 
 Then, you can get a `FluentEmoji***.ttf` files after long (about half an hour) time build.
 

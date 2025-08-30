@@ -82,8 +82,9 @@ def makeGlyphMap(glyph_dir: str):
         codepoint: str = glyph_metadata["unicode"]
         codepoint = "_".join(filter(partial(ne, "fe0f"), codepoint.split(" ")))
         gCodePoint = codepoint
-        # print(f"{fonttype}/*.svg")
-        src_path = next(glyph_dir.glob(f"{fonttype}/*.svg"))
+        # hc-inv も 'High Contrast'/*.svg を参照
+        svg_fonttype = fonttype if fonttype != 'High Contrast Inverted' else 'High Contrast'
+        src_path = next(glyph_dir.glob(f"{svg_fonttype}/*.svg"))
         glyph_map[src_path] = dest_dir / f"{numGroup:03}_{numElementsGroup:03}_emoji_u{codepoint}.svg"
         numElementsGroup += 1
     else:
@@ -96,8 +97,8 @@ def makeGlyphMap(glyph_dir: str):
                 if "_" in codepoint
                 else "Default"
             )
-            if fonttype == 'High Contrast':
-                src_path = next(glyph_dir.glob(f"Default/{fonttype}/*.svg"))
+            if fonttype in ['High Contrast', 'High Contrast Inverted']:
+                src_path = next(glyph_dir.glob(f"Default/High Contrast/*.svg"))
                 src_path = Path(f"HC{skintone}" + str(src_path))
             else:
                 src_path = next(glyph_dir.glob(f"{skintone}/{fonttype}/*.svg"))
@@ -137,12 +138,33 @@ for glyph_dir in prioritizedGlyphDirPathList:
 dest_dir.mkdir()
 register_namespace("", "http://www.w3.org/2000/svg")
 for src_path, dest_path in glyph_map.items():
-    if fonttype == 'High Contrast':
+    if fonttype in ['High Contrast', 'High Contrast Inverted']:
         for skintone in ["Default", "Light", "Medium-Light", "Medium", "Medium-Dark", "Dark"]:
-          src_path_str = str(src_path)
-          if skintone in src_path_str:
-              src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
+            src_path_str = str(src_path)
+            if skintone in src_path_str:
+                src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
     tree = parse(src_path)
+    if fonttype in ['High Contrast', 'High Contrast Inverted']:
+        # --- Convert fill="black" to fill="#212121" ---
+        for elem in tree.iter():
+            for attr in elem.attrib:
+                if elem.attrib[attr] == "black":
+                    elem.attrib[attr] = "#212121"
+    # --- High Contrast Inverted: invert #RRGGBB colors ---
+    if fonttype == 'High Contrast Inverted':
+        def invert_hex_color(hex_color):
+            if len(hex_color) == 7 and hex_color.startswith('#'):
+                r = 255 - int(hex_color[1:3], 16)
+                g = 255 - int(hex_color[3:5], 16)
+                b = 255 - int(hex_color[5:7], 16)
+                return '#{:02X}{:02X}{:02X}'.format(r, g, b)
+            return hex_color
+        for elem in tree.iter():
+            for attr in elem.attrib:
+                val = elem.attrib[attr]
+                if isinstance(val, str) and val.startswith('#') and len(val) == 7:
+                    elem.attrib[attr] = invert_hex_color(val)
+    # --- end High Contrast Inverted ---
     for elem in tree.iter():
         for mask in elem.findall("{http://www.w3.org/2000/svg}mask"):
             elem.remove(mask)
