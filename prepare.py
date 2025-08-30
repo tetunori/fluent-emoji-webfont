@@ -144,6 +144,11 @@ for src_path, dest_path in glyph_map.items():
           if skintone in src_path_str:
               src_path = src_path_str.replace(f"HC{skintone}fluentui-emoji", 'fluentui-emoji')
     tree = parse(src_path)
+    # --- Convert fill="black" to fill="#212121" ---
+    for elem in tree.iter():
+        for attr in elem.attrib:
+            if elem.attrib[attr] == "black":
+                elem.attrib[attr] = "#212121"
     # --- High Contrast Inverted: invert #RRGGBB colors ---
     if fonttype == 'High Contrast Inverted':
         def invert_hex_color(hex_color):
