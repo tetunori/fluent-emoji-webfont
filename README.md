@@ -138,7 +138,7 @@ Execute `build_woff2.sh` with an `fontType` option.
 ./build_woff2.sh color
 ```
 
-- Options: `color`, `flat`, `hc` for `High Contrast` and `hc-inv` for `High Contrast 
+- Options: `color`, `flat`, `hc` for `High Contrast` and `hc-inv` for `High Contrast Inverted`
 
 Then, you can get `FluentEmoji***NNN.woff2` files and a `FluentEmoji***.css` file after long (about half an hour) time build.
 
