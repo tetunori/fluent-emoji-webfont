@@ -1,0 +1,490 @@
+--- "./fluentui-emoji/assets/Four leaf clover/Color/four_leaf_clover_color.svg"
++++ "./fluentui-emoji/assets/Four leaf clover/Color/four_leaf_clover_color.svg"
+@@ -26,7 +26,7 @@
+ <g filter="url(#filter2_i_28327_7891)">
+ <path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint19_radial_28327_7891)"/>
+ <path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint20_radial_28327_7891)"/>
+-<path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint21_radial_28327_7891)"/>
++<!-- <path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint21_radial_28327_7891)"/> -->
+ </g>
+ <path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint22_radial_28327_7891)"/>
+ <path d="M13.6477 23.8398C16.4469 21.7245 15.7883 16.6465 15.7883 13.5996C11.7259 13.5996 8.99146 13.3555 6.36646 15.0117C3.20311 17.0076 5.31961 21.2461 8.46021 20.918C7.97583 23.6992 11.3036 25.6112 13.6477 23.8398Z" fill="url(#paint23_radial_28327_7891)"/>
+@@ -35,7 +35,7 @@
+ <path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint25_radial_28327_7891)"/>
+ <path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint26_radial_28327_7891)"/>
+ <path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint27_radial_28327_7891)"/>
+-<path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint28_radial_28327_7891)"/>
++<!-- <path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint28_radial_28327_7891)"/> -->
+ <path d="M13.6972 3.47458C16.1972 5.56836 15.8378 10.5839 15.8378 13.6308C11.7754 13.6308 9.04095 13.959 6.41596 12.3027C3.25261 10.3068 5.36911 6.06833 8.50971 6.39645C8.02533 3.61522 11.4447 1.58805 13.6972 3.47458Z" fill="url(#paint29_radial_28327_7891)"/>
+ </g>
+ <g filter="url(#filter4_f_28327_7891)">
+--- "./fluentui-emoji/assets/Man superhero/Dark/Color/man_superhero_color_dark.svg"
++++ "./fluentui-emoji/assets/Man superhero/Dark/Color/man_superhero_color_dark.svg"
+@@ -261,7 +261,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_927" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.8902) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_927" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.8902) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man superhero/Default/Color/man_superhero_color_default.svg"
++++ "./fluentui-emoji/assets/Man superhero/Default/Color/man_superhero_color_default.svg"
+@@ -248,7 +248,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_924" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.8902) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_924" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.8902) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man superhero/Light/Color/man_superhero_color_light.svg"
++++ "./fluentui-emoji/assets/Man superhero/Light/Color/man_superhero_color_light.svg"
+@@ -278,7 +278,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_939" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9235) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_939" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9235) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man superhero/Medium-Dark/Color/man_superhero_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Man superhero/Medium-Dark/Color/man_superhero_color_medium-dark.svg"
+@@ -262,7 +262,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_930" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9028) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_930" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9028) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man superhero/Medium-Light/Color/man_superhero_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Man superhero/Medium-Light/Color/man_superhero_color_medium-light.svg"
+@@ -247,7 +247,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_936" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9265) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_936" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9265) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man superhero/Medium/Color/man_superhero_color_medium.svg"
++++ "./fluentui-emoji/assets/Man superhero/Medium/Color/man_superhero_color_medium.svg"
+@@ -263,7 +263,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_933" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9265) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_933" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9265) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Dark/Color/man_vampire_color_dark.svg"
++++ "./fluentui-emoji/assets/Man vampire/Dark/Color/man_vampire_color_dark.svg"
+@@ -332,7 +332,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1219" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1219" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Default/Color/man_vampire_color_default.svg"
++++ "./fluentui-emoji/assets/Man vampire/Default/Color/man_vampire_color_default.svg"
+@@ -291,7 +291,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1216" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1216" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Light/Color/man_vampire_color_light.svg"
++++ "./fluentui-emoji/assets/Man vampire/Light/Color/man_vampire_color_light.svg"
+@@ -330,7 +330,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1231" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1231" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7444) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Medium-Dark/Color/man_vampire_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Man vampire/Medium-Dark/Color/man_vampire_color_medium-dark.svg"
+@@ -332,7 +332,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1222" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.7444) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1222" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.7444) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Medium-Light/Color/man_vampire_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Man vampire/Medium-Light/Color/man_vampire_color_medium-light.svg"
+@@ -328,7 +328,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1228" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1228" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Man vampire/Medium/Color/man_vampire_color_medium.svg"
++++ "./fluentui-emoji/assets/Man vampire/Medium/Color/man_vampire_color_medium.svg"
+@@ -331,7 +331,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1225" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1225" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7445) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- ./fluentui-emoji/assets/Mosque/Color/mosque_color.svg	2025-08-31 17:05:41.479161315 +0900
++++ ./fluentui-emoji/assets/Mosque/Color/mosque_color.svg	2025-02-08 09:08:26.600415292 +0900
+@@ -295,11 +295,11 @@
+ <stop stop-color="#7B5951"/>
+ <stop offset="1" stop-color="#845B52"/>
+ </linearGradient>
+-<linearGradient id="paint31_linear_18_7226" x1="24.937" y1="318531" x2="31.3515" y2="318531" gradientUnits="userSpaceOnUse">
++<linearGradient id="paint31_linear_18_7226" x1="24.937" y1="20.0" x2="31.3515" y2="20.0" gradientUnits="userSpaceOnUse">
+ <stop stop-color="#7B5951"/>
+ <stop offset="1" stop-color="#845B52"/>
+ </linearGradient>
+-<linearGradient id="paint32_linear_18_7226" x1="2.78537" y1="339713" x2="9.19983" y2="339713" gradientUnits="userSpaceOnUse">
++<linearGradient id="paint32_linear_18_7226" x1="2.78537" y1="20.0" x2="9.19983" y2="20.0" gradientUnits="userSpaceOnUse">
+ <stop stop-color="#7B5951"/>
+ <stop offset="1" stop-color="#845B52"/>
+ </linearGradient>
+--- "./fluentui-emoji/assets/Person superhero/Dark/Color/person_superhero_color_dark.svg"
++++ "./fluentui-emoji/assets/Person superhero/Dark/Color/person_superhero_color_dark.svg"
+@@ -304,7 +304,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_925" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_925" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person superhero/Default/Color/person_superhero_color_default.svg"
++++ "./fluentui-emoji/assets/Person superhero/Default/Color/person_superhero_color_default.svg"
+@@ -281,7 +281,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_922" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9166) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_922" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9166) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person superhero/Light/Color/person_superhero_color_light.svg"
++++ "./fluentui-emoji/assets/Person superhero/Light/Color/person_superhero_color_light.svg"
+@@ -319,7 +319,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_937" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_937" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person superhero/Medium-Dark/Color/person_superhero_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Person superhero/Medium-Dark/Color/person_superhero_color_medium-dark.svg"
+@@ -296,7 +296,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_928" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_928" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person superhero/Medium-Light/Color/person_superhero_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Person superhero/Medium-Light/Color/person_superhero_color_medium-light.svg"
+@@ -305,7 +305,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_934" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_934" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person superhero/Medium/Color/person_superhero_color_medium.svg"
++++ "./fluentui-emoji/assets/Person superhero/Medium/Color/person_superhero_color_medium.svg"
+@@ -303,7 +303,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint7_radial_4002_931" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint7_radial_4002_931" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.5234 29.9165) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Dark/Color/person_vampire_color_dark.svg"
++++ "./fluentui-emoji/assets/Person vampire/Dark/Color/person_vampire_color_dark.svg"
+@@ -329,7 +329,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1217" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 15.8397) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1217" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 15.8397) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Default/Color/person_vampire_color_default.svg"
++++ "./fluentui-emoji/assets/Person vampire/Default/Color/person_vampire_color_default.svg"
+@@ -319,7 +319,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1214" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.9712 16.9968) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1214" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(18.9712 16.9968) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Light/Color/person_vampire_color_light.svg"
++++ "./fluentui-emoji/assets/Person vampire/Light/Color/person_vampire_color_light.svg"
+@@ -328,7 +328,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1229" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1229" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Medium-Dark/Color/person_vampire_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Person vampire/Medium-Dark/Color/person_vampire_color_medium-dark.svg"
+@@ -330,7 +330,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1220" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1220" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Medium-Light/Color/person_vampire_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Person vampire/Medium-Light/Color/person_vampire_color_medium-light.svg"
+@@ -329,7 +329,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1226" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1226" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Person vampire/Medium/Color/person_vampire_color_medium.svg"
++++ "./fluentui-emoji/assets/Person vampire/Medium/Color/person_vampire_color_medium.svg"
+@@ -330,7 +330,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1223" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1223" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2057 16.7308) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Potted plant/Color/potted_plant_color.svg"
++++ "./fluentui-emoji/assets/Potted plant/Color/potted_plant_color.svg"
+@@ -287,11 +287,11 @@
+ <stop stop-color="#B9EE6E"/>
+ <stop offset="1" stop-color="#B9EE6E" stop-opacity="0"/>
+ </linearGradient>
+-<radialGradient id="paint31_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.3594 8.01563) rotate(131.285) scale(0.85253 151.88)">
++<radialGradient id="paint31_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(13.3594 8.01563) rotate(131.285) scale(0.85253 9.0)">
+ <stop stop-color="#B3E468"/>
+ <stop offset="1" stop-color="#B3E468" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint32_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.9594 13.0164) rotate(131.285) scale(0.85253 151.88)">
++<radialGradient id="paint32_radial_28327_7581" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(11.9594 13.0164) rotate(131.285) scale(0.85253 9.0)">
+ <stop stop-color="#B3E468"/>
+ <stop offset="1" stop-color="#B3E468" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Shopping bags/Color/shopping_bags_color.svg"
++++ "./fluentui-emoji/assets/Shopping bags/Color/shopping_bags_color.svg"
+@@ -146,7 +146,7 @@
+ <stop offset="0.15942" stop-color="#61C9E8"/>
+ <stop offset="1" stop-color="#61C9E8" stop-opacity="0"/>
+ </linearGradient>
+-<linearGradient id="paint8_linear_18_17099" x1="653657" y1="8.68482" x2="653657" y2="25.7161" gradientUnits="userSpaceOnUse">
++<linearGradient id="paint8_linear_18_17099" x1="27.0" y1="8.68482" x2="27.0" y2="25.7161" gradientUnits="userSpaceOnUse">
+ <stop stop-color="#80E8FF"/>
+ <stop offset="0.73945" stop-color="#5BB8FF"/>
+ <stop offset="1" stop-color="#54AFFF"/>
+@@ -187,7 +187,7 @@
+ <stop stop-color="#3C97EE"/>
+ <stop offset="1" stop-color="#3C97EE" stop-opacity="0"/>
+ </linearGradient>
+-<linearGradient id="paint18_linear_18_17099" x1="653667" y1="14.4227" x2="653667" y2="27.4301" gradientUnits="userSpaceOnUse">
++<linearGradient id="paint18_linear_18_17099" x1="27.0" y1="14.4227" x2="27.0" y2="27.4301" gradientUnits="userSpaceOnUse">
+ <stop stop-color="#FFD262"/>
+ <stop offset="1" stop-color="#FFB84A"/>
+ </linearGradient>
+--- ./fluentui-emoji/assets/Umbrella/Color/umbrella_color.svg	2025-08-31 17:05:41.924457871 +0900
++++ ./fluentui-emoji/assets/Umbrella/Color/umbrella_color.svg	2025-02-08 09:08:26.770413645 +0900
+@@ -7,7 +7,7 @@
+ </g>
+ <g filter="url(#filter2_i_18_15449)">
+ <path d="M16.98 4.23023C16.98 3.67794 16.5323 3.23022 15.98 3.23022C15.4277 3.23022 14.98 3.67794 14.98 4.23023L14.98 22.3847C14.98 22.4359 15.0525 22.4567 15.0831 22.4156C15.2978 22.1281 15.6275 21.8909 15.9973 21.8909C16.3499 21.8909 16.6662 22.1138 16.8809 22.3797C16.9122 22.4184 16.98 22.3971 16.98 22.3474L16.98 4.23023Z" fill="url(#paint2_radial_18_15449)"/>
+-<path d="M16.98 4.23023C16.98 3.67794 16.5323 3.23022 15.98 3.23022C15.4277 3.23022 14.98 3.67794 14.98 4.23023L14.98 22.3847C14.98 22.4359 15.0525 22.4567 15.0831 22.4156C15.2978 22.1281 15.6275 21.8909 15.9973 21.8909C16.3499 21.8909 16.6662 22.1138 16.8809 22.3797C16.9122 22.4184 16.98 22.3971 16.98 22.3474L16.98 4.23023Z" fill="url(#paint3_radial_18_15449)"/>
++<!-- <path d="M16.98 4.23023C16.98 3.67794 16.5323 3.23022 15.98 3.23022C15.4277 3.23022 14.98 3.67794 14.98 4.23023L14.98 22.3847C14.98 22.4359 15.0525 22.4567 15.0831 22.4156C15.2978 22.1281 15.6275 21.8909 15.9973 21.8909C16.3499 21.8909 16.6662 22.1138 16.8809 22.3797C16.9122 22.4184 16.98 22.3971 16.98 22.3474L16.98 4.23023Z" fill="url(#paint3_radial_18_15449)"/> -->
+ </g>
+ <path d="M16.8892 2.79944C16.9092 2.88374 16.8395 2.95753 16.7529 2.95753H15.1772C15.0906 2.95753 15.0209 2.88374 15.0409 2.79944C15.1401 2.38102 15.5162 2.06976 15.965 2.06976C16.4138 2.06976 16.7899 2.38102 16.8892 2.79944Z" fill="url(#paint4_radial_18_15449)"/>
+ <path d="M16.8892 2.79944C16.9092 2.88374 16.8395 2.95753 16.7529 2.95753H15.1772C15.0906 2.95753 15.0209 2.88374 15.0409 2.79944C15.1401 2.38102 15.5162 2.06976 15.965 2.06976C16.4138 2.06976 16.7899 2.38102 16.8892 2.79944Z" fill="url(#paint5_linear_18_15449)"/>
+--- "./fluentui-emoji/assets/Umbrella with rain drops/Color/umbrella_with_rain_drops_color.svg"
++++ "./fluentui-emoji/assets/Umbrella with rain drops/Color/umbrella_with_rain_drops_color.svg"
+@@ -7,7 +7,7 @@
+ </g>
+ <g filter="url(#filter2_i_18_15467)">
+ <path d="M17.1082 4.24524C17.1082 3.69295 16.6605 3.24524 16.1082 3.24524C15.5559 3.24524 15.1082 3.69295 15.1082 4.24524L15.1082 22.3997C15.1082 22.4509 15.1807 22.4717 15.2114 22.4306C15.426 22.1431 15.7558 21.9059 16.1255 21.9059C16.4782 21.9059 16.7944 22.1288 17.0092 22.3947C17.0404 22.4334 17.1082 22.4122 17.1082 22.3624L17.1082 4.24524Z" fill="url(#paint2_radial_18_15467)"/>
+-<path d="M17.1082 4.24524C17.1082 3.69295 16.6605 3.24524 16.1082 3.24524C15.5559 3.24524 15.1082 3.69295 15.1082 4.24524L15.1082 22.3997C15.1082 22.4509 15.1807 22.4717 15.2114 22.4306C15.426 22.1431 15.7558 21.9059 16.1255 21.9059C16.4782 21.9059 16.7944 22.1288 17.0092 22.3947C17.0404 22.4334 17.1082 22.4122 17.1082 22.3624L17.1082 4.24524Z" fill="url(#paint3_radial_18_15467)"/>
++<!-- <path d="M17.1082 4.24524C17.1082 3.69295 16.6605 3.24524 16.1082 3.24524C15.5559 3.24524 15.1082 3.69295 15.1082 4.24524L15.1082 22.3997C15.1082 22.4509 15.1807 22.4717 15.2114 22.4306C15.426 22.1431 15.7558 21.9059 16.1255 21.9059C16.4782 21.9059 16.7944 22.1288 17.0092 22.3947C17.0404 22.4334 17.1082 22.4122 17.1082 22.3624L17.1082 4.24524Z" fill="url(#paint3_radial_18_15467)"/> -->
+ </g>
+ <path d="M17.0174 2.81445C17.0374 2.89875 16.9677 2.97254 16.8811 2.97254H15.3054C15.2187 2.97254 15.149 2.89875 15.169 2.81445C15.2683 2.39604 15.6444 2.08478 16.0932 2.08478C16.542 2.08478 16.9181 2.39604 17.0174 2.81445Z" fill="url(#paint4_radial_18_15467)"/>
+ <path d="M17.0174 2.81445C17.0374 2.89875 16.9677 2.97254 16.8811 2.97254H15.3054C15.2187 2.97254 15.149 2.89875 15.169 2.81445C15.2683 2.39604 15.6444 2.08478 16.0932 2.08478C16.542 2.08478 16.9181 2.39604 17.0174 2.81445Z" fill="url(#paint5_linear_18_15467)"/>
+--- "./fluentui-emoji/assets/Woman superhero/Dark/Color/woman_superhero_color_dark.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Dark/Color/woman_superhero_color_dark.svg"
+@@ -396,7 +396,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint19_radial_4002_926" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint19_radial_4002_926" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman superhero/Default/Color/woman_superhero_color_default.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Default/Color/woman_superhero_color_default.svg"
+@@ -377,7 +377,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint20_radial_4002_923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint20_radial_4002_923" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman superhero/Light/Color/woman_superhero_color_light.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Light/Color/woman_superhero_color_light.svg"
+@@ -391,7 +391,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint18_radial_4002_938" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint18_radial_4002_938" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman superhero/Medium-Dark/Color/woman_superhero_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Medium-Dark/Color/woman_superhero_color_medium-dark.svg"
+@@ -394,7 +394,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint18_radial_4002_929" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint18_radial_4002_929" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman superhero/Medium-Light/Color/woman_superhero_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Medium-Light/Color/woman_superhero_color_medium-light.svg"
+@@ -377,7 +377,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint19_radial_4002_935" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint19_radial_4002_935" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman superhero/Medium/Color/woman_superhero_color_medium.svg"
++++ "./fluentui-emoji/assets/Woman superhero/Medium/Color/woman_superhero_color_medium.svg"
+@@ -399,7 +399,7 @@
+ <stop offset="0.697802" stop-color="#528ADB" stop-opacity="0"/>
+ <stop offset="1" stop-color="#528ADB"/>
+ </radialGradient>
+-<radialGradient id="paint19_radial_4002_932" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.219244)">
++<radialGradient id="paint19_radial_4002_932" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.6797 29.9549) rotate(-90) scale(13.1762 0.619244)">
+ <stop offset="0.210265" stop-color="#286ADF"/>
+ <stop offset="1" stop-color="#286ADF" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Dark/Color/woman_vampire_color_dark.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Dark/Color/woman_vampire_color_dark.svg"
+@@ -344,7 +344,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1218" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1218" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Default/Color/woman_vampire_color_default.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Default/Color/woman_vampire_color_default.svg"
+@@ -338,7 +338,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1215" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1215" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Light/Color/woman_vampire_color_light.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Light/Color/woman_vampire_color_light.svg"
+@@ -337,7 +337,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1230" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1230" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Medium-Dark/Color/woman_vampire_color_medium-dark.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Medium-Dark/Color/woman_vampire_color_medium-dark.svg"
+@@ -340,7 +340,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1221" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1221" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Medium-Light/Color/woman_vampire_color_medium-light.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Medium-Light/Color/woman_vampire_color_medium-light.svg"
+@@ -339,7 +339,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1227" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1227" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
+--- "./fluentui-emoji/assets/Woman vampire/Medium/Color/woman_vampire_color_medium.svg"
++++ "./fluentui-emoji/assets/Woman vampire/Medium/Color/woman_vampire_color_medium.svg"
+@@ -340,7 +340,7 @@
+ <stop stop-color="#746784"/>
+ <stop offset="1" stop-color="#604F70" stop-opacity="0"/>
+ </radialGradient>
+-<radialGradient id="paint9_radial_4002_1224" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.226561)">
++<radialGradient id="paint9_radial_4002_1224" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(19.2058 16.6991) rotate(90) scale(15.6875 0.626561)">
+ <stop offset="0.0385956" stop-color="#47304F"/>
+ <stop offset="1" stop-color="#47304F" stop-opacity="0"/>
+ </radialGradient>
