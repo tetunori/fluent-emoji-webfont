@@ -54,10 +54,7 @@ skintone_map = {
 }
 
 # Replace target SVGs
-replaceTargetSVGList = list(Path("replaceSVG").iterdir())
-for svgFile in replaceTargetSVGList:
-    print(f"find ./fluentui-emoji/ -name {svgFile.name}" )
-    subprocess.run(f"find ./fluentui-emoji/ -name {svgFile.name} | xargs -I {{}} cp {str(svgFile)} {{}}", shell=True)
+subprocess.run(f"patch -N -p0 < replaceSVG.diff", shell=True)
 
 numGroup = 1
 numElementsGroup = 0
