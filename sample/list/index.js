@@ -50,6 +50,15 @@ const setFontFamily = (value) => {
   }
 
   document.body.style.fontFamily = fontFamilyText;
+
+  const emojisElm = document.querySelector('.emojis');
+  if (emojisElm) {
+    if (value === 'highContrastInverted') {
+      emojisElm.style.backgroundColor = '#212121';
+    } else {
+      emojisElm.style.backgroundColor = '';
+    }
+  }
 };
 
 window.onload = setEmoji;
